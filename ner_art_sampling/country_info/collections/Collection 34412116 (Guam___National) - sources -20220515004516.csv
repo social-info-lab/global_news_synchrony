@@ -1,0 +1,5 @@
+media_id,url,name,pub_country,pub_state,language,about_country,media_type,public_notes,editor_notes,stories_per_day,first_story
+"39725","http://www.kuam.com/","kuam","GUM","","en","Guam","video_broadcast","","","2.31","2013-05-20"
+"41361","http://www.guampdn.com/","guampdn","GUM","","en","Guam","print_native","","","0.0","2013-03-18"
+"41873","http://www.pacificnewscenter.com/","pnc","GUM","","en","none","video_broadcast","","","0.3","2013-03-18"
+"300027","http://mbjguam.com/","Marianas Business Journal – Serving Guam, Saipan, Tinian, and Rota","GUM","","en","none","digital_native","","","0.14","2017-11-06"

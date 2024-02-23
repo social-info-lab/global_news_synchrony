@@ -1,0 +1,6 @@
+media_id,url,name,pub_country,pub_state,language,about_country,media_type,public_notes,editor_notes,stories_per_day,first_story
+"38800","http://www.actuniger.com/","actuniger","NER","","fr","none","digital_native","","","0.0","2013-05-20"
+"39974","http://tamtaminfo.com/","tamtaminfo","NER","","fr","none","digital_native","","","0.0","2012-06-11"
+"41793","http://lesahel.org/","lesahel","NER","NE-8","fr","none","print_native","","","0.66","2020-06-15"
+"623506","http://news.aniamey.com/","A Niamey","NER","","fr","","digital_native","","","0.0","2013-01-28"
+"656985","http://nigerdiaspora.net/","Niger Diaspora","NER","","fr","","digital_native","","","0.0","2017-12-11"

@@ -1,0 +1,9 @@
+media_id,url,name,pub_country,pub_state,language,about_country,media_type,public_notes,editor_notes,stories_per_day,first_story
+"41733","http://liberal.sapo.cv/","liberal","CPV","","none","none","digital_native","","","0.33","2017-11-13"
+"651215","http://www.sapo.cv/","Sapo - Cape Verde","CPV","","pt","","digital_native","","","0.33","2018-01-29"
+"655222","http://www.rtc.cv/","Radio Televisao 
+Caboverdiana","CPV","","pt","","video_broadcast","","","0.01","2018-05-14"
+"655224","http://www.cabodiario.com/","Cabo Diario","CPV","","pt","","digital_native","","","0.0","2017-12-04"
+"655225","http://www.expressodasilhas.sapo.cv/","Expresso das Ilhas","CPV","CV-PR","pt","none","print_native","","","1.4","2018-06-04"
+"655226","http://www.bravanews.com/","Brava News","CPV","CV-BR","pt","","digital_native","","","0.01","2018-06-18"
+"655228","http://noticiasdonorte.publ.cv/","Noticias do Norte","CPV","CV-SV","pt","none","digital_native","","","0.7","2017-12-04"

@@ -1,0 +1,940 @@
+
+countries with highest cluster-based similarity:
+Gabon: 1.0
+Togo: 0.9172809890377578
+Burundi: 0.7861744585658615
+Niger: 0.7861744585658615
+Lesotho: 0.7861744585658615
+Burkina Faso: 0.7518429671132734
+Gambia: 0.7518429671132734
+Comoros: 0.7252133935032318
+Virgin Islands, U.S.: 0.7034554476036192
+Sudan: 0.6939032863899703
+
+countries with lowest cluster-based similarity:
+United States: 0.09661181630486981
+United Kingdom: 0.11950863648508692
+Canada: 0.12226829336322242
+Switzerland: 0.1296238492822338
+Mexico: 0.13833805709486424
+France: 0.1447250869148513
+Dominican Republic: 0.15062573106135602
+Russia: 0.1562491092607512
+Philippines: 0.1638010273330418
+Belgium: 0.16494140440058724
+
+country pairs with highest cluster-based similarity:
+country1: Belgium country2: France    similarity: 0.651139709477512
+country1: Canada country2: United States    similarity: 0.6508678263383922
+country1: Switzerland country2: Germany    similarity: 0.6486361735361024
+country1: Iraq country2: Yemen    similarity: 0.6436129670877855
+country1: Canada country2: United Kingdom    similarity: 0.6208795599187835
+country1: Jordan country2: Yemen    similarity: 0.6179965071572179
+country1: Dominican Republic country2: Mexico    similarity: 0.6126640691638217
+country1: United Kingdom country2: United States    similarity: 0.6045174339367098
+country1: Switzerland country2: France    similarity: 0.5999948802932007
+country1: Mexico country2: Venezuela    similarity: 0.5978874257896961
+
+country pairs with lowest cluster-based similarity:
+country1: United Arab Emirates country2: Lesotho    similarity: 0.1674453888423022
+country1: Lebanon country2: Lesotho    similarity: 0.1674453888423022
+country1: Luxembourg country2: Sudan    similarity: 0.1674453888423022
+country1: Germany country2: Lesotho    similarity: 0.1674453888423022
+country1: France country2: Lesotho    similarity: 0.1674453888423022
+country1: Nigeria country2: Sudan    similarity: 0.1674453888423022
+country1: Central African Republic country2: San Marino    similarity: 0.1674453888423022
+country1: Central African Republic country2: Guyana    similarity: 0.1674453888423022
+country1: Central African Republic country2: Sudan    similarity: 0.1674453888423022
+country1: Central African Republic country2: Lesotho    similarity: 0.1674453888423022
+
+2023-09-03 11:12:19.535286 Reading data from indexes/en-wiki-v5.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2000000 lines 2500000 lines 3000000 lines 3500000 lines 4000000 lines 4500000 lines 5000000 lines 5500000 lines 6000000 lines 6500000 lines 7000000 lines 7500000 lines 8000000 lines 8500000 lines 9000000 lines 9500000 lines 10000000 lines 10500000 lines 11000000 lines 2023-09-03 11:14:01.052379 Loaded 11199816 news from indexes/en-wiki-v5.index
+2023-09-03 11:14:03.769181 Reading data from indexes/de-wiki-v5.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2023-09-03 11:14:17.170269 Loaded 1572567 news from indexes/de-wiki-v5.index
+2023-09-03 11:14:19.890488 Reading data from indexes/es-wiki-v5.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2000000 lines 2500000 lines 3000000 lines 3500000 lines 4000000 lines 4500000 lines 5000000 lines 2023-09-03 11:15:04.301811 Loaded 5061367 news from indexes/es-wiki-v5.index
+2023-09-03 11:15:07.034154 Reading data from indexes/pl-wiki-v5.index
+Loaded... 2023-09-03 11:15:08.415196 Loaded 384741 news from indexes/pl-wiki-v5.index
+2023-09-03 11:15:11.153439 Reading data from indexes/zh-wiki-v5.index
+Loaded... 2023-09-03 11:15:12.021140 Loaded 224790 news from indexes/zh-wiki-v5.index
+2023-09-03 11:15:14.753559 Reading data from indexes/fr-wiki-v5.index
+Loaded... 500000 lines 1000000 lines 2023-09-03 11:15:25.348673 Loaded 1376806 news from indexes/fr-wiki-v5.index
+2023-09-03 11:15:28.081271 Reading data from indexes/ar-wiki-v5.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2000000 lines 2023-09-03 11:15:46.636885 Loaded 2108014 news from indexes/ar-wiki-v5.index
+2023-09-03 11:15:49.370561 Reading data from indexes/tr-wiki-v5.index
+Loaded... 500000 lines 2023-09-03 11:15:56.924703 Loaded 839946 news from indexes/tr-wiki-v5.index
+2023-09-03 11:15:59.665448 Reading data from indexes/it-wiki-v5.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2023-09-03 11:16:13.798728 Loaded 1745474 news from indexes/it-wiki-v5.index
+2023-09-03 11:16:16.528198 Reading data from indexes/ru-wiki-v5.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2023-09-03 11:16:30.669815 Loaded 1825744 news from indexes/ru-wiki-v5.index
+art_url_dict:  26170238
+art_title_dict:  26170238
+oslom modularity is  0.14078797125604894
+oslom partition_density is  3.231008365012698
+within_cluster 2
+between_cluster 4
+within_cluster 2
+between_cluster 1
+within_cluster 10
+between_cluster 1
+within_cluster 17
+between_cluster 10
+cls_sample: [16645, 17930, 10001, 16402, 10007, 20504, 15134, 14623, 21284, 15408, 2354, 15416, 17467, 15421, 20040, 20809, 16457, 5195, 19020, 20813, 21070, 13647, 13651, 8022, 19287, 14427, 21346, 17252, 10085, 21350, 13937, 18806, 14461, 21381, 13957, 14217, 16527, 17553, 20374, 14487, 15512, 13977, 14488, 14235, 17825, 16042, 20672, 20930, 15312, 14299, 13792, 13537, 15080, 15849, 10986, 19948, 19185, 15862, 21241, 14588]
+[1515129883, 1515666116, 1518199693, 1517682391, 1511395937, 1513219077, 1515041713, 1516696956, 1516507253, 1518723537, 1520403943, 1518764996, 1517227938, 1517386148, 1513678147, 1512558333, 1517166753, 1515128387, 1518652201, 1513170956, 1511103504, 1516485016, 1575107672, 1515324316, 1512885416, 1518926563, 1520420548, 1512616807, 1516459464, 1515852527, 1518256368, 1521580327, 1516485769, 1518577761, 1518478586, 1512645160, 1512597143, 1520417807, 1515888467, 1517931143, 1519478866, 1516493425, 1513156965, 1514995605, 1517972872, 1537618510, 1539277811, 1511545411, 1512666772, 1516319394]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220723084552/https://www.foxnews.com/media/biden-dirty-harry-campaign-end-south-carolina-sununu', 'http://web.archive.org/web/20200206154108/https://www.nhregister.com/news/article/What-happens-after-Iowa-Questions-abound-after-15029400.php', 'http://web.archive.org/web/20211202170931/https://www.centralmaine.com/2020/02/10/joe-biden-downplays-new-hampshire-amid-last-minute-pre-primary-scramble/', 'http://web.archive.org/web/20201007170649/https://www.redstate.com/brandon_morse/2020/02/10/awkward-elizabeth-warren-stops-by-local-new-hampshire-diner-and-no-one-cares/', 'http://web.archive.org/web/20200210141418/https://www.fltimes.com/news/nation/biden-warren-shift-ad-spending/article_8ae90e93-a230-54ca-bba4-64a6fa52a894.html', 'http://web.archive.org/web/20230530021951/https://www.cbsnews.com/news/new-hampshire-battleground-tracker-poll-sanders-support-v-buttigieg-bounce/', 'http://web.archive.org/web/20200212165741/https://www.nwfdailynews.com/opinion/20200211/opinion-two-battles-that-will-define-nh-primary?rssfeed=true', 'http://web.archive.org/web/20230330110646/https://www.bostonglobe.com/2020/02/12/nation/warren-bets-she-can-win-nomination-even-if-she-disappoints-nh/', 'http://web.archive.org/web/20211201185627/https://www.washingtonpost.com/politics/democratic-presidential-candidates-make-final-push-to-rally-a-skittish-and-largely-undecided-iowa-electorate/2020/02/01/c3d7bff8-4502-11ea-aa6a-083d01b3ed18_story.html', 'http://web.archive.org/web/20220802052521/https://www.breitbart.com/politics/2020/02/03/poll-bernie-sanders-leaps-to-massive-15-point-lead-in-new-hampshire/']
+cur_cls:  16645
+intruder: Poll: Bernie Sanders Leaps to Massive 15-Point Lead in New Hampshire
+http://web.archive.org/web/20220802052521/https://www.breitbart.com/politics/2020/02/03/poll-bernie-sanders-leaps-to-massive-15-point-lead-in-new-hampshire/
+
+[1521870041, 1524115477, 1517506356, 1522671123, 1525089281, 1519258701, 1523133804, 1522205897, 1513707614, 1522341544, 1526780144, 1519713888, 1523423808, 1521912841, 1523401505, 1516532731, 1512883482, 1515679775, 1523705280, 1523719020, 1523489720, 1524039569, 1523514522, 1519298058, 1523095427, 1525570832, 1524185803, 1522610396, 1516670689, 1519111374, 1524238820, 1522051791, 1526213899, 1525355938, 1518073307, 1523198125, 1526213885, 1523768368, 1516526569, 1524709089, 1522041528, 1516385110, 1516294636, 1522543134, 1527174130, 1524185816, 1517944995, 1523800202, 1526186642, 1526988528]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200216174236/https://www.youm7.com/story/2020/2/15/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D9%86%D8%A7%D8%A6%D8%A8%D9%87-%D9%88%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B2%D8%A7%D9%8A%D8%AF-%D9%8A%D9%87%D9%86%D8%A6%D9%88%D9%86-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%B5%D8%B1%D8%A8%D9%8A%D8%A7-%D8%A8%D8%A7%D9%84%D9%8A%D9%88%D9%85/4632215', 'http://web.archive.org/web/20201025200903/https://www.albayan.ae/across-the-uae/news-and-reports/2020-02-11-1.3775432', 'http://web.archive.org/web/20200220150523/https://www.emaratalyoum.com/life/four-sides/2020-02-19-1.1309587', 'http://web.archive.org/web/20200213162324/http://wam.ae/ar/details/1395302823547', 'http://web.archive.org/web/20220820173609/http://wam.ae/ar/details/1395302824521', 'http://web.archive.org/web/20200217160912/https://www.albayan.ae/across-the-uae/news-and-reports/2020-02-16-1.3779254', 'http://web.archive.org/web/20220820173537/http://wam.ae/ar/details/1395302824669', 'http://web.archive.org/web/20220820165248/http://wam.ae/ar/details/1395302821163', 'http://web.archive.org/web/20200209154435/http://wam.ae/ar/details/1395302822292', 'http://web.archive.org/web/20210804074606/https://www.albayan.ae/across-the-uae/news-and-reports/2020-02-18-1.3781429', 'http://web.archive.org/web/20200107161047/http://www.deanreed.de/AmericanRebel/2017/?p=23691']
+cur_cls:  17930
+intruder: Trump „warnt“ Erdogan vor militärischen Eingreifen in Libyen
+http://web.archive.org/web/20200107161047/http://www.deanreed.de/AmericanRebel/2017/?p=23691
+
+[1566454009, 1566449486, 1566579956, 1566449006, 1566448588, 1566454502, 1567010290, 1566449726, 1566449855, 1566936478, 1566449383, 1566454871, 1566822005, 1566448926, 1566455079, 1566792369, 1566908518, 1566792724, 1566449362, 1566448995, 1566453697, 1566456291, 1566937174, 1566454729, 1566699277, 1566453247, 1566452264, 1566453900, 1566452042, 1566909773, 1566453234, 1566448712, 1566579904, 1566579541, 1564142533, 1566909676, 1566449174, 1566449897, 1566449314, 1566452253, 1566455589, 1566449055, 1566822053, 1566449721, 1566450288, 1566455911, 1566451735, 1566455672, 1566699287, 1566452428]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20230327065450/https://www.lemonde.fr/international/article/2020/01/07/le-droit-victime-collaterale-des-choix-de-donald-trump-face-a-l-iran_6025005_3210.html']
+cur_cls:  10001
+intruder: Le droit, victime collatérale des choix de Donald Trump face à l’Iran
+http://web.archive.org/web/20230327065450/https://www.lemonde.fr/international/article/2020/01/07/le-droit-victime-collaterale-des-choix-de-donald-trump-face-a-l-iran_6025005_3210.html
+
+[1512902688, 1519808513, 1514553761, 1514183722, 1574921108, 1539662205, 1514616774, 1511905047, 1537804175, 1514264383, 1514555153, 1513108162, 1511063399, 1516482389, 1512290659, 1537645309, 1514257650, 1514192890, 1511573170, 1511009301, 1511317138, 1574680654, 1514378004, 1513897081, 1513723691, 1512985828, 1539948593, 1513170965, 1514938440, 1513242722, 1515464196, 1511307807, 1511564863, 1514997578, 1514192891, 1512690189, 1513089863, 1512824472, 1513176571, 1537897545, 1513476929, 1513598610, 1513175239, 1575056021, 1513324909, 1513028358, 1513729886, 1537838278, 1513652410, 1513063970]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200214152644/http://sierramadretattler.blogspot.com/2020/02/friday-night-massacre-experts-say-trump.html', 'http://web.archive.org/web/20230207205510/https://www.breitbart.com/politics/2020/02/06/watch-nancy-pelosi-busted-pre-ripping-trumps-sotu-speech/', 'http://web.archive.org/web/20221103212724/https://www.washingtonpost.com/outlook/2020/02/04/trump-may-be-acquitted-house-democrats-proved-their-power-check-him/', 'http://web.archive.org/web/20210421120732/https://www.thesun.co.uk/news/10910921/trump-2020-reelection-campaign-massively-boosted-by-impeachment-acquittal-pelosi-tantrum-and-dems-iowa-chaos-fans-say/', 'http://web.archive.org/web/20230618105459/https://www.motherjones.com/impeachment/2020/02/trumps-revenge-on-mitt-romney-begins-at-a-prayer-breakfast/', 'http://web.archive.org/web/20230528154408/https://www.politico.com/news/2020/02/06/trump-unloads-after-impeachment-acquittal-111495', 'http://web.archive.org/web/20200202124151/https://www.channelnewsasia.com/news/world/trump-impeachment-us-emails-redacted-ukraine-12381964?cid=cna_flip_070214', 'http://web.archive.org/web/20200502023729/https://www.naijanews.com/2020/02/06/pelosi-trump-remains-a-threat-to-american-democracy/', 'http://web.archive.org/web/20230601225750/https://news.sky.com/story/state-of-the-union-trump-hails-the-great-american-comeback-11926613', 'http://web.archive.org/web/20200810232842/https://www.vice.com/en_us/article/pkek3v/nancy-pelosi-literally-tore-up-trumps-state-of-the-union-speech', 'http://web.archive.org/web/20201122195026/https://www.diariolibre.com/actualidad/internacional/el-doctor-fauci-contradice-a-trump-y-dice-que-ee-uu-hara-mas-test-no-menos-KI19669245']
+cur_cls:  16402
+intruder: El doctor Fauci contradice a Trump y dice que EE.UU. hará más test, no menos
+http://web.archive.org/web/20201122195026/https://www.diariolibre.com/actualidad/internacional/el-doctor-fauci-contradice-a-trump-y-dice-que-ee-uu-hara-mas-test-no-menos-KI19669245
+
+[1566821944, 1566450470, 1566450412, 1566449390, 1566449721, 1566453900, 1566450275, 1566451735, 1566455274, 1564142533, 1566454067, 1566699308, 1566668309, 1566455488, 1566454729, 1566452428, 1566449339, 1566448712, 1566455565, 1566454348, 1566456291, 1566699287, 1566448995, 1566455079, 1566579904, 1566792369, 1567009257, 1566449883, 1566909773, 1566455911, 1566668293, 1566452264, 1566455672, 1566908518, 1566448926, 1566448588, 1566448754, 1566453336, 1566668347, 1566452520, 1566699277, 1566449063, 1566579956, 1566450109, 1566452759, 1566452748, 1566909676, 1566449073, 1566449055, 1566453234]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200427065609/https://www.latestnigeriannews.com/news/8399144/sources-microsoft-wont-be-delivering-its-windows-10xpowered-surface-neo-dualscre.html']
+cur_cls:  10007
+intruder: Sources: Microsoft won't be delivering its Windows 10X-powered Surface Neo dual-screen devices this year, nor will it ship Windows 10X to third-party OEMs (Mary Jo Foley/ZDNet)
+http://web.archive.org/web/20200427065609/https://www.latestnigeriannews.com/news/8399144/sources-microsoft-wont-be-delivering-its-windows-10xpowered-surface-neo-dualscre.html
+
+[1515289380, 1503628231, 1503628752, 1503630154, 1512155917, 1503631047, 1503626433, 1503626768, 1514284604, 1512901725, 1514896546, 1503794459, 1512677776, 1503870326, 1512810158, 1503630820, 1503630637, 1503737209, 1503628721, 1503737223, 1514772675, 1503630191, 1512667868, 1503626828, 1512690263, 1514311327, 1512971730, 1512107106, 1503629814, 1513025291, 1513139367, 1503628684, 1513004022, 1503870216, 1512417802, 1503630825, 1567815839, 1503628802, 1503627002, 1513036021, 1510395400, 1503627099, 1515130634, 1503629572, 1503630208, 1503933479, 1512888629, 1503627064, 1503631099, 1503629739]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200301194652/https://www.dailydot.com/layer8/pete-buttigieg-iowa-declares-victory/', 'http://web.archive.org/web/20220523175821/https://indianexpress.com/article/world/iowans-begin-caucus-voting-may-clarify-democratic-field-6250341/', 'http://web.archive.org/web/20221101214509/https://www.usnews.com/news/politics/articles/2020-02-07/biden-shuffles-top-campaign-leadership-after-iowa', 'http://web.archive.org/web/20200204091909/https://www.bostonherald.com/2020/02/04/the-latest-iowa-democrats-to-release-caucus-results-tuesday/', 'http://web.archive.org/web/20210121044213/https://www.kron4.com/news/national/dems-kick-off-iowa-causes-tonight/', 'http://web.archive.org/web/20200204064551/https://www.reuters.com/article/us-usa-election/results-delayed-as-iowa-democrats-conduct-caucus-meetings-to-search-for-trump-2020-challenger-idUSKBN1ZX1G5', 'http://web.archive.org/web/20201104203252/https://www.thegazette.com/subject/opinion/guest-columnist/sanders-is-only-candidate-who-can-beat-trump-20200130', 'http://web.archive.org/web/20200205090620/https://www.kansascity.com/news/politics-government/national-politics/article239942018.html', 'http://web.archive.org/web/20200103163550/http://www.naharnet.com/stories/en/267826-top-iranian-commander-qassem-soleimani-killed-in-iraq-airstrike']
+cur_cls:  20504
+intruder: Top Iranian Commander Qassem Soleimani Killed in Iraq Airstrike
+http://web.archive.org/web/20200103163550/http://www.naharnet.com/stories/en/267826-top-iranian-commander-qassem-soleimani-killed-in-iraq-airstrike
+
+[1486446285, 1487614161, 1492722683, 1491643897, 1490384687, 1492895580, 1494267638, 1488978120, 1487611870, 1492075391, 1492061837, 1487395805, 1489020829, 1490277824, 1489399429, 1492036907, 1492209972, 1493775114, 1488041904, 1490303854, 1491675241, 1487644725, 1490310183, 1492228310, 1487594119, 1492700404, 1493050606, 1491038294, 1495798630, 1489223397, 1487102311, 1492076241, 1492236896, 1491141817, 1492583851, 1490581666, 1491972772, 1492036744, 1487094252, 1576024284, 1490198466, 1518986239, 1492836701, 1492592096, 1490140304, 1490770861, 1490240793, 1494204520, 1491892592, 1491336594]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200104215331/https://www.srf.ch/news/international/wahlen-in-taiwan-heute-hongkong-morgen-taiwan', 'http://web.archive.org/web/20200107143653/https://www.glasgowtimes.co.uk/news/18139960.no-war-iran-protest-held-glasgows-buchanan-street-steps/?ref=rss', "http://web.archive.org/web/20220526204409/https://japantoday.com/category/world/chinese-media-blame-'dirty-tactics'-for-tsai's-taiwan-poll-win", 'http://web.archive.org/web/20220526193505/https://www.lemonde.fr/international/article/2020/01/11/en-irak-les-manifestants-ressentent-la-responsabilite-de-defendre-la-souverainete-du-pays_6025504_3210.html', 'http://web.archive.org/web/20220520174211/https://talkingpointsmemo.com/news/iran-abandons-nuclear-deal-in-response-to-trumps-assassination-of-military-leader', 'http://web.archive.org/web/20221111021601/https://www.washingtonpost.com/world/asia_pacific/russias-disinformation-campaign-in-the-us-has-nothing-on-chinas-efforts-in-taiwan/2020/01/08/3400200a-231a-11ea-b034-de7dc2b5199b_story.html', 'http://web.archive.org/web/20221118041932/https://www.washingtonpost.com/opinions/trumps-iran-policy-may-be-impulsive-but-we-should-all-hope-it-succeeds/2020/01/06/ff92e8a4-30c8-11ea-91fd-82d4e04a3fac_story.html', 'http://web.archive.org/web/20201128064624/https://www.kbc.co.ke/crashed-iran-plane-tried-to-return-to-airport/', 'http://web.archive.org/web/20220104142453/https://www.unian.info/world/10822820-canada-wants-big-role-in-iran-crash-probe-despite-lack-of-diplomatic-ties-trudeau-media.html', 'http://web.archive.org/web/20200110142715/https://www.nst.com.my/world/world/2020/01/554932/dont-read-too-much-election-results-taiwan-tells-china-vote', 'http://web.archive.org/web/20200423150348/https://www.latestnigeriannews.com/news/8395890/covid19-makinde-targets-10000-residents.html']
+cur_cls:  15134
+intruder: COVID-19 Makinde targets 10,000 residents
+http://web.archive.org/web/20200423150348/https://www.latestnigeriannews.com/news/8395890/covid19-makinde-targets-10000-residents.html
+
+[1537066445, 1537065195, 1537182227, 1537063752, 1537211440, 1537333095, 1537063392, 1537065566, 1537443905, 1537333034, 1538655918, 1537063753, 1537065576, 1537211433, 1537063422, 1537063847, 1537516683, 1537305450, 1537064924, 1537211557, 1537064780, 1537332471, 1538546167, 1537067011, 1537064379, 1538194499, 1537063579, 1538194319, 1537064966, 1537063597, 1537332827, 1538546050, 1538192691, 1537063541, 1537063468, 1537332583, 1537417965, 1537418051, 1537063633, 1537063180, 1537063748, 1538193734, 1537065819, 1537065591, 1538545778, 1537090199, 1537064429, 1538546449, 1537417959, 1538546414]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200220175829/https://www.youm7.com/story/2020/2/19/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%D9%89-%D8%AE%D8%A7%D8%B5-%D9%84%D8%A3%D8%A8%D9%88-%D8%AC%D8%A8%D9%84-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%89-%D9%81%D9%89/4637575']
+cur_cls:  14623
+intruder: فيديو.. برنامج تدريبى خاص لأبو جبل قبل مواجهة الأهلى فى السوبر
+http://web.archive.org/web/20200220175829/https://www.youm7.com/story/2020/2/19/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%D9%89-%D8%AE%D8%A7%D8%B5-%D9%84%D8%A3%D8%A8%D9%88-%D8%AC%D8%A8%D9%84-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%89-%D9%81%D9%89/4637575
+
+[1487231529, 1491114599, 1487437813, 1489591571, 1492681254, 1491237490, 1489164088, 1489210321, 1490849529, 1492024106, 1487918763, 1489314363, 1491147135, 1489502577, 1490865887, 1493219050, 1489872212, 1490819477, 1491874389, 1489540239, 1494763672, 1486988369, 1487006049, 1487152860, 1491862518, 1485981229, 1489807794, 1488135634, 1489214130, 1489767205, 1488826865, 1486855077, 1487961450, 1492280576, 1488324036, 1486418466, 1486584418, 1487500634, 1489269881, 1490545572, 1487670874, 1489146814, 1489345534, 1489489270, 1492978068, 1490742981, 1489781091, 1489474689, 1490852499, 1487158742]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200114012939/https://www.thenews.com.pk/print/596075-calmer-times', 'http://web.archive.org/web/20220706011505/http://www.france24.com/fr/20200106-trump-menace-l-iran-de-r%C3%A9pr%C3%A9sailles-et-l-irak-de-sanctions', 'http://web.archive.org/web/20200109170634/https://www.elnuevosiglo.com.co/articulos/01-2020-cronologia-de-la-crisis-luego-de-la-muerte-del-general-soleimani-en-bagdad', 'http://web.archive.org/web/20210121234755/https://www.sunjournal.com/2020/01/12/a-look-at-soleimanis-revolutionary-guard-corps/', 'http://web.archive.org/web/20200226024235/https://www.cope.es/actualidad/internacional/noticias/dia-que-donald-trump-criticaba-obama-por-iniciar-una-guerra-iran-20200111_590829', 'http://web.archive.org/web/20200109215739/https://www.haaretz.com/world-news/wires/1.8372638', 'http://web.archive.org/web/20210224202100/https://diarioelcentro.cl/el-matonaje-en-accion/', 'http://web.archive.org/web/20200109141852/https://www.cope.es/actualidad/espana/noticias/rohani-avisa-que-respuesta-final-iran-consistira-expulsar-las-fuerzas-estados-unidos-20200108_588603', 'http://web.archive.org/web/20200118020226/https://www.spiegel.de/politik/ausland/iran-krise-usa-sollen-versucht-haben-weiteren-iranischen-befehlshaber-zu-toeten-a-6bd03892-952c-4d5f-996b-7f8a2e820e02', 'http://web.archive.org/web/20200109165335/https://de.news-front.info/2020/01/08/prasident-bolsonaro-huldigte-trump-terrorismus-iran-bestellt-brasiliens-geschaftstrager-ein/', 'http://web.archive.org/web/20200208165058/https://www.krmg.com/news/national/national-security-council-alexander-vindman-could-first-fired-post-impeachment-purge/aKnbaucSCLx4CCrqYyP13I/']
+cur_cls:  21284
+intruder: National Security Council&#8217;s Alexander Vindman could be first fired in post-impeachment purge
+http://web.archive.org/web/20200208165058/https://www.krmg.com/news/national/national-security-council-alexander-vindman-could-first-fired-post-impeachment-purge/aKnbaucSCLx4CCrqYyP13I/
+
+[1497094507, 1498724529, 1504076706, 1516878936, 1503540887, 1498783706, 1495855561, 1500470098, 1495859418, 1499268748, 1495670013, 1495546793, 1498524626, 1495738330, 1496160487, 1517627558, 1505216778, 1495776545, 1496788868, 1495871188, 1493965646, 1495957293, 1501273378, 1499900439, 1495924833, 1495957171, 1495823134, 1495757931, 1502421137, 1495776601, 1500868122, 1497460868, 1499059379, 1495740172, 1496299282, 1494703451, 1504777955, 1496694114, 1504229936, 1504633094, 1495754025, 1496573305, 1505092702, 1496422906, 1496312154, 1501561985, 1495887432, 1503134228, 1501415963, 1495695302]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200613212327/https://www.larazon.es/internacional/20200119/wr5kcmjl3vhyrao5ux6bm5kj3q.html', 'http://web.archive.org/web/20200206190516/https://www.nysun.com/national/impeachment-is-a-doomed-effort-to-undo-2026-vote/90978/', 'http://web.archive.org/web/20200116151612/https://www.recorder.com/House-leaders-march-Trump-impeachment-articles-to-the-Senate-32031832', 'http://web.archive.org/web/20201007220339/https://www.redstate.com/nick-arama/2020/01/26/now-thats-rich-schiff-upset-white-house-lawyers-are-mischaracterizing-what-he-said/', 'http://web.archive.org/web/20220129074003/https://www.alternet.org/2020/01/house-votes-to-send-articles-of-impeachment-to-the-senate-and-approve-managers-for-trumps-trial/', 'http://web.archive.org/web/20200122140308/https://news.yahoo.com/dispute-over-rules-erupts-impeachments-004857734.html', 'http://web.archive.org/web/20200121162143/https://www.fltimes.com/news/nation/how-to-watch-the-senate-impeachment-trial-viewer-s-guide/article_d1148762-38e0-5b69-9332-89c749a594b6.html', 'http://web.archive.org/web/20200116135442/https://elcooperante.com/nancy-pelosi-revelo-los-nombres-de-los-fiscales-que-participaran-en-el-juicio-contra-trump/', 'http://web.archive.org/web/20210304225800/https://www.realclearpolitics.com/video/2020/01/15/speaker_pelosi_announces_impeachment_managers.html', 'http://web.archive.org/web/20200124135332/https://www.infobae.com/america/agencias/2020/01/23/los-democratas-avanzan-en-juicio-contra-trump-en-eeuu-y-piden-valor-a-los-republicanos/', 'http://web.archive.org/web/20200227153441/https://informatesalta.com.ar/contenido/223977/coronavirus-el-jefe-de-la-mision-de-la-oms-afirmo-que-el-mundo-no-esta-listo-par']
+cur_cls:  15408
+intruder: Coronavirus: el jefe de la misión de la OMS afirmó que el mundo "no está listo" para confrontarlo
+http://web.archive.org/web/20200227153441/https://informatesalta.com.ar/contenido/223977/coronavirus-el-jefe-de-la-mision-de-la-oms-afirmo-que-el-mundo-no-esta-listo-par
+
+[1495696432, 1495469342, 1495784843, 1495471276, 1495809565, 1495681988, 1495588609, 1495470703, 1495589049, 1495473558, 1495470685, 1495469837, 1495470401, 1495470551, 1495469508, 1495588603, 1495569649, 1495470981, 1495470761, 1495471159, 1495470853, 1495588560, 1495470948, 1495471072, 1495470025, 1495882435, 1495682027, 1495470615, 1495471046, 1495588597, 1495469637, 1495682384, 1495589093, 1495471065, 1495471374, 1495469854, 1495696567, 1495809936, 1495471085, 1495471285, 1495470459, 1495469936, 1495470510, 1495469551, 1495696080, 1495469308, 1495589091, 1495681915, 1495695920, 1495471067]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20221011003742/https://www.manchestereveningnews.co.uk/news/greater-manchester-news/mayors-urge-prime-minister-publish-18240494']
+cur_cls:  2354
+intruder: Mayors urge PM to publish regional coronavirus transmission rates
+http://web.archive.org/web/20221011003742/https://www.manchestereveningnews.co.uk/news/greater-manchester-news/mayors-urge-prime-minister-publish-18240494
+
+[1633203956, 1627562041, 1627036013, 1631163651, 1631815000, 1639640509, 1634309453, 1630846655, 1632402523, 1633389616, 1626329217, 1631719494, 1633914777, 1627527757, 1635043045, 1628138497, 1636443124, 1632374736, 1627736167, 1631156560, 1627523857, 1631497944, 1629885993, 1629247498, 1627527182, 1627529973, 1626829191, 1628370103, 1633729986, 1627647896, 1628318880, 1626025003, 1636439630, 1626803384, 1636407626, 1637410296, 1627596435, 1631129352, 1629119768, 1631199937, 1628358001, 1625922325, 1630309281, 1626824447, 1629936340, 1628425488, 1633208382, 1629360977, 1628306689, 1633950171]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20210415000252/https://www.almasryalyoum.com/news/details/1985316', 'http://web.archive.org/web/20201005061450/https://www.adnkronos.com/fatti/cronaca/2020/06/15/meteo-temporali-ripetizione_w3i5BEoiNPA3bqfbjvGgcL.html', 'http://web.archive.org/web/20200823025712/https://akhbarelyom.com/news/newdetails/3059649/1/%D9%86%D9%88%D8%A7%D8%A8-%D9%88%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D9%88%D9%86-%D9%8A%D8%B4%D9%8A%D8%AF%D9%88%D9%86-%D8%A8%D8%AC%D9%87%D9%88%D8%AF-%D9%85%D8%B5%D8%B1-%D9%84%D8%AD%D9%84-%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D9%84%D9%8A%D8%A8%D9%8A%D8%A9', 'http://web.archive.org/web/20200701163208/https://www.giornalettismo.com/numeri-coronavirus-16-giugno/', 'http://web.archive.org/web/20200630203311/https://www.alittihad.ae/news/%D8%B9%D8%B1%D8%A8%D9%8A-%D9%88%D8%AF%D9%88%D9%84%D9%8A/4102344/%D9%82%D8%B1%D9%82%D8%A7%D8%B4--%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D8%B1-%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A-%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A-%D9%8A%D8%B7%D9%8A%D9%84-%D9%85%D8%B9%D8%A7%D9%86%D8%A7%D8%A9-%D8%A7%D9%84%D9%84%D9%8A%D8%A8%D9%8A%D9%8A%D9%86', 'http://web.archive.org/web/20210110215547/https://aawsat.com/home/article/2328126/%25D8%25AA%25D8%25B1%25D9%2585%25D8%25A8-%25D9%258A%25D8%25B1%25D8%25AD%25D8%25A8-%25D8%25A8%25D8%25AC%25D9%2587%25D9%2588%25D8%25AF-%25D9%2585%25D8%25B5%25D8%25B1-%25D9%2584%25D9%2584%25D8%25B3%25D9%2584%25D8%25A7%25D9%2585-%25D9%2581%25D9%258A-%25D9%2584%25D9%258A%25D8%25A8%25D9%258A%25D8%25A7', 'http://web.archive.org/web/20200610195611/https://www.babnet.net/festivaldetail-204878.asp', 'http://web.archive.org/web/20201117072741/https://www.almasryalyoum.com/news/details/1985301', 'http://web.archive.org/web/20201104163136/https://www.adnkronos.com/fatti/cronaca/2020/06/07/maltempo-piogge-temporali-arrivo-regioni-centrali-campania_kRKZZGEqbzv1UKPNqhpeeK.html', 'http://web.archive.org/web/20201211201738/https://sicilianews24.it/coronavirus-attuali-positivi-sotto-quota-30-mila-609380.html', 'http://web.archive.org/web/20230514134200/https://www.foxnews.com/entertainment/annabella-sciorra-harvey-weinstein-verdict']
+cur_cls:  15416
+intruder: Harvey Weinstein accuser Annabella Sciorra speaks out after verdict: 'My testimony was painful but necessary'
+http://web.archive.org/web/20230514134200/https://www.foxnews.com/entertainment/annabella-sciorra-harvey-weinstein-verdict
+
+[1581245011, 1581203138, 1585895557, 1577746974, 1584790176, 1588822871, 1588131151, 1581206652, 1583489360, 1580164774, 1586949921, 1583772253, 1588044699, 1579831389, 1578002662, 1577293118, 1582689580, 1583523535, 1583552721, 1584811808, 1582802814, 1588437151, 1582243409, 1588061475, 1582109785, 1834086960, 1588599563, 1583523580, 1590437546, 1589636886, 1583730114, 1579037474, 1587815689, 1585888185, 1578893637, 1583594989, 1583532920, 1584963707, 1582828966, 1583694877, 1584420760, 1583797790, 1579046714, 1588861934, 1582914865, 1588057173, 1581246120, 1587100294, 1588130912, 1751868917]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220119145828/https://www.fanpage.it/attualita/bollettino-del-17-aprile-sul-coronavirus-172-434-contagiati-di-cui-42-727-guariti-e-22-745-morti/', 'http://web.archive.org/web/20200507175551/https://laprovinciapavese.gelocal.it/pavia/cronaca/2020/04/13/news/cronavirus-in-provincia-altri-60-casi-tornano-a-crescere-i-decessi-in-lombardia-280-rallentano-ancora-i-contagi-dal-21-il-test-sierologico-inventato-al-san-matteo-a-tutto-il-personale-sanitario-1.38714892', 'http://web.archive.org/web/20220425184343/https://www.agi.it/cronaca/news/2020-04-21/curva-contagi-malati-coronavirus-morti-8401214/', 'http://web.archive.org/web/20200608174559/https://www.tgcom24.mediaset.it/cronaca/coronavirus-altri-420-decessi-cala-la-pressione-sulle-terapie-intensive-preoccupa-milano-casi-in-crescita_17612952-202002a.shtml', 'http://web.archive.org/web/20200601160436/https://www.lasicilia.it/news/viaggi/337153/le-vacanze-all-italiana-potrebbero-compensare-il-crollo-di-stranieri-e-la-sicilia-e-al-top.html', 'http://web.archive.org/web/20210305132627/https://opisantacruz.com.ar/2020/04/20/italia-el-pais-hace-cuentas-y-ya-pone-fecha-para-el-contagio-cero/', 'http://web.archive.org/web/20200420203325/https://www.ilgazzettino.it/nordest/primopiano/coronavirus_mappa_contagio_regione_14_aprile_2020_regione_oggi_lombardia_piemonte-5170625.html', 'http://web.archive.org/web/20220811050713/https://www.lanotiziagiornale.it/non-si-arresta-aumento-contagi-e-vittime-ma-continuano-a-calare-ricoveri-rezza-siamo-ancora-nella-fase-uno/', 'http://web.archive.org/web/20200808161111/https://it.sputniknews.com/italia/202004198987828-coronavirus-pubblicato-studio-che-mostra-4-scenari-possibili-di-evoluzione-della-pandemia/', 'http://web.archive.org/web/20200428071905/https://www.huffingtonpost.it/entry/zero-casi-al-sud-a-fine-aprile-non-prima-di-fine-giugno-in-lombardia_it_5e9d7379c5b6948e427fb425', 'http://web.archive.org/web/20200301194838/https://www.youm7.com/story/2020/2/29/%D8%AD%D8%B3%D8%A7%D9%85-%D8%A7%D9%84%D8%A8%D8%AF%D8%B1%D9%89-%D9%8A%D8%AD%D8%B6%D8%B1-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%89-%D9%88%D8%B5%D9%86-%D8%AF%D8%A7%D9%88%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9/4651843']
+cur_cls:  17467
+intruder: حسام البدرى يحضر مباراة الأهلى وصن داونز باستاد القاهرة
+http://web.archive.org/web/20200301194838/https://www.youm7.com/story/2020/2/29/%D8%AD%D8%B3%D8%A7%D9%85-%D8%A7%D9%84%D8%A8%D8%AF%D8%B1%D9%89-%D9%8A%D8%AD%D8%B6%D8%B1-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%89-%D9%88%D8%B5%D9%86-%D8%AF%D8%A7%D9%88%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9/4651843
+
+[1503486438, 1499562087, 1502862130, 1504413483, 1506681193, 1503366496, 1503183846, 1499660154, 1503016367, 1499923877, 1501995433, 1501828851, 1498398015, 1499069225, 1499353363, 1500426569, 1498738905, 1500105790, 1502003922, 1510498875, 1502060455, 1499525697, 1501333050, 1501378969, 1500246395, 1501097162, 1499784082, 1494693478, 1543580820, 1500140304, 1502947428, 1500939540, 1500696466, 1499298075, 1499488263, 1499006699, 1501595836, 1500064365, 1500983106, 1500956957, 1502087117, 1501314090, 1502356746, 1498571861, 1498864506, 1501640922, 1501033314, 1499561194, 1502072251, 1502236006]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200213201738/http://www.elpais.cr/2020/01/27/el-nuevo-coronavirus-deja-106-muertos-y-4-515-infectados-en-china/', 'http://web.archive.org/web/20210117215509/https://www.elobservador.com.uy/nota/que-se-sabe-sobre-el-coronavirus-de-china-que-puede-haber-afectado-a-cientos-de-personas-segun-cientificos-britanicos-2020118105759', 'http://web.archive.org/web/20200120123258/https://lnt.ma/virus-chinois-sans-doute-des-centaines-de-contaminations-inquietude-a-letranger/', 'http://web.archive.org/web/20201021144420/https://www.foxbusiness.com/markets/china-coronoavirus-wuhan-flight-human-transmission', 'http://web.archive.org/web/20200123135341/https://www.boerse-online.de/nachrichten/aktien/wdh-virus-roundup-vorerst-keine-internationale-notlage-1028837297', 'http://web.archive.org/web/20200122195949/https://www.elimparcial.com/mexico/Coronavirus-chino-Propagacion-de-virus-Mexico-CIAD-epidemia-china-20200121-0111.html', 'http://web.archive.org/web/20230130215524/https://thehill.com/policy/healthcare/479504-china-locks-down-second-third-cities-as-virus-spreads/', 'http://web.archive.org/web/20200124132444/https://www.milenio.com/internacional/estados-unidos/canada-afirma-que-hay-varios-posibles-casos-de-coronavirus', 'http://web.archive.org/web/20211130234832/https://www.laprensagrafica.com/tendencias/Lo-que-se-sabe-sobre-el-coronavirus-detectado-en-China-y-otros-paises-que-ya-ha-afectado-a-cientos-de-personas-20200121-0603.html', 'http://web.archive.org/web/20200121145948/https://www.tvanouvelles.ca/2020/01/19/un-virus-en-chine-commence-a-inquieter-au-canada', 'http://web.archive.org/web/20221226052343/https://kdvr.com/news/nationalworld-news/us-source-north-korean-leader-kim-jong-un-in-grave-danger-after-surgery/']
+cur_cls:  15421
+intruder: US source: North Korean leader Kim Jong Un in grave danger after surgery
+http://web.archive.org/web/20221226052343/https://kdvr.com/news/nationalworld-news/us-source-north-korean-leader-kim-jong-un-in-grave-danger-after-surgery/
+
+[1613779460, 1613780545, 1613781335, 1613778324, 1613781130, 1613778243, 1614242564, 1613778292, 1613781240, 1613781014, 1613778248, 1613471259, 1613779487, 1613779732, 1613780697, 1613781162, 1613778682, 1613779712, 1613781309, 1613781397, 1613781828, 1613780768, 1613781765, 1613779267, 1613780807, 1613861439, 1613779596, 1613779129, 1613779506, 1613779830, 1613781605, 1613780565, 1613779895, 1613778468, 1613781361, 1613780505, 1613779498, 1613780856, 1613780964, 1613778296, 1613861313, 1613781617, 1613779792, 1613779397, 1613779384, 1613861609, 1613779562, 1613780493, 1613780479, 1613781093]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20210423105132/https://www.businesstoday.in/current/economy-politics/us-india-ink-mega-3-billion-defence-pact-3-mous-potus-calls-wonderful-deal/story/396857.html']
+cur_cls:  20040
+intruder: US, India ink mega $3 billion defence pact, 3 MoUs; POTUS calls it 'wonderful deal'
+http://web.archive.org/web/20210423105132/https://www.businesstoday.in/current/economy-politics/us-india-ink-mega-3-billion-defence-pact-3-mous-potus-calls-wonderful-deal/story/396857.html
+
+[1621877899, 1486904842, 1620842737, 1625098777, 1486906018, 1623666594, 1486907163, 1623262670, 1620397845, 1486906128, 1621212159, 1622055682, 1620411245, 1489756014, 1486906102, 1617530889, 1486906229, 1486904294, 1622450174, 1486904660, 1623236709, 1620526107, 1620806377, 1621317785, 1486956132, 1623828259, 1622214716, 1620787277, 1621535599, 1623374730, 1620792807, 1620457168, 1622868461, 1487036548, 1621088652, 1623752751, 1619360189, 1620691391, 1621000445, 1486905198, 1619194044, 1619131568, 1620430245, 1619780563, 1622878590, 1621855682, 1620012996, 1621742517, 1489881635, 1619014858]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20221225194020/https://www.thejakartapost.com/news/2020/06/04/amid-unrest-at-home-us-presses-china-on-tiananmen.html', 'http://web.archive.org/web/20210107205538/https://www.lavanguardia.com/internacional/20200602/481574262406/policias-disparos-protestas-muerte-george-floyd-eeuu.html', 'http://web.archive.org/web/20210725132901/https://www.rediff.com/news/report/trump-was-taken-to-underground-bunker-during-white-house-protests/20200601.htm', 'http://web.archive.org/web/20211014085113/https://www.tagesschau.de/ausland/trump-who-117.html', 'http://web.archive.org/web/20210126092817/https://www.la-croix.com/Monde/Ameriques/Couvre-feu-Minneapolis-colere-retombe-pas-2020-05-30-1201096788', 'http://web.archive.org/web/20230814022920/https://www.lefigaro.fr/international/deces-de-george-floyd-nouvelle-nuit-d-emeutes-et-de-pillages-aux-etats-unis-malgre-des-couvre-feux-20200531', 'http://web.archive.org/web/20200610200231/https://www.elnuevosiglo.com.co/articulos/06-2020-trump-pide-desplegar-el-ejercito-ante-protestas', 'http://web.archive.org/web/20220416112052/https://www.hindustantimes.com/world-news/us-to-ship-first-tranche-of-100-ventilators-to-india-next-week-white-house/story-x7UNG2ecAUL9Lz2Bw5wcpI.html', 'http://web.archive.org/web/20200303145124/https://www.sabah.com.tr/yazarlar/muderrisoglu/2020/03/03/moskova-ateskes-yeni-inisiyatifin-esaslari']
+cur_cls:  20809
+intruder: Moskova... Ateşkes... Yeni inisiyatifin esasları...
+http://web.archive.org/web/20200303145124/https://www.sabah.com.tr/yazarlar/muderrisoglu/2020/03/03/moskova-ateskes-yeni-inisiyatifin-esaslari
+
+[1514754420, 1511453704, 1514335519, 1518618654, 1515158714, 1518113586, 1512683030, 1515906984, 1514902909, 1521479336, 1541570274, 1511525586, 1512791429, 1510325416, 1510339249, 1515356055, 1513244346, 1513096492, 1515021658, 1514692716, 1574921107, 1510371525, 1514578838, 1518669887, 1513691624, 1520109764, 1513176063, 1519271894, 1518168229, 1512666528, 1515127633, 1516887050, 1512926978, 1510149526, 1512318928, 1515325106, 1514134560, 1518872494, 1520614381, 1515424576, 1521546946, 1513538455, 1517243268, 1519178210, 1575395382, 1518922957, 1514331895, 1516983598, 1513045431, 1512295945]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200904173835/https://liderweb.mx/dejan-en-vilo-resultado-en-iowa/', 'http://web.archive.org/web/20200208153736/https://6abc.com/politics/new-hampshire-democratic-debate-coverage-on-abc-watch-live/5908519/', 'http://web.archive.org/web/20200920065603/https://www.vice.com/en_us/article/qjdjpb/bernie-might-win-iowa-and-the-democratic-establishment-is-in-freak-out-mode', 'http://web.archive.org/web/20230328053249/https://www.politico.com/news/2020/02/06/dnc-chair-calls-for-recanvass-of-iowa-caucuses-111514', 'http://web.archive.org/web/20200213133039/https://www.krmg.com/news/national/alabama-woman-accused-stealing-800-candles-from-bath-body-works/skEUmzPAmgdRogHHkvzCTM/', 'http://web.archive.org/web/20200211140445/http://centrodeinformes.com.ar/primarias-cruciales-en-nueva-hampshire/', 'http://web.archive.org/web/20200418050124/https://www.bostonglobe.com/2020/02/05/nation/democrats-descend-new-hampshire-after-iowa-caucuses/?s_campaign=bostonglobe%3Asocialflow%3Afacebook', 'http://web.archive.org/web/20211028075733/https://www.commondreams.org/news/2020/02/06/new-iowa-results-97-precincts-reported-sanders-extends-popular-vote-lead-over?cd-origin=rss', 'http://web.archive.org/web/20200615225627/http://www.elexpresso.com/167_ultima-hora/6827250_sao-paulo-producira-una-vacuna-contra-el-covid-19-en-asocio-con-un-laboratorio-chino.html/']
+cur_cls:  16457
+intruder: Sao Paulo producirá una vacuna contra el COVID-19 en asocio con un laboratorio chino
+http://web.archive.org/web/20200615225627/http://www.elexpresso.com/167_ultima-hora/6827250_sao-paulo-producira-una-vacuna-contra-el-covid-19-en-asocio-con-un-laboratorio-chino.html/
+
+[1566982392, 1567662378, 1562028120, 1569383678, 1565428012, 1560403109, 1572219032, 1572219025, 1566982394, 1569270633, 1563803375, 1563166552, 1572219027, 1562028173, 1569270631, 1568861160, 1566982390, 1562028172, 1565297054, 1561648901, 1567652902, 1558367955, 1563016463, 1566999414, 1558367954, 1566999346, 1566875779, 1563166615, 1566982388, 1558367702, 1568912498, 1562028125, 1563803275, 1560325437, 1567662505, 1560403108, 1572895237, 1572219044, 1569258375, 1572219040, 1561648898, 1567637193, 1565297056, 1558367946, 1560409414, 1568896922, 1566999405, 1569270559, 1563778333, 1568417213]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200404080358/http://lapatriaenlinea.com/?nota=1015143', 'http://web.archive.org/web/20200330160811/http://lapatriaenlinea.com/?nota=1014982', 'http://web.archive.org/web/20200406183149/http://lapatriaenlinea.com/?nota=1015186', 'http://web.archive.org/web/20200404012814/http://lapatriaenlinea.com/?nota=1015089', 'http://web.archive.org/web/20200328141614/http://lapatriaenlinea.com/?nota=1014854', 'http://web.archive.org/web/20200417093020/http://lapatriaenlinea.com/?nota=1015235', 'http://web.archive.org/web/20200404061540/http://lapatriaenlinea.com/?nota=1015144', 'http://web.archive.org/web/20200408025817/http://lapatriaenlinea.com/?nota=1015322', 'http://web.archive.org/web/20200403212608/http://lapatriaenlinea.com/?nota=1015080', 'http://web.archive.org/web/20200331191637/http://lapatriaenlinea.com/?nota=1015012', 'http://web.archive.org/web/20230131032104/https://agroinformacion.com/el-invierno-mas-calido-de-todo-el-siglo-xxi-y-se-espera-una-primavera-mas-calida-de-lo-habitual-en-espana-y-mas-seca/']
+cur_cls:  5195
+intruder: El invierno más cálido de todo el siglo XXI y se espera una primavera más cálida de lo habitual y más seca
+http://web.archive.org/web/20230131032104/https://agroinformacion.com/el-invierno-mas-calido-de-todo-el-siglo-xxi-y-se-espera-una-primavera-mas-calida-de-lo-habitual-en-espana-y-mas-seca/
+
+[1542688795, 1542687365, 1542686288, 1542688556, 1542686081, 1542686401, 1542687555, 1542687176, 1542686449, 1542687291, 1542688637, 1542687569, 1542711428, 1542687419, 1542688794, 1542686920, 1542688597, 1542687558, 1542686729, 1542686114, 1542687459, 1542686973, 1542687334, 1542688436, 1542687089, 1542686024, 1542686598, 1542686962, 1542686014, 1542687233, 1542688459, 1542686902, 1542687096, 1542687007, 1542686201, 1542712003, 1542687426, 1542688430, 1542686970, 1542687500, 1542688500, 1542711651, 1542687641, 1542687482, 1542688652, 1542687358, 1542688102, 1542686189, 1542687606, 1542687436]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220221065904/https://www.alquds.co.uk/%d8%a8%d8%b1%d9%8a%d8%a7%d9%86-%d9%87%d9%88%d9%83-%d8%ae%d8%b1%d9%88%d8%ac-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d9%86-%d8%b3%d9%88%d8%b1/']
+cur_cls:  19020
+intruder: بريان هوك: خروج القوات الإيرانية من سوريا حافز للنظام والروس ونجحنا في كسر شوكة طهران
+http://web.archive.org/web/20220221065904/https://www.alquds.co.uk/%d8%a8%d8%b1%d9%8a%d8%a7%d9%86-%d9%87%d9%88%d9%83-%d8%ae%d8%b1%d9%88%d8%ac-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d9%86-%d8%b3%d9%88%d8%b1/
+
+[1492384214, 1487944884, 1487772849, 1492384187, 1492377495, 1489756760, 1496898389, 1491896537, 1487840217, 1489857664, 1487840831, 1484754655, 1492378130, 1492378244, 1489881703, 1487862266, 1492401728, 1492383812, 1491897052, 1491582567, 1492401580, 1487840633, 1492383597, 1488777188, 1489858013, 1492378109, 1492378330, 1489882005, 1492401544, 1492378514, 1492378357, 1489856859, 1489880979, 1492383912, 1490857787, 1489680341, 1489755888, 1491896699, 1487841187, 1489680819, 1493892067, 1492378334, 1487861703, 1487861982, 1489680413, 1492401523, 1492383526, 1492383957, 1491897130, 1489856936]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200227152825/https://www.djazairess.com/fr/liberte/434628']
+cur_cls:  20813
+intruder: Sanders confirme son avantage face à Biden
+http://web.archive.org/web/20200227152825/https://www.djazairess.com/fr/liberte/434628
+
+[1564432281, 1611799328, 1581081734, 1613779130, 1613780300, 1581081990, 1582445179, 1569466137, 1571727518, 1597999634, 1611797816, 1611799567, 1578602493, 1578766501, 1553219461, 1611797241, 1555771355, 1555168912, 1578295796, 1554710459, 1579312332, 1576265204, 1613780509, 1578609129, 1575329238, 1578318152, 1556790277, 1559722459, 1562996581, 1611797301, 1603022844, 1560756586, 1578478790, 1574422268, 1553301719, 1562114829, 1614242441, 1555329447, 1580902662, 1578295622, 1561808777, 1578736525, 1553278302, 1578884079, 1578692609, 1613780138, 1570207104, 1611798088, 1570947694, 1613778475]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200403225835/https://www.elfagr.news/3908710', 'http://web.archive.org/web/20210309013548/https://thenewdaily.com.au/news/coronavirus/2020/04/17/coronavirus-lab-wuhan/', 'http://web.archive.org/web/20230719022050/https://www.dnaindia.com/world/report-china-will-face-consequences-if-found-knowingly-responsible-for-covid-19-outbreak-us-president-donald-trump-2821654', 'http://web.archive.org/web/20200420165710/https://www.alanba.com.kw/ar/arabic-international-news/960939/08-04-2020-%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B0%D8%B1-%D8%A7%D9%86%D8%AA%D9%83%D8%A7%D8%B3%D8%A9-%D9%88%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%AA%D9%88%D8%B9%D8%AF%D9%87%D8%A7-%D9%85%D9%86%D8%AD%D8%A7%D8%B2%D8%A9-%D9%84%D9%84%D8%B5%D9%8A%D9%86/?utm_source=rssFeed', 'http://web.archive.org/web/20230103172851/https://actualidad.rt.com/actualidad/349964-onu-reacciona-anuncio-trump-fondos-oms', 'http://web.archive.org/web/20200503183504/https://aristeguinoticias.com/1504/mundo/alemania-y-rusia-critican-a-eu-por-suspender-financiamiento-a-oms/', 'http://web.archive.org/web/20200320130742/https://www.al-madina.com/article/678268/%D8%A2%D8%AE%D8%B1-%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AD%D8%A7%D9%84%D8%A9-%D8%AA%D8%B9%D8%A8%D8%A6%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D9%84%D9%84%D8%AA%D8%B5%D8%AF%D9%8A-%D9%84%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-%D9%88%D8%A8%D8%A7%D8%B1%D9%82%D8%A9-%D8%A3%D9%85%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%86?ref=rss&format=simple&link=link', 'http://web.archive.org/web/20200322133802/https://www.alanba.com.kw/ar/arabic-international-news/957825/22-03-2020-%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-%D9%8A%D8%AD%D8%AC%D8%B1-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%B4%D8%AE%D8%B5-%D9%88%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%B9%D9%82%D8%A7%D8%B1%D8%A7%D9%86-%D9%8A%D8%AD%D8%AF%D8%AB%D8%A7%D9%86-%D8%AA%D8%AD%D9%88%D9%84%D8%A7-%D8%B7%D8%A8%D9%8A%D8%A7/?utm_source=rssFeed', 'http://web.archive.org/web/20200420220438/https://www.oe24.at/welt/Zahlungsstopp-Trump-startet-Kampf-gegen-WHO/426306021', 'http://web.archive.org/web/20200514051805/https://www.alarabiya.net/ar/arab-and-world/american-elections-2016/2020/03/21/70-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%AA%D8%AD%D8%AA-%D8%A7%D9%84%D8%B9%D8%B2%D9%84-%D9%81%D9%8A-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D9%88%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-%D9%8A%D9%81%D8%AA%D9%83-%D8%A8%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7.html', 'http://web.archive.org/web/20200301160005/http://www.albiladpress.com/news/2020/4156/arab-and-world/630017.html']
+cur_cls:  21070
+intruder: ضربات تركية تصفي 48 من القوات الموالية لدمشق
+http://web.archive.org/web/20200301160005/http://www.albiladpress.com/news/2020/4156/arab-and-world/630017.html
+
+[1490056539, 1486707521, 1494244376, 1491274338, 1489721410, 1490973573, 1495158989, 1485410693, 1490490298, 1485265540, 1492677449, 1490370689, 1487384002, 1490348260, 1490121234, 1489772494, 1489343496, 1490325061, 1486292636, 1509366587, 1486020103, 1490873523, 1488735338, 1486730813, 1495234832, 1493796043, 1489274094, 1490121085, 1487326506, 1488976822, 1490527004, 1487306461, 1491275085, 1492676727, 1487326330, 1491275084, 1490398283, 1496286321, 1490105975, 1488338843, 1486235590, 1489788460, 1489945034, 1486714228, 1489721529, 1489589258, 1489593245, 1490056727, 1489343257, 1487443926]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220528084301/https://www.nicematin.com/insolite/des-internautes-jouent-a-carlos-ghosn-en-se-cachant-dans-des-etuis-a-instruments-yamaha-les-met-en-garde-447545', 'http://web.archive.org/web/20221031163833/https://www.lefigaro.fr/international/l-affaire-carlos-ghosn-mine-les-relations-futures-entre-le-japon-et-le-liban-20200109', 'http://web.archive.org/web/20220129072104/https://www.20minutes.fr/monde/2686371-20200103-affaire-carlos-ghosn-ex-pdg-quitte-seul-residence-tokyo-apres-images-videosurveillance', 'http://web.archive.org/web/20220426153959/https://www.faz.net/aktuell/wirtschaft/geflohener-ex-automanager-japan-verurteilt-wutrede-von-carlos-ghosn-16572244.html', 'http://web.archive.org/web/20200108235314/https://aawsat.com/home/article/2070926/%25D9%2584%25D8%25A8%25D9%2586%25D8%25A7%25D9%2586-%25D8%25B3%25D9%2586%25D8%25AA%25D8%25AE%25D8%25B0-%25D8%25A7%25D9%2584%25D8%25AE%25D8%25B7%25D9%2588%25D8%25A7%25D8%25AA-%25D8%25A7%25D9%2584%25D9%2584%25D8%25A7%25D8%25B2%25D9%2585%25D8%25A9-%25D8%25A8%25D8%25B4%25D8%25A3%25D9%2586-%25D9%2585%25D8%25B0%25D9%2583%25D8%25B1%25D8%25A9-%25D8%25A7%25D9%2584%25D8%25A5%25D9%2586%25D8%25AA%25D8%25B1%25D8%25A8%25D9%2588%25D9%2584-%25D9%2584%25D9%2584%25D9%2582%25D8%25A8%25D8%25B6-%25D8%25B9%25D9%2584%25D9%2589-%25D8%25BA%25D8%25B5%25D9%2586', 'http://web.archive.org/web/20200803120755/https://www.diariolibre.com/actualidad/expresidente-de-nissan-demanda-a-renault-para-que-le-pague-su-jubilacion-ID16403380', 'http://web.archive.org/web/20200224214748/https://www.europe1.fr/international/fuite-de-carlos-ghosn-sa-femme-affirme-quelle-netait-au-courant-de-rien-3941684', 'http://web.archive.org/web/20200531190150/https://www.sabah.com.tr/ekonomi/2020/01/09/carlos-ghosna-kotu-haber-yurt-disina-cikis-yasagi-getirildi', 'http://web.archive.org/web/20200115154643/https://sg.news.yahoo.com/uk-pm-johnson-lets-trump-082555579.html']
+cur_cls:  13647
+intruder: UK PM Johnson: Let&#39;s do a &#39;Trump deal&#39; to replace the Iran nuclear deal
+http://web.archive.org/web/20200115154643/https://sg.news.yahoo.com/uk-pm-johnson-lets-trump-082555579.html
+
+[1506706338, 1507421283, 1505549059, 1506760273, 1506063275, 1505615631, 1505499437, 1506860075, 1505382333, 1505463714, 1505401261, 1504452796, 1506032900, 1506451729, 1507329218, 1508586592, 1505490459, 1505505340, 1506761579, 1505458944, 1505682858, 1506780992, 1509658794, 1505917412, 1506242058, 1507163158, 1506672626, 1503433120, 1507125140, 1505481659, 1506594781, 1503817065, 1505587123, 1506314275, 1506449036, 1505079386, 1505472608, 1505505649, 1504894780, 1506459220, 1506209009, 1505539058, 1507014104, 1505557506, 1505471430, 1506149281, 1505626752, 1505483000, 1505919961, 1511495419]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200129162148/https://www.the-star.co.ke/news/2020-01-28-student-from-china-quarantined-in-coronavirus-scare/', 'http://web.archive.org/web/20200129201559/https://www.elimparcial.com/mundo/Filipinas-suspende-visas-a-China-para-evitar-propagacion-de-coronavirus-20200127-0200.html', 'http://web.archive.org/web/20200128151307/https://www.primeraedicion.com.ar/nota/100221769/coronavirus-de-wuhan-ya-son-80-los-muertos-y-2-774-los-infectados-en-china/', 'http://web.archive.org/web/20200127140900/https://www.srf.ch/news/international/rasante-ausbreitung-an-einem-einzigen-tag-700-neuansteckungen-bestaetigt', 'http://web.archive.org/web/20200817180922/https://www.diariolibre.com/actualidad/disneylandia-cerrara-en-hong-kong-y-shanghai-para-evitar-coronavirus-HE16658825', 'http://web.archive.org/web/20220707014252/https://www.firstpost.com/health/coronavirus-update-aiims-preps-isolation-ward-death-toll-reaches-106-new-vaccine-in-the-making-and-more-7963571.html', 'http://web.archive.org/web/20230328172220/https://www.dawn.com/news/1530478/tracking-the-coronavirus-here-are-the-countries-that-have-confirmed-cases-so-far', 'http://web.archive.org/web/20200128151819/https://www.diario26.com/278366--coronavirus-china-confirmo-mas-de-80-muertos-y-2800-infectados', 'http://web.archive.org/web/20200128182845/https://entrelineas.com.mx/mundo/reportan-cuatro-posibles-casos-de-coronavirus-en-peru/', 'http://web.archive.org/web/20200408005308/https://tribunadeloscabos.com.mx/enfermeras-chinas-se-cortan-el-pelo-para-vencer-al-coronavirus/', 'http://web.archive.org/web/20210226060523/https://www.ilgazzettino.it/italia/politica/diretta_elezioni_emilia_romagna_calabria_voto_exit_poll_bonaccini_salvini_oggi_ultime_notizie-5008680.html']
+cur_cls:  13651
+intruder: Elezioni Regionali, exit poll: Emilia, Bonaccini avanti, Borgonzoni insegue. Calabria, Jole Santelli oltre il 50%
+http://web.archive.org/web/20210226060523/https://www.ilgazzettino.it/italia/politica/diretta_elezioni_emilia_romagna_calabria_voto_exit_poll_bonaccini_salvini_oggi_ultime_notizie-5008680.html
+
+[1620843182, 1620843344, 1620842657, 1620842029, 1620842857, 1620840911, 1620842536, 1620842930, 1620842830, 1620842495, 1620841581, 1620841717, 1620842992, 1620841578, 1620842468, 1620842185, 1620841034, 1620841550, 1620842222, 1620842813, 1620841859, 1620840760, 1620843180, 1620840732, 1620843297, 1620842663, 1620842827, 1620842212, 1620843209, 1620841898, 1620841831, 1620840917, 1620842030, 1620842642, 1620841605, 1620840653, 1620843110, 1620842618, 1620841270, 1620841333, 1620841017, 1620841138, 1620910571, 1620840731, 1620842213, 1620841890, 1620841857, 1620843005, 1620842650, 1620843162]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220606185623/https://www.timesofisrael.com/us-interests-in-region-in-danger-iranian-president-says/']
+cur_cls:  8022
+intruder: US interests in region &#8216;in danger,&#8217; Iranian president says
+http://web.archive.org/web/20220606185623/https://www.timesofisrael.com/us-interests-in-region-in-danger-iranian-president-says/
+
+[1596317608, 1596315092, 1596316182, 1596315103, 1596557877, 1596448491, 1596315563, 1596448944, 1596422354, 1596316325, 1596631246, 1596317363, 1596341880, 1596422281, 1596316116, 1596316855, 1596631536, 1596631919, 1596316521, 1596317455, 1596315618, 1596315154, 1596316825, 1596316864, 1596315397, 1596318140, 1596558372, 1596315593, 1596317490, 1596315920, 1596317353, 1596315431, 1596314980, 1596318146, 1596318285, 1596317928, 1596317609, 1596316091, 1596631760, 1596315546, 1596557986, 1596422479, 1596316798, 1596318229, 1596317211, 1596448707, 1596342179, 1596316830, 1596558383, 1596448804]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200406205640/https://www.elfagr.news/3912462']
+cur_cls:  19287
+intruder: برشلونة يعد نيمار بالعودة
+http://web.archive.org/web/20200406205640/https://www.elfagr.news/3912462
+
+[1544318907, 1546343034, 1546339778, 1544408053, 1544403482, 1541986958, 1541574553, 1549671053, 1548523967, 1601045108, 1545135173, 1551183613, 1541911382, 1547439871, 1545208107, 1548577619, 1544436081, 1540869896, 1545233274, 1541003704, 1545516439, 1545978395, 1545032926, 1546588039, 1541227135, 1545172742, 1542115493, 1547175028, 1545865284, 1544974825, 1541768340, 1541715103, 1550215163, 1542271432, 1541428749, 1545224971, 1544992574, 1546286601, 1546370063, 1551794868, 1543585523, 1552764701, 1550029638, 1541041079, 1549136132, 1540819645, 1549236275, 1540913551, 1552393770, 1546834377]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20221109052353/https://larepublica.pe/mundo/2020/03/11/coronavirus-oms-declara-pandemia-al-covid-19/', 'http://web.archive.org/web/20220718033243/http://ciudadccs.info/2020/03/11/oms-declara-el-brote-del-coronavirus-como-pandemia-mundial/', 'http://web.archive.org/web/20200314134624/https://www.laprensagrafica.com/salud/Como-son-las-pruebas-para-diagnosticar-el-coronavirus-20200312-0074.html', 'http://web.archive.org/web/20200316171154/https://www.vistazo.com/seccion/pais/actualidad-nacional/gobierno-publica-el-listado-de-los-laboratorios-que-realizaran', 'http://web.archive.org/web/20200311123943/https://www.losandes.com.ar/article/view?slug=chile-y-el-salvador-ordenaron-cuarentena-para-pasajeros-que-arriben-al-pais-desde-europa', 'http://web.archive.org/web/20200312132350/https://www.vistazo.com/seccion/mundo/actualidad-mundial/se-confirman-los-dos-primeros-casos-de-coronavirus-en-bolivia', 'http://web.archive.org/web/20200307155815/https://money.usnews.com/investing/news/articles/2020-03-06/argentinas-eight-coronavirus-cases-add-uncertainty-to-already-dismal-economy', 'http://web.archive.org/web/20220609185722/https://laverdadnoticias.com/mundo/covid-19-en-bolivia-emergencia-nacional-20200311-0206.html', 'http://web.archive.org/web/20210918155121/https://www.larepublica.co/economia/colombia-es-el-noveno-pais-de-latinoamerica-con-al-menos-un-enfermo-con-covid-19-2974221', 'http://web.archive.org/web/20230608184901/https://www.elpaisvallenato.com/2020/03/08/covid-19-mas-de-100-000-contagiados-en-el-mundo-y-mas-de-3-400-fallecidos/', 'http://web.archive.org/web/20230531001454/https://www.diariocolatino.com/iran-ataques-a-bases-de-estados-unidos-son-solo-una-bofetada/']
+cur_cls:  14427
+intruder: Irán: Ataques a bases de Estados Unidos son solo una bofetada
+http://web.archive.org/web/20230531001454/https://www.diariocolatino.com/iran-ataques-a-bases-de-estados-unidos-son-solo-una-bofetada/
+
+[1519148202, 1622772967, 1620774165, 1624877694, 1514279715, 1518662289, 1512198017, 1621282314, 1623702209, 1620258065, 1620679238, 1517413707, 1619530237, 1620690164, 1621029067, 1623977927, 1515366621, 1619071681, 1624539821, 1619513636, 1622756498, 1620168794, 1518724378, 1624950907, 1512989804, 1512577529, 1621130472, 1621942361, 1621149016, 1620820238, 1518723964, 1624830161, 1622761953, 1519573527, 1620327115, 1623641381, 1516539977, 1621728231, 1620599841, 1518276671, 1518055790, 1516539587, 1518723877, 1620938387, 1621145303, 1518668775, 1622770083, 1620572084, 1621840371, 1518724622]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20201130224808/https://www.dailycamera.com/2020/02/11/new-hampshire-democratic-primary-2020/', 'http://web.archive.org/web/20210515003344/https://www.foxnews.com/media/lachlan-murdoch-george-floyd-peaceful-protest', 'http://web.archive.org/web/20230222003815/https://www.thedailybeast.com/police-protests-surge-despite-charges-against-derek-chauvin-for-george-floyds-death?ref=home', 'http://web.archive.org/web/20210503055000/https://www.lepoint.fr/actu-du-jour/a-la-une-ce-vendredi-7-fevrier-06-02-2020-2361641_781.php', 'http://web.archive.org/web/20230330115909/https://www.20minutos.es/noticia/4148768/0/sanders-gana-las-primarias-en-new-hampshire-segun-las-proyecciones/', 'http://web.archive.org/web/20220223011551/https://nypost.com/2020/06/02/pissed-off-nfl-coach-lynn-says-george-floyd-statements-arent-enough/', 'http://web.archive.org/web/20221206190638/https://www.dailydot.com/debug/autozone-minnesota-george-floyd/', 'http://web.archive.org/web/20200603171951/https://www.foxnews.com/opinion/nh-primary-bernies-moment-buttigiegs-proving-ground-and-bidens-last-stand-tom-del-beccaro', 'http://web.archive.org/web/20200608151805/https://www.shropshirestar.com/news/world-news/2020/05/30/minneapolis-overwhelmed-again-by-protests-over-george-floyd-death/', 'http://web.archive.org/web/20210509234848/https://www.bernerzeitung.ch/ausland/amerika/biden-verliert-den-anschluss/story/14960649', 'http://web.archive.org/web/20200320122815/https://www.nst.com.my/world/world/2020/01/554441/iran-launches-missiles-iraq-base-housing-us-troops-state-tv']
+cur_cls:  21346
+intruder: Iran launches missiles on Iraq base housing US troops: State TV
+http://web.archive.org/web/20200320122815/https://www.nst.com.my/world/world/2020/01/554441/iran-launches-missiles-iraq-base-housing-us-troops-state-tv
+
+[1612062176, 1611798474, 1611798844, 1611797454, 1611797415, 1611796028, 1611795853, 1611797838, 1611797301, 1612165273, 1611799548, 1611797816, 1611798559, 1611795867, 1611799827, 1612235728, 1611796364, 1611799219, 1612164574, 1611799019, 1611795905, 1612259227, 1611799093, 1611798046, 1611798337, 1611797809, 1611799298, 1611798064, 1611796523, 1611797913, 1611797989, 1611798643, 1611796991, 1611800075, 1611797439, 1611796405, 1611798431, 1611798088, 1611795909, 1611799236, 1611798826, 1611797547, 1611795939, 1611798538, 1611798534, 1611796343, 1611798211, 1611796969, 1611798267, 1611798288]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200104142015/https://www.levif.be/actualite/international/brexit-rencontre-von-der-leyen-johnson-mercredi-a-londres/article-news-1234957.html']
+cur_cls:  17252
+intruder: Brexit: rencontre von der Leyen-Johnson mercredi à Londres
+http://web.archive.org/web/20200104142015/https://www.levif.be/actualite/international/brexit-rencontre-von-der-leyen-johnson-mercredi-a-londres/article-news-1234957.html
+
+[1566452748, 1566449362, 1566450412, 1566448712, 1566449073, 1566448995, 1566453546, 1566668309, 1566448926, 1566792121, 1566908518, 1566792724, 1567010290, 1566668214, 1566455079, 1566449726, 1566936478, 1566455911, 1566454238, 1566452759, 1566451820, 1566936403, 1566668347, 1566455488, 1566579541, 1566454009, 1566699352, 1566822005, 1566448754, 1566454348, 1566455589, 1566448588, 1566452339, 1566454729, 1566668226, 1566456186, 1566452741, 1566450275, 1566821892, 1566453247, 1566449383, 1566579904, 1566908574, 1566449006, 1566792369, 1566452042, 1566454502, 1564142533, 1566452520, 1566699242]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220523180102/https://indianexpress.com/article/education/melania-trump-praises-happiness-classes-cant-think-of-better-way-to-start-day-6286872/']
+cur_cls:  10085
+intruder: Melania Trump praises happiness classes: ‘Can’t think of better way to start day’
+http://web.archive.org/web/20220523180102/https://indianexpress.com/article/education/melania-trump-praises-happiness-classes-cant-think-of-better-way-to-start-day-6286872/
+
+[1486265182, 1485258900, 1513993079, 1485070242, 1487194450, 1491311467, 1487178668, 1489577626, 1489425263, 1489380729, 1486402171, 1513182933, 1485663338, 1490372166, 1487415529, 1487307522, 1512498193, 1490833919, 1513620499, 1485473101, 1488893780, 1513598303, 1489945078, 1488808576, 1488722841, 1575674633, 1491886712, 1520442462, 1488853510, 1486861183, 1489445405, 1489849412, 1513462559, 1490000028, 1574611802, 1485955785, 1484750046, 1486873867, 1512618002, 1486594760, 1513097583, 1489716538, 1487161079, 1489110581, 1567813013, 1512697789, 1487106855, 1488045683, 1488916388, 1487142527]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200104152811/https://www.cdt.ch/mondo/dopo-i-razzi-usa-su-baghdad-serve-l-intervento-svizzero-HK2185559', 'http://web.archive.org/web/20200209214557/https://formiche.net/2020/01/cosi-iran-non-usa-manipola-iraq-prof-pischedda/', 'http://web.archive.org/web/20200111133906/https://www.journaldutchad.com/linquietude-dirano-americains-en-banlieue-de-washington/', 'http://web.archive.org/web/20230311143516/https://www.epochtimes.de/politik/welt/russland-wirft-usa-wegen-toetung-soleimanis-bruch-des-voelkerrechts-vor-a3116354.html', 'http://web.archive.org/web/20200104203108/https://nigeriadailynews.com/politics/26361-us-government-fears-for-its-citizens-says-to-leave-iraq.html', 'http://web.archive.org/web/20200110134245/https://cantabrialiberal.com/mundo/eeuu-se-muestra-dispuesto-a-mantener-negociaciones-serias-y-sin-condiciones-previas-con-iran,522523.html', 'http://web.archive.org/web/20220127003937/http://hdpnoticias.com.ar/estados-unidos-mato-al-mas-poderoso-jefe-militar-irani-bombardeo-bagdad/', 'http://web.archive.org/web/20200108171628/https://www.huffingtonpost.it/entry/gli-usa-temono-un-attacco-con-droni-e-missili-dalliran-allerta-ai-massimi-livelli_it_5e14dac3c5b687c7eb5caa18', 'http://web.archive.org/web/20200109142255/http://www.nuevodiarioweb.com.ar/noticias/2020/01/08/225367-por-que-la-muerte-de-qasem-soleimani-es-mas-importante-que-la-de-osama-bin-laden', 'http://web.archive.org/web/20221001055452/https://www.tn8.tv/eeuu/494289-arrestan-irani-armado-cerca-complejo-turistico-trump/', 'http://web.archive.org/web/20230721091610/https://www.diariodenavarra.es/noticias/actualidad/nacional/2020/01/05/unidas-podemos-tiene-sus-ministros-iglesias-montero-diaz-castells-garzon-676047-1031.html']
+cur_cls:  21350
+intruder: Unidas Podemos ya tiene sus ministros: Iglesias, Montero, Díaz, Castells y Garzón
+http://web.archive.org/web/20230721091610/https://www.diariodenavarra.es/noticias/actualidad/nacional/2020/01/05/unidas-podemos-tiene-sus-ministros-iglesias-montero-diaz-castells-garzon-676047-1031.html
+
+[1542688632, 1542686328, 1542687179, 1542687170, 1542688500, 1542687380, 1542688072, 1542688054, 1636898377, 1542686606, 1542688340, 1645546417, 1502380364, 1542711479, 1542686179, 1542687233, 1542687188, 1500323910, 1501020350, 1641774326, 1542687459, 1496060939, 1634506227, 1542688596, 1542688372, 1500485753, 1642510505, 1505304261, 1502216205, 1502380763, 1542688761, 1542687927, 1542687566, 1542687096, 1500323817, 1542688955, 1500589917, 1542687028, 1542688795, 1646182107, 1542686147, 1542687785, 1501056245, 1542686288, 1632661003, 1542687979, 1542687500, 1542687543, 1542686929, 1542687473]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200721203305/http://www.alankabout.com/lebanon_news/148232.html', 'http://web.archive.org/web/20210109163631/https://www.alarabiya.net/ar/arab-and-world/2020/01/21/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A-%D9%8A%D8%B9%D9%84%D9%86-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9.html', 'http://web.archive.org/web/20210323043909/https://www.youm7.com/story/2020/6/22/%E2%80%8B%D8%A7%D8%B9%D8%B1%D9%81-%D9%85%D9%84%D8%AE%D8%B5-%D8%A5%D9%86%D8%AC%D8%A7%D8%B2%D8%A7%D8%AA-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%AE%D9%84%D8%A7%D9%84-6-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D9%81%D9%89-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9/4839643', 'http://web.archive.org/web/20200116180419/http://www.alankabout.com:80/lebanon_news/147924.html', 'http://web.archive.org/web/20200616000426/https://www.elfagr.com/3968078', 'http://web.archive.org/web/20211005205134/https://www.youm7.com/story/2020/6/23/%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%AA%D8%AD%D9%8A%D8%A7-%D9%85%D8%B5%D8%B1-%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-500-%D8%B7%D9%86-%D9%85%D9%88%D8%A7%D8%AF-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%8836-%D8%B7%D9%86/4840934', 'http://web.archive.org/web/20200123132933/http://www.alankabout.com/lebanon_news/148206.html', 'http://web.archive.org/web/20200124163615/http://althawrah.ye:80/archives/609847', 'http://web.archive.org/web/20200921151952/http://www.alankabout.com/lebanon_news/148156.html', 'http://web.archive.org/web/20200122162042/https://www.alanba.com.kw/ar/arabic-international-news/lebanon-news/946974/21-01-2020-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%A3%D9%85%D9%86%D9%8A-%D8%A8%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9-%D8%B9%D9%88%D9%86-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%84%D9%85%D9%8A%D9%8A%D9%86-%D9%88%D8%B1%D8%AF%D8%B9-%D8%A7%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AE%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9/?utm_source=rssFeed', 'http://web.archive.org/web/20200317034728/https://noticias24pty.com/coronavirus-potencia-exportacion-de-pina-a-mercado-europeo/']
+cur_cls:  13937
+intruder: Coronavirus potencia exportación de piña a mercado europeo
+http://web.archive.org/web/20200317034728/https://noticias24pty.com/coronavirus-potencia-exportacion-de-pina-a-mercado-europeo/
+
+[1564928772, 1563130281, 1560355649, 1560153952, 1560160757, 1557735760, 1562421327, 1555091021, 1579709702, 1557791355, 1568885539, 1557921347, 1560251341, 1557970986, 1560003575, 1561651560, 1557792158, 1554605071, 1563665087, 1560253897, 1562608800, 1560841020, 1555750832, 1563861737, 1562490131, 1557960761, 1560301677, 1564727625, 1560894296, 1558457664, 1558093492, 1558740613, 1564189098, 1556856062, 1560151705, 1562671866, 1562629062, 1560393641, 1557021157, 1555898498, 1561801539, 1557971053, 1556508603, 1562599673, 1561753975, 1558667517, 1564846858, 1564762147, 1557778493, 1555113478]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20230503110415/https://www.clickondetroit.com/news/local/2020/04/01/400-ventilators-arrive-in-michigan-for-covid-19-patients/', 'http://web.archive.org/web/20200331153400/https://www.palmbeachpost.com/opinion/20200330/timothy-egan-seattle-is-living-your-coronavirus-future?rssfeed=true', 'http://web.archive.org/web/20200327230452/https://www.cooperativa.cl/noticias/sociedad/salud/coronavirus/eeuu-ya-es-el-pais-con-mas-casos-de-coronavirus-en-el-mundo-segun-datos/2020-03-26/201408.html', 'http://web.archive.org/web/20200327130219/https://www.hoy.com.py/mundo/estados-unidos-es-ahora-el-pais-con-mas-contagiados-por-covid-19-en-el-mundo', 'http://web.archive.org/web/20200408235413/https://www.neues-deutschland.de/artikel/1134893.coronakrise-trump-verordnet-kriegsproduktion.html', 'http://web.archive.org/web/20221027162709/https://www.cnbc.com/2020/03/21/kudlow-says-coronavirus-relief-package-worth-more-than-2-trillion.html', 'http://web.archive.org/web/20220126215028/https://www.dailymail.co.uk/news/article-8157423/Trump-reveals-administration-drafting-NEW-guidelines-coronavirus-help-country-open.html', 'http://web.archive.org/web/20221130125100/https://www.cbsnews.com/news/five-things-to-know-about-the-covid-19-outbreak-from-dr-tom-inglesby/', 'http://web.archive.org/web/20201126140200/https://sputniknews.com/military/202003281078742635-life-goes-on-amid-covid-19-us-space-force-struggles-to-pick-name-for-its-troops/', 'http://web.archive.org/web/20221224200522/https://talkingpointsmemo.com/news/new-york-covid-19-andrew-cuomo-ventilators-hospital-beds', 'http://web.archive.org/web/20200305163736/https://www.urdupoint.com/en/world/two-turkish-soldiers-killed-in-syria-by-regim-854410.html']
+cur_cls:  18806
+intruder: Two Turkish soldiers killed in Syria by regime shelling
+http://web.archive.org/web/20200305163736/https://www.urdupoint.com/en/world/two-turkish-soldiers-killed-in-syria-by-regim-854410.html
+
+[1574926225, 1543458656, 1546520182, 1528637951, 1544436081, 1546588039, 1544912766, 1529503485, 1541794156, 1546339778, 1531077835, 1528759631, 1549671053, 1539930406, 1532393501, 1545224971, 1693329546, 1541715103, 1544313939, 1534033125, 1535045153, 1540869896, 1525375941, 1536594408, 1531258984, 1531910179, 1541244301, 1547271220, 1543332477, 1535186256, 1541695602, 1546537110, 1534624575, 1540912483, 1546272225, 1547577297, 1548577619, 1545169596, 1531783161, 1546817805, 1531049005, 1535105208, 1530991570, 1545512686, 1549136132, 1540913551, 1532290467, 1534105319, 1530633097, 1601045108]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20211120030645/https://eldia.com.do/mas-paises-latinoamericanos-imponen-restricciones-por-coronavirus/', 'http://web.archive.org/web/20200311123943/https://www.losandes.com.ar/article/view?slug=chile-y-el-salvador-ordenaron-cuarentena-para-pasajeros-que-arriben-al-pais-desde-europa', 'http://web.archive.org/web/20200312174414/https://www.estrelladigital.es/articulo/america/coronavirus-bolivia-confirman-primeros-casos/20200311024832406866.html', 'http://web.archive.org/web/20200224152506/https://www.nst.com.my/news/nation/2020/02/568283/sabah-vocational-students-win-best-research-paper-manila', 'http://web.archive.org/web/20230320192046/https://www.legit.ng/1306181-how-coronavirus-started-recalling-chronology.html', 'http://web.archive.org/web/20200312132111/https://www.radiocre.com/noticias/2020/03/11/183769/paises-latinoamericanos-toman-medidas-frenar-al-coronavirus/ei', 'http://web.archive.org/web/20200524163517/https://www.eluniversal.com.mx/mundo/coronavirus-la-expansion-del-covid-19-por-america-latina', 'http://web.archive.org/web/20201204072224/https://www.prensalibre.com/internacional/ops-enviara-mision-por-coronavirus-a-paises-con-mayor-riesgo-entre-ellos-guatemala/', 'http://web.archive.org/web/20200318204547/https://www.el19digital.com/articulos/ver/titulo:101097-panama-el-ultimo-pais-de-las-americas-en-reportar-casos-de-coronavirus', 'http://web.archive.org/web/20200229192336/http://www.nileinternational.net/en/?p=163597', 'http://web.archive.org/web/20211207095857/https://www.foxnews.com/politics/roberts-the-senate-establish-a-new-precedent-during-trumps-impeachment-trial']
+cur_cls:  14461
+intruder: Roberts, the Senate establish a new precedent during Trump’s impeachment trial
+http://web.archive.org/web/20211207095857/https://www.foxnews.com/politics/roberts-the-senate-establish-a-new-precedent-during-trumps-impeachment-trial
+
+[1485900895, 1490818814, 1487001121, 1485873061, 1504387673, 1489720530, 1517341415, 1501016321, 1505074063, 1485788267, 1486127960, 1501316556, 1488874489, 1486690854, 1543548943, 1503043216, 1485969017, 1545558899, 1532670259, 1485742110, 1545107991, 1501537275, 1543183046, 1504385236, 1489922478, 1505135116, 1486629539, 1913946438, 1500246998, 1488461273, 1489168798, 1502526681, 1503328360, 1486829369, 1499703266, 1486396303, 1500696951, 1502684099, 1489269881, 1543352364, 1500063369, 1543289195, 1543177354, 1488461282, 1543559819, 1501070462, 1501191977, 1485405622, 1505131158, 1485859223]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20210429111044/https://it.sputniknews.com/mondo/202001038484066-trump-soleimani-era-odiato-e-temuto-in-iran-avrebbe-dovuto-essere-fatto-fuori-molti-anni-fa/', 'http://web.archive.org/web/20200123210348/http://ecuadorenvivo.com:80/internacional/37-/112754-trump-ejecutamos-con-exito-un-ataque-de-precision-que-mato-al-terrorista-numero-uno-del-mundo.html', 'http://web.archive.org/web/20220810212156/https://www.tehrantimes.com/news/443955/Iran-s-vice-president-IRGC-missile-attacks-on-U-S-base-was', 'http://web.archive.org/web/20200105160758/http://french.xinhuanet.com/2020-01/04/c_138677231.htm', 'http://web.archive.org/web/20200229015340/https://www.hindustantimes.com/world-news/china-coronavirus-death-toll-jumps-to-9-number-of-cases-top-400-official/story-bg3nXePjhxKfl1lyjPMUJO.html', 'http://web.archive.org/web/20230402034706/https://dailycaller.com/2020/01/07/pete-buttigieg-soleimani-trump/', 'http://web.archive.org/web/20210319010431/https://emisorasunidas.com/2020/01/03/eeuu-lanza-ataque-aereo-irak/', 'http://web.archive.org/web/20201118174325/https://larepublica.pe/mundo/2020/01/24/coronavirus-vacuna-contra-el-extrano-virus-podria-estar-lista-en-diez-anos-epidemia-en-china-pandemia-nchs/', 'http://web.archive.org/web/20200104141543/https://www.tribuna.com.mx/mundo/VIDEO-Asi-fue-el-ataque-con-el-que-EU-mato-al-general-irani-Qassem-Soleimani-20200103-0051.html', 'http://web.archive.org/web/20221206032855/https://www.theblaze.com/news/democratic-senator-fears-trump-response-to-iran-might-be-similar-to-9-11-terror-attacks', 'http://web.archive.org/web/20210422212202/https://www.india.com/news/world/after-airstrike-us-embassy-asks-american-citizens-to-leave-iraq-immediately-iran-vows-severe-revenge-for-general-soleimanis-death-3897884/']
+cur_cls:  21381
+intruder: After Airstrike, US Embassy Asks American Citizens to Leave Iraq Immediately; Iran Vows &#8216;Severe Revenge&#8217; For General Soleimani&#8217;s Death
+http://web.archive.org/web/20210422212202/https://www.india.com/news/world/after-airstrike-us-embassy-asks-american-citizens-to-leave-iraq-immediately-iran-vows-severe-revenge-for-general-soleimanis-death-3897884/
+
+[1490425410, 1512075451, 1490424597, 1490422591, 1510277354, 1490449699, 1490422478, 1490425696, 1490726719, 1510417997, 1490422257, 1490424032, 1490654250, 1490426037, 1490628884, 1490422271, 1490426538, 1512094467, 1512095668, 1490426322, 1490425278, 1490425780, 1512108321, 1490423586, 1490426197, 1512189987, 1490775762, 1490857825, 1512117675, 1490726904, 1490423763, 1490423826, 1490422577, 1512075696, 1490422921, 1512070444, 1574994326, 1490423076, 1490425943, 1490425280, 1512087599, 1490424521, 1490424247, 1490425523, 1490749421, 1512063391, 1490422829, 1490423857, 1490423008, 1490425602]
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20201024231005/https://www.razon.com.mx/deportes/jefes-y-49ers-por-el-titulo-del-centenario/', 'http://web.archive.org/web/20200523071706/https://www.franceguyane.fr/actualite/international/nfl-patrick-mahomes-le-nouveau-prophete-venu-de-kansas-city-466876.php', 'http://web.archive.org/web/20200215025702/https://nypost.com/2020/02/03/this-was-patrick-mahomes-greatest-magic-trick-of-all/', 'http://web.archive.org/web/20200203133611/https://bleacherreport.com/articles/2874411-nick-bosa-pissed-after-49ers-blow-10-point-lead-to-chiefs-in-super-bowl-54', 'http://web.archive.org/web/20220425204046/https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-1878']
+cur_cls:  13957
+intruder: Anuncio de licitación de: Presidencia de la Confederación Hidrográfica del Guadalquivir. Objeto: Servicios de seguridad y vigilancia en las oficinas de la Confederación Hidrográfica del Guadalquivir, ubicadas en al avenida de Madrid número 7 (Granada). Expediente: GR(SG)-6285.
+http://web.archive.org/web/20220425204046/https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-1878
+
+[1543194740, 1540409097, 1533903871, 1544940765, 1540833098, 1540723960, 1542663399, 1541297861, 1533418393, 1533837092, 1533769726, 1543263795, 1541535741, 1543375231, 1544907534, 1541685653, 1535384850, 1539546655, 1536959199, 1541980606, 1538512828, 1542096176, 1543252844, 1535952072, 1541278967, 1541234277, 1542111441, 1541449717, 1545540353, 1538119685, 1540405603, 1543300041, 1535421616, 1535985272, 1536963664, 1533207533, 1536544209, 1540434100, 1543145542, 1540394870, 1542129467, 1537294566, 1545379906, 1538387970, 1536109168, 1542091679, 1547251983, 1544258772, 1538699063, 1543769304]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200414215520/https://www.focus.de/politik/ausland/treffen-in-bruessel-preistreiberei-mit-fluechtlingen-die-zerrissenheit-der-eu-spielt-erdogan-in-die-karten_id_11752141.html', 'http://web.archive.org/web/20200922223722/https://www.elconfidencial.com/mundo/2020-03-06/turquia-neutralizado-21-militares-sirios-idlib-antes-alto-fuego_2484752/', 'http://web.archive.org/web/20200312183108/https://sg.news.yahoo.com/corona-thermal-camera-protects-erdogan-135515161.html', 'http://web.archive.org/web/20210501105806/https://www.lepoint.fr/monde/turquie-les-migrants-interdits-de-traverser-la-mer-egee-07-03-2020-2366129_24.php', 'http://web.archive.org/web/20200228123208/https://www.sabah.com.tr/gundem/2020/02/28/tskdan-idlibde-rejime-agir-darbe', 'http://web.archive.org/web/20200229150337/https://www.salzburg24.at/news/welt/militaerkonflikt-zwischen-syrien-und-tuerkei-spitzt-sich-zu-mehr-fluechtlinge-erwartet-84123703', 'http://web.archive.org/web/20200401013146/https://www.elcomercio.com/actualidad/europe-alerta-confrontacion-siria-turquia.html', 'http://web.archive.org/web/20201204020840/https://www.br.de/nachrichten/deutschland-welt/eu-haelt-an-fluechtlingsabkommen-mit-tuerkei-fest,RslvocJ', 'http://web.archive.org/web/20211105021233/https://cronicadecantabria.com/cr/los-guardacostas-turcos-prohben-terminantemente-a-los-migrantes-que-crucen-el-egeo/', 'http://web.archive.org/web/20220423052713/https://www.bild.de/politik/ausland/politik-ausland/erdogan-in-bruessel-eu-verlangt-einhaltung-des-fluechtlingspakts-69300820.bild.html', 'http://web.archive.org/web/20200104164905/https://cedarnews.net/news-2/universe/156405/']
+cur_cls:  14217
+intruder: أبو مهدي المهندس الذي قتل بهجوم أميركي، كان رجل طهران في العراق والعدو الشرس للولايات المتحدة
+http://web.archive.org/web/20200104164905/https://cedarnews.net/news-2/universe/156405/
+
+[1505707068, 1505569223, 1505411900, 1505558329, 1505381466, 1505486363, 1505404711, 1505450821, 1505611094, 1505610615, 1506039883, 1505441472, 1506340035, 1505387067, 1505475217, 1505505391, 1505545232, 1506314865, 1505701821, 1505564262, 1505567534, 1505867225, 1505731022, 1505533633, 1505469666, 1505551819, 1505822371, 1506012087, 1505481836, 1505557029, 1505485965, 1505611189, 1505441830, 1505368779, 1505534798, 1505814836, 1505642742, 1502124846, 1505721599, 1505763501, 1505430471, 1508252130, 1505461269, 1505540078, 1505851740, 1505472948, 1505888670, 1506033531, 1505959927, 1505475248]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200128151322/https://www.cdt.ch/cultura-e-societa/billie-eilish-sbanca-ai-grammy-EC2271710', 'http://web.archive.org/web/20200127205020/https://noticias24pty.com/alicia-keys-y-los-grammy-recuerdan-a-kobe-bryant-perdimos-a-un-heroe/', 'http://web.archive.org/web/20200129020207/https://www.usnews.com/news/entertainment/articles/2020-01-27/eilish-who-gives-voice-to-troubled-youth-tops-the-grammys', 'http://web.archive.org/web/20200128154303/https://www.usnews.com/news/entertainment/articles/2020-01-26/grammys-honor-nipsey-hussle-with-a-soaring-performance', 'http://web.archive.org/web/20211207030839/https://eurweb.com/2020/01/26/yg-bails-out-of-jail-after-robbery-arrest-before-for-tonights-grammy-performance/', 'http://web.archive.org/web/20200806073048/https://www.diariodenavarra.es/noticias/cultura-ocio/cultura/2020/01/27/billie-eilish-hace-historia-los-grammy-del-estreno-rosalia-678347-1034.html', 'http://web.archive.org/web/20200128134857/https://www.huffingtonpost.it/entry/billie-eilish-pigliatutto-ai-grammy-la-cerimonia-nel-segno-di-kobe-bryant_it_5e2e968bc5b6779e9c3673c3', 'http://web.archive.org/web/20200129144939/https://cosas.com.ec/los-momentos-mas-sorprendentes-de-los-grammys-mas-emotivos-de-la-historia/', 'http://web.archive.org/web/20211105153834/https://eltiempo.com.ve/2020/01/27/cosas-de-familia-billie-eilish-finneas-arrasan-en-grammys-fotos/', 'http://web.archive.org/web/20200128134613/https://www.laprensagrafica.com/tendencias/Grammy-2020-los-ganadores-de-los-premios-de-la-musica-en-EUA-que-homenajearon-al-fallecido-Kobe-Bryant-20200127-0034.html', 'http://web.archive.org/web/20200920212828/https://www.newindianexpress.com/world/2020/jan/07/harvey-weinstein-jury-selection-to-start-in-ny-new-charges-in-la-2086393.html']
+cur_cls:  16527
+intruder: Harvey Weinstein jury selection to start in NY; new charges in LA
+http://web.archive.org/web/20200920212828/https://www.newindianexpress.com/world/2020/jan/07/harvey-weinstein-jury-selection-to-start-in-ny-new-charges-in-la-2086393.html
+
+[1567822829, 1559136024, 1566410188, 1561470150, 1569306435, 1572274246, 1562987521, 1574593974, 1568956932, 1565253959, 1570647677, 1570121122, 1567578451, 1568179180, 1563106752, 1566419607, 1559639072, 1571140137, 1567934137, 1566855393, 1560539574, 1570064214, 1562731999, 1568680040, 1563493282, 1567864015, 1566478290, 1564275374, 1567579750, 1565325097, 1560796317, 1556600739, 1564765283, 1566940006, 1561795151, 1568619367, 1561565606, 1560543156, 1562120746, 1567676518, 1571687228, 1562320720, 1570019822, 1565320712, 1568613413, 1574239455, 1562405080, 1564722515, 1562404405, 1568655431]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20230321012743/https://www.heraldo.es/noticias/nacional/2020/04/03/coronavirus-ocho-comunidades-frenan-el-virus-aragon-no-1367871.html', 'http://web.archive.org/web/20200326193048/https://cadenaser.com/emisora/2020/03/25/radio_jerez/1585138257_746682.html', 'http://web.archive.org/web/20201029131454/https://www.granadadigital.es/sanidad-ha-repartido-747-millones-de-mascarillas-entre-las-ccaa-desde-el-10-de-marzo/', 'http://web.archive.org/web/20200502161348/https://www.publico.es/sociedad/apertura-supermercados-cadenas-supermercados-abriran-semana-santa.html', 'http://web.archive.org/web/20220517154832/https://www.aragondigital.es/2020/03/30/endesa-crea-un-fondo-de-25-millones-para-paliar-las-necesidades-provocadas-por-la-crisis-sanitaria/', 'http://web.archive.org/web/20200404083321/https://www.diariodeleon.es/articulo/afondo/ministerio-eleva-6847-casos-covid-19-castilla-leon-636-mas/202004011228262000955.html', 'http://web.archive.org/web/20200417040841/https://www.telealmerianoticias.es/coronavirus-los-casos-por-coronavirus-se-elevan-a-135-032-y-a-13-055-fallecidos-pero-continuan-en-descenso/', 'http://web.archive.org/web/20200915130959/http://www.diarioelpueblo.com.uy/generales/espana-supera-las-10-000-muertes-por-coronavirus.html', 'http://web.archive.org/web/20200411055820/https://www.elconfidencial.com/espana/coronavirus/2020-04-07/curva-contagios-coronavirus-espana-ccaa_2513507/', 'http://web.archive.org/web/20211019115615/https://www.diariodesevilla.es/tecnologia/Coronavirus-Google-movilidad-ciudadanos-cambio-informe-alarma_0_1452155024.html', 'http://web.archive.org/web/20200528062547/https://www.esdiario.com/11005195/Por-que-Sanchez-necesita-un-acuerdo-serio-con-el-PP...-y-Elecciones-en-2021.html']
+cur_cls:  17553
+intruder: Por qué Sánchez necesita un acuerdo serio con el PP... y Elecciones en 2021
+http://web.archive.org/web/20200528062547/https://www.esdiario.com/11005195/Por-que-Sanchez-necesita-un-acuerdo-serio-con-el-PP...-y-Elecciones-en-2021.html
+
+[1637423517, 1646708666, 1640488230, 1647101893, 1632200834, 1640934773, 1642264976, 1638092434, 1641542628, 1645705617, 1647107426, 1646483223, 1644416083, 1638485410, 1643756100, 1640290299, 1637446576, 1643405020, 1636611650, 1645732229, 1646524646, 1647479686, 1641355909, 1640915936, 1640303687, 1639027137, 1647993462, 1644722088, 1641771240, 1636089545, 1647749652, 1647120656, 1647933207, 1642305127, 1636422959, 1638577409, 1647793977, 1644434846, 1647023349, 1639546878, 1643315420, 1643337040, 1641317909, 1640959174, 1640274533, 1632194710, 1637748110, 1644560440, 1642468739, 1640320566]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220520232625/https://www.infosalus.com/salud-investigacion/noticia-coronavirus-sanidad-contabiliza-156-casos-covid-19-dia-32-muertes-covid-19-ultimos-dias-20200611180054.html', 'http://web.archive.org/web/20201003190113/https://www.que.es/ultimas-noticias/los-preuniversitarios-navarros-estrenan-la-selectividad-del-covid-19.html', 'http://web.archive.org/web/20211130135755/https://www.elplural.com/politica/espana/restricciones-comunidad-autonoma-normalidad_242407102', 'http://web.archive.org/web/20210517030152/https://www.latribunadecuenca.es/Noticia/Z6B21A627-9FBE-C24B-9D2C5E9B53FDA20C/202006/Sanidad-registra-cinco-muertes-y-181-contagios-en-24-horas', 'http://web.archive.org/web/20201104000725/https://www.elprogreso.es/articulo/economia/salario-bruto-medio-anual-incremento-30-2018-galicia/202006251220321445911.html', 'http://web.archive.org/web/20201206155316/https://www.diariodelaltoaragon.es/NoticiasDetalle.aspx?Id=1211362', 'http://web.archive.org/web/20210313190017/http://www.elexpresso.com/167_ultima-hora/6854180_alerta-por-calor-de-hasta-40-grados-en-andalucia-y-tormentas-en-el-norte.html', 'http://web.archive.org/web/20210208172919/https://www.ceutaldia.com/articulo/sanidad/13-dias-consecutivos-nuevos-positivos-covid-19-ceuta/20200616201204220524.html', 'http://web.archive.org/web/20211224155910/https://www.infobae.com/america/agencias/2020/06/26/el-coronavirus-deja-ya-28338-muertos-en-espana-8-mas-que-en-el-ultimo-dia/', 'http://web.archive.org/web/20210514182249/https://as.com/diarioas/2020/06/29/actualidad/1593409245_026854.html', 'http://web.archive.org/web/20210629002332/https://www.courrierinternational.com/article/politique-obama-le-dit-clairement-il-y-urgence-battre-trump']
+cur_cls:  20374
+intruder: Obama le dit clairement : il y a “urgence” à battre Trump
+http://web.archive.org/web/20210629002332/https://www.courrierinternational.com/article/politique-obama-le-dit-clairement-il-y-urgence-battre-trump
+
+[1538588934, 1536619362, 1535782562, 1535245985, 1538842327, 1541591574, 1537749315, 1537224506, 1574395050, 1536615057, 1538114208, 1536774720, 1542932643, 1558176700, 1537393153, 1539828368, 1535842918, 1536493603, 1537376419, 1537764909, 1538633984, 1538426507, 1538009213, 1536505777, 1536512371, 1535108466, 1537379576, 1537004708, 1538294772, 1535816828, 1535143254, 1536491800, 1537773515, 1535876363, 1536782968, 1538643108, 1536794747, 1537205984, 1533726452, 1537227669, 1536008415, 1535251196, 1537801278, 1534192066, 1535333152, 1537170015, 1537930871, 1536708103, 1536825748, 1535105466]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200302162900/https://www.lnc.nc/breve/israel-netanyahu-joue-la-carte-de-l-annexion-a-la-veille-des-elections', 'http://web.archive.org/web/20210507075949/https://www.latimes.com/world-nation/story/2020-03-04/netanyahu-israeli-government-majority-vote', 'http://web.archive.org/web/20230529122927/https://www.vox.com/world/2020/3/4/21161281/israel-election-results-2020-netanyahu-gantz-march', 'http://web.archive.org/web/20220119041616/https://www.haaretz.com/israel-news/elections/.premium-israel-election-results-at-gantz-s-headquarters-knives-come-out-1.8617905', 'http://web.archive.org/web/20200521210410/https://www.nytimes.com/2020/03/02/world/middleeast/Israel-election-results.html?searchResultPosition=4', 'http://web.archive.org/web/20230302210108/https://www.jpost.com/Opinion/Will-coronavirus-bring-Netanyahu-and-Gantz-together-619932', 'http://web.archive.org/web/20220430060144/https://www.english.alahednews.com.lb/51793/389', 'http://web.archive.org/web/20200305170001/https://www.heraldlive.co.za/news/world/2020-03-04-netanyahu-ahead-in-israeli-election/', 'http://web.archive.org/web/20220925020154/https://www.ilfattoquotidiano.it/2020/03/02/elezioni-israele-netanyahu-e-a-un-seggio-dalla-maggioranza-forte-governo-nazionale-la-lista-araba-unita-terzo-partito-alla-knesset/5723481/', 'http://web.archive.org/web/20200302142400/https://www.usnews.com/news/world/articles/2020-03-01/weary-and-divided-israel-goes-back-to-the-polls', 'http://web.archive.org/web/20200908192037/https://larepublica.pe/mundo/2020/01/08/estados-unidos-iran-ministro-de-relaciones-de-iran-se-pronuncia-ante-ataques-contra-tropas-estadounidenses-donald-trump/']
+cur_cls:  14487
+intruder: Canciller de Irán sobre ataque a tropas de EE. UU. en Irak: Se “ejecutó medidas en defensa propia”
+http://web.archive.org/web/20200908192037/https://larepublica.pe/mundo/2020/01/08/estados-unidos-iran-ministro-de-relaciones-de-iran-se-pronuncia-ante-ataques-contra-tropas-estadounidenses-donald-trump/
+
+[1500555958, 1500555956, 1500557027, 1500557486, 1500554232, 1500661378, 1500554874, 1500555625, 1500581381, 1500555200, 1500556136, 1500553956, 1500556235, 1500553389, 1500556725, 1500660714, 1500555042, 1500661043, 1500553901, 1500927803, 1500556718, 1500556832, 1500553615, 1500553856, 1500554826, 1500555643, 1500581189, 1500554323, 1500556914, 1500554769, 1500555002, 1500554713, 1500555507, 1500555498, 1499203968, 1500555301, 1500554722, 1500556177, 1500927787, 1500555444, 1500553211, 1500554781, 1500660708, 1500556018, 1500555947, 1500556851, 1500555902, 1500555164, 1500554716, 1500556639]
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200123075509/https://www.youm7.com/story/2020/1/21/%D9%82%D8%B1%D8%B9%D8%A9-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D9%83%D8%A7%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2022-%D8%AA%D9%88%D9%86%D8%B3-%D9%81%D9%89-%D8%A7%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D8%B9/4597487', 'http://web.archive.org/web/20200120123644/https://ghananewsagency.org/print/156422', 'http://web.archive.org/web/20200123075655/https://www.youm7.com/story/2020/1/21/%D9%82%D8%B1%D8%B9%D8%A9-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D9%83%D8%A7%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-2022-%D8%BA%D8%A7%D9%86%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9%D8%A9-%D9%85%D8%B9/4597486', 'http://web.archive.org/web/20201128191242/https://www.bostonherald.com/2020/01/03/elizabeth-warren-dips-in-fourth-quarter-fundraising-with-21-2-million/']
+cur_cls:  15512
+intruder: Elizabeth Warren dips in fourth quarter fundraising with $21.2 million
+http://web.archive.org/web/20201128191242/https://www.bostonherald.com/2020/01/03/elizabeth-warren-dips-in-fourth-quarter-fundraising-with-21-2-million/
+
+[1531599034, 1603468906, 1601082634, 1531599934, 1593622356, 1531598955, 1531599204, 1531599378, 1531599286, 1590347747, 1531600108, 1531600063, 1531711528, 1531599467, 1531599810, 1531600037, 1531598836, 1531600314, 1531598190, 1531598361, 1531599749, 1531599398, 1531600044, 1595149708, 1592441905, 1531599148, 1531599209, 1531682025, 1531598321, 1531599433, 1595037158, 1593505376, 1531599076, 1591342808, 1531599474, 1531600122, 1531599126, 1593599304, 1531599406, 1592621080, 1595780533, 1597560153, 1531681677, 1531598451, 1531599861, 1589464166, 1531598848, 1589472234, 1531597834, 1531599027]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220523143856/https://www.fanpage.it/attualita/coronavirus-bollettino-11-maggio-219-814-casi-in-italia-di-cui-106-587-guariti-e-30-739-morti/', 'http://web.archive.org/web/20211018041935/https://primabergamo.it/cronaca/tamponi-la-lombardia-alle-spalle-anche-di-emilia-e-umbria-una-scelta-opportunistica/', 'http://web.archive.org/web/20200530171521/https://www.ligurianotizie.it/ore-18-in-italia-285-morti-27-967-incremento-in-calo-malati-3106-in-meno-di-ieri-record/2020/04/30/381083/', 'http://web.archive.org/web/20200516040932/https://www.repubblica.it/economia/2020/05/02/news/over_50_e_al_nord_ecco_i_4_4_milioni_di_lavoratori_che_tornano_in_servizio_lunedi_4_maggio-255445870/?rss', 'http://web.archive.org/web/20221206030422/https://www.fanpage.it/attualita/i-dati-del-30-aprile-spiegati-ecco-perche-oggi-ce-stato-un-boom-di-guariti-da-coronavirus/', 'http://web.archive.org/web/20200601224328/https://www.italpress.com/coronavirus-in-italia-105-205-positivi-27-359-morti-e-68-941-guariti/', 'http://web.archive.org/web/20220525002357/https://www.lastampa.it/cronaca/2020/04/30/news/coronavirus-il-bollettino-della-protezione-civile-boom-di-guariti-4693-calano-i-nuovi-contagi-ma-il-piemonte-e-in-controtendenza-1.38790077/', 'http://web.archive.org/web/20200617092920/https://www.ilfattoquotidiano.it/2020/05/03/coronavirus-1-389-nuovi-casi-la-curva-di-crescita-si-abbassa-ancora-e-aumentano-i-guariti-altri-174-decessi-ma-e-il-dato-piu-basso-dal-14-marzo/5790108/', 'http://web.archive.org/web/20211028120642/https://www.italpress.com/coronavirus-nuovi-casi-in-calo-ma-oltre-200-morti-in-24-ore/', 'http://web.archive.org/web/20200510012933/https://www.ligurianotizie.it/ore-18-in-italia-260-morti-dato-piu-basso-da-16-marzo-ma-numero-malati-torna-a-crescere/2020/04/26/380222/', 'http://web.archive.org/web/20200303145329/https://www.sunjournal.com/2020/03/02/mainers-to-cast-ballots-in-super-tuesday-presidential-primaries-vaccinations-referendum/']
+cur_cls:  13977
+intruder: Mainers to cast ballots in Super Tuesday presidential primaries, vaccinations referendum
+http://web.archive.org/web/20200303145329/https://www.sunjournal.com/2020/03/02/mainers-to-cast-ballots-in-super-tuesday-presidential-primaries-vaccinations-referendum/
+
+[1528626669, 1564038109, 1529022164, 1530262305, 1527428205, 1527783960, 1528374449, 1530376539, 1527921771, 1527894150, 1528233270, 1527963485, 1530765590, 1543310705, 1530082875, 1528429301, 1528517786, 1528509923, 1532077493, 1528591624, 1528153612, 1543308972, 1530157572, 1530779554, 1528960950, 1528993938, 1528981182, 1527834033, 1528928473, 1530621201, 1529259101, 1531746767, 1534159554, 1528903069, 1529079641, 1543287346, 1527964944, 1530151650, 1528271574, 1534520038, 1528982802, 1527730518, 1530258315, 1528407362, 1530518148, 1531789828, 1529747037, 1527928470, 1530444774, 1533623900]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20221004222102/https://www.ilmessaggero.it/italia/coronavirus_irpinia_montefusco_codogno_cosa_e_successo_oggi_22_febbraio_2020-5068687.html', 'http://web.archive.org/web/20210302235541/https://efectococuyo.com/coronavirus/coronavirus-siete-muertos-y-caos-en-el-norte-de-italia/', 'http://web.archive.org/web/20200225133612/https://www.levante-emv.com/comunitat-valenciana/2020/02/25/sanidad-pide-calma-coronavirus-rechaza/1981951.html?utm_source=rss', 'http://web.archive.org/web/20210803075421/https://www.fanpage.it/attualita/coronavirus-in-lombardia-6-contagiati-cosa-sappiamo-finora/', 'http://web.archive.org/web/20230329234054/https://www.ilmessaggero.it/italia/coronavirus_diretta_lombardia_codogno_italiano_ultime_notizie-5064423.html', 'http://web.archive.org/web/20200809092358/https://www.ilgazzettino.it/esteri/volo_mauritius_italiani_coronavirus_alitalia_ultime_notizie_news-5071725.html', 'http://web.archive.org/web/20210226172008/https://www.ilgazzettino.it/italia/primopiano/coronavirus_contagio_lombardia_codogno-5065773.html', 'http://web.archive.org/web/20230317003527/https://corrieredelveneto.corriere.it/veneto/politica/20_febbraio_21/coronavirus-nove-casi-sospetti-veneto-sono-tutti-negativi-57993c50-54b5-11ea-9c29-418c850a7a9c.shtml', 'http://web.archive.org/web/20201105064255/https://www.giornalettismo.com/vittima-italiana-coronavirus/', 'http://web.archive.org/web/20200226165901/https://iltirreno.gelocal.it/empoli/cronaca/2020/02/24/news/allarme-coronavirus-rinviata-la-partita-dell-use-rosa-1.38513175', 'http://web.archive.org/web/20200210200754/https://www.almasryalyoum.com/news/details/1469860']
+cur_cls:  14488
+intruder: بعد سيطرة الحكومة السورية على سراقب.. أحلام أردوغان تتبخر في سوريا وليبيا
+http://web.archive.org/web/20200210200754/https://www.almasryalyoum.com/news/details/1469860
+
+[1616342537, 1616344391, 1616343252, 1616344604, 1616344508, 1616343157, 1616343283, 1616340339, 1616342359, 1616342631, 1616342361, 1616369358, 1616344106, 1616340593, 1616344529, 1616343542, 1616343367, 1616343279, 1616343618, 1616343395, 1616342651, 1616341681, 1616344258, 1616344781, 1616344326, 1616342563, 1616344342, 1616342243, 1616343445, 1616341058, 1616344402, 1616342500, 1616340904, 1616341262, 1616342089, 1616342435, 1616342447, 1616341236, 1616342024, 1616343650, 1616343159, 1616340552, 1616341295, 1616342551, 1616344927, 1616344091, 1616342559, 1616342915, 1616343160, 1616340278]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20201125150806/https://www.fanpage.it/politica/elezioni-regionali-prodi-la-lezione-dellemilia-romagna-e-chiara-il-pd-spalanchi-le-porte/']
+cur_cls:  14235
+intruder: Elezioni regionali, Prodi: &#8220;La lezione dell&#8217;Emilia-Romagna è chiara, il Pd spalanchi le porte&#8221;
+http://web.archive.org/web/20201125150806/https://www.fanpage.it/politica/elezioni-regionali-prodi-la-lezione-dellemilia-romagna-e-chiara-il-pd-spalanchi-le-porte/
+
+[1530154314, 1530870964, 1528279531, 1526135072, 1531324500, 1529895015, 1529845105, 1529379114, 1567719044, 1531367254, 1529964155, 1526414542, 1529998556, 1529896015, 1538416529, 1529886782, 1529993079, 1525351141, 1529975509, 1531850657, 1529587799, 1531302912, 1530538407, 1530217348, 1530818085, 1529942333, 1529579358, 1530186123, 1530347469, 1531246686, 1529589655, 1534383366, 1529087544, 1532967565, 1575921896, 1531224922, 1530234345, 1531061448, 1527513773, 1530911098, 1530326241, 1528267901, 1530935806, 1530794713, 1529541735, 1529889972, 1530859826, 1530712817, 1526307505, 1575605035]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20210227012138/https://www.foxnews.com/media/greg-gutfeld-harvey-weinstein-hollywood', 'http://web.archive.org/web/20230603043847/https://www.dailysabah.com/asia/2020/02/20/indian-man-worships-life-size-idol-of-trump-his-god', 'http://web.archive.org/web/20210226171252/https://www.siasat.com/amit-shah-brief-union-cabinet-delhi-violence-1838211/', 'http://web.archive.org/web/20200225170254/https://www.business-standard.com/article/news-ani/trump-says-us-will-be-india-s-loyal-friend-working-with-pakistan-to-deal-with-terrorists-operating-on-its-border-120022401421_1.html', 'http://web.archive.org/web/20210226192140/https://www.siasat.com/icc-bowls-out-trump-calling-sachin-tendulkar-soo-chin-1836823/', 'http://web.archive.org/web/20200225132950/https://www.geo.tv/latest/274137-the-harvey-weinstein-story-from-studio-to-courtroom-in-40-years', 'http://web.archive.org/web/20200225213648/https://www.citizensvoice.com/news/harvey-weinstein-found-guilty-on-two-charges-in-sexual-assault-case-1.2599075', 'http://web.archive.org/web/20200305150317/https://www.ndtv.com/india-news/donald-trump-before-leaving-for-india-pm-narendra-modi-said-this-event-to-be-the-biggest-2184523?pfrom=home-topscroll', 'http://web.archive.org/web/20200808183702/https://www.cnn.com/asia/live-news/trump-in-india-feb-2020-intl-hnk/', 'http://web.archive.org/web/20200227162334/https://www.business-standard.com/article/pti-stories/trump-praised-for-raising-issue-of-religious-freedom-plight-of-minorities-in-india-120022600209_1.html', 'http://web.archive.org/web/20200510154602/https://www.elfagr.news/3931143']
+cur_cls:  17825
+intruder: تحذير شديد اللهجة من وزير التعليم لطلاب أولى وثانية ثانوي
+http://web.archive.org/web/20200510154602/https://www.elfagr.news/3931143
+
+[1486475858, 1490349897, 1488492732, 1486901369, 1486327106, 1491348049, 1489542745, 1490357811, 1492784023, 1486451890, 1491052480, 1486526754, 1489361681, 1489876319, 1485822955, 1486428801, 1486359801, 1491480938, 1486303068, 1486537025, 1485737319, 1487186472, 1488773159, 1486414597, 1489012069, 1484794657, 1485986926, 1486251045, 1493413394, 1485662627, 1489734602, 1486792185, 1486902214, 1492065153, 1486205425, 1485562803, 1485833183, 1486301104, 1486249237, 1492882586, 1486924429, 1486849067, 1486215447, 1486901914, 1486189241, 1486519183, 1484556707, 1485801185, 1486235688, 1488775161]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20230128142946/https://www.elconfidencial.com/espana/2020-01-09/llamada-pedro-sanchez-reunion-torra-madrid-barcelona_2404307/', 'http://web.archive.org/web/20200106153617/https://www.elperiodicomediterraneo.com/noticias/espana/arrimadas-anima-tamayazo-frenar-sanchez_1267983.html', 'http://web.archive.org/web/20200111134906/https://www.diariojaen.es/jaen/vigilancia-a-la-pac-ante-el-gobierno-progresista-KG6686639', 'http://web.archive.org/web/20210118132249/https://www.latribuna.hn/2020/01/08/presidente-de-hernandez-felicita-al-espanol-pedro-sanchez-por-ganar-la-investidura/', 'http://web.archive.org/web/20200110140747/https://www.salamanca24horas.com/texto-diario/mostrar/1673237/unidas-podemos-lleva-gobierno-debate-freno-toros', 'http://web.archive.org/web/20200105130805/https://www.lne.es/espana/2020/01/03/estrategia-torra-evitar-inhabilitacion/2579450.html?utm_medium=rss', 'http://web.archive.org/web/20200221095506/https://www.larazon.es/espana/20200110/dxofzphpjjgothc46h22fbu3ae.html', 'http://web.archive.org/web/20230130173014/https://www.elmundo.es/espana/2020/01/04/5e10efca21efa07e618b45c5.html', 'http://web.archive.org/web/20221115113338/https://www.20minutos.es/noticia/4105828/0/sanchez-iglesias-abrazo-bien-esta-lo-que-bien-acaba/', 'http://web.archive.org/web/20230203130052/https://cantabrialiberal.com/entrevistas/alejandro-fernandez-el-pp-estara-para-denunciar-los-acuerdos-firmados-por-sanchez,521927.html', 'http://web.archive.org/web/20200330162428/https://www.elfagr.news/3906660']
+cur_cls:  16042
+intruder: الأرصاد: طقس اليوم لطيف.. وهذه درجات الحرارة المتوقعة
+http://web.archive.org/web/20200330162428/https://www.elfagr.news/3906660
+
+[1530079975, 1534740226, 1528868164, 1539848500, 1569343645, 1531037936, 1535007000, 1530592568, 1527928470, 1528773545, 1529400568, 1529288590, 1527519016, 1530442528, 1533974010, 1543352805, 1543512481, 1534645255, 1535305995, 1569342449, 1527730518, 1529508189, 1529082684, 1569342897, 1569344257, 1528785118, 1569342461, 1528870601, 1527982207, 1569343910, 1532185971, 1533623900, 1529470631, 1565191591, 1569342351, 1528631219, 1529022164, 1528994015, 1529639741, 1529657038, 1528803253, 1528374449, 1531072555, 1530587250, 1529073634, 1529804804, 1536385631, 1530786249, 1531068245, 1569344430]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20221006150331/https://www.lasicilia.it/news/italia/327114/il-coronavirus-fa-un-altra-vittima-in-lombardia-decessi-nel-paese-salgono-a-sette.html', 'http://web.archive.org/web/20200301144411/https://www.repubblica.it/cronaca/2020/02/29/news/meteo_anticipo_di_primavera_finito_in_arrivo_grandi_piogge_e_neve-249898608/?rss', 'http://web.archive.org/web/20220425184816/https://www.agi.it/cronaca/news/2020-03-05/epidemia-coronavirus-numeri-bollettino-7348362/', 'http://web.archive.org/web/20220528165835/https://napoli.fanpage.it/napoli-san-giorgio-a-cremano-giugliano-e-pozzuoli-quattro-nuovi-casi-di-coronavirus/', 'http://web.archive.org/web/20220513061433/https://www.newsru.com/world/25feb2020/italy_epidemia.html?utm_source=rss', 'http://web.archive.org/web/20200225162230/https://www.ladepeche.fr/2020/02/24/direct-coronavirus-trois-morts-en-italie-comment-la-france-se-prepare-au-pire,8752080.php', 'http://web.archive.org/web/20200226183215/https://www.elimparcial.es/noticia/210240/sociedad/primer-caso-de-coronavirus-en-el-sur-de-italia.html', 'http://web.archive.org/web/20221011124631/https://espresso.repubblica.it/plus/articoli/2020/02/28/news/coronavirus-walter-ricciardi-1.345012', 'http://web.archive.org/web/20200328161923/https://www.huffingtonpost.fr/entry/coronavirus-un-car-flixbus-venant-de-milan-confine-a-lyon_fr_5e53b18bc5b6b82aa655e6cc?utm_hp_ref=fr-coronavirus', 'http://web.archive.org/web/20230326212032/https://www.iene.mediaset.it/2020/news/coronavirus-lombardia-supermercati-aperti_694310.shtml', 'http://web.archive.org/web/20230525063446/https://www.politico.com/news/2020/01/31/trumps-impeachment-trial-could-extend-into-next-week-109937']
+cur_cls:  20672
+intruder: Senate punts final vote in Trump trial to next week
+http://web.archive.org/web/20230525063446/https://www.politico.com/news/2020/01/31/trumps-impeachment-trial-could-extend-into-next-week-109937
+
+[1509710841, 1506416222, 1506210220, 1543570532, 1510665897, 1505989766, 1510305505, 1507051360, 1505469800, 1504249874, 1509193345, 1505576290, 1504366611, 1503412364, 1512247933, 1505939991, 1502264605, 1504868430, 1505482002, 1502309356, 1504860407, 1509198448, 1514955996, 1506320761, 1509297295, 1509777150, 1509619477, 1507131621, 1504311829, 1514331359, 1511519515, 1504208916, 1505375877, 1504710745, 1509137280, 1504513168, 1504619684, 1507193914, 1505549059, 1504248307, 1507489030, 1503943130, 1504112716, 1511766003, 1508160564, 1509465277, 1508983392, 1504748470, 1504964303, 1507074969]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200128153643/https://tribunadelabahia.com.mx/la-oms-elevo-el-riesgo-de-contagio-a-alto-por-coronavirus/', 'http://web.archive.org/web/20210926064044/https://www.telemadrid.es/programas/120-minutos/espanoles-Wuhan-vuelan-Madrid-britanico-2-2199999994--20200130124816.html', 'http://web.archive.org/web/20230607084748/https://www.interfax.ru/business/692901', 'http://web.archive.org/web/20200131134019/https://www.elnuevodia.com/noticias/mundo/nota/organizacionmundialdelasaluddeclaraemergenciamundialporbrotedecoronavirus-2543973/', 'http://web.archive.org/web/20200127141721/https://www.diariojaen.es/internacional/cuarenta-fallecidos-por-el-coronavirus-en-china-CX6734224', 'http://web.archive.org/web/20220627040623/https://www.cnbc.com/2020/01/29/pentagon-will-provide-support-for-coronavirus-wuhan-evacuees.html', 'http://web.archive.org/web/20210507234009/https://www.washingtonpost.com/opinions/global-opinions/china-should-embrace-the-lessons-of-previous-outbreaks-to-combat-the-new-coronavirus/2020/01/22/9c97ba3e-3d4a-11ea-b90d-5652806c3b3a_story.html', 'http://web.archive.org/web/20230228022202/https://www.washingtonpost.com/world/asia_pacific/china-coronavirus-live-updates/2020/02/04/707854ae-46d7-11ea-ab15-b5df3261b710_story.html', 'http://web.archive.org/web/20200130165035/https://www.cibercuba.com/noticias/2020-01-29-u1-e43231-s27061-oms-dice-estar-muy-impresionada-respuesta-china-al-coronavirus', 'http://web.archive.org/web/20220630033101/https://www.caixinglobal.com/2020-01-29/singapore-uk-airlines-suspend-china-routes-as-coronavirus-outbreak-grows-101509389.html', 'http://web.archive.org/web/20200506042849/https://www.cooperativa.cl/noticias/mundo/peninsula-de-corea/corea-del-norte/kim-jong-un-envio-saludo-por-diario-estatal-en-medio-de-las/2020-04-27/004457.html']
+cur_cls:  20930
+intruder: Kim Jong-un envió saludo por diario estatal en medio de las especulaciones por su salud
+http://web.archive.org/web/20200506042849/https://www.cooperativa.cl/noticias/mundo/peninsula-de-corea/corea-del-norte/kim-jong-un-envio-saludo-por-diario-estatal-en-medio-de-las/2020-04-27/004457.html
+
+[1630163329, 1629196662, 1629916784, 1629100011, 1637650266, 1627752122, 1628641744, 1625721063, 1628864993, 1632342151, 1629398226, 1625922325, 1630294168, 1627997806, 1627575149, 1627852489, 1629631619, 1631329718, 1632167765, 1632573653, 1631719494, 1627649207, 1631162764, 1634266767, 1627672113, 1628950228, 1628176136, 1629885993, 1627730755, 1629038603, 1627677888, 1626942607, 1624692171, 1631814992, 1627529682, 1632269799, 1628101841, 1626492288, 1632653605, 1627244291, 1628476142, 1629391275, 1636522341, 1631497944, 1628597975, 1628529520, 1629671649, 1627522135, 1633481742, 1629706923]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200609164003/https://alwatannews.net/article/879099', 'http://web.archive.org/web/20200909152429/https://www.aljazeera.net/news/politics/2020/6/8/%d9%82%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d9%88%d9%81%d8%a7%d9%82-%d8%aa%d8%aa%d9%82%d8%af%d9%85-%d8%ac%d9%86%d9%88%d8%a8-%d8%b3%d8%b1%d8%aa-%d9%88%d8%aa%d9%88%d9%86%d8%b3', 'http://web.archive.org/web/20220216101326/https://masralarabia.net/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/1544178-%D9%81%D9%8A-%D9%84%D9%8A%D8%A8%D9%8A%D8%A7--%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%82%D8%AA%D8%A7%D9%84-%D9%8A%D8%AF%D9%85%D8%B1-%D9%81%D8%B1%D8%B5-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9', 'http://web.archive.org/web/20200609170212/https://www.dostor.org/3109723', 'http://web.archive.org/web/20211224025104/https://www.alquds.co.uk/%d9%85%d8%b5%d8%a7%d8%af%d8%b1-%d8%aa%d8%b1%d9%83%d9%8a%d8%a9-%d9%84%d9%80%d8%a7%d9%84%d9%82%d8%af%d8%b3-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a-%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7/', 'http://web.archive.org/web/20200611164630/https://www.elfagr.com/3964637', 'http://web.archive.org/web/20200621015839/https://www.dostor.org/3108356', 'http://web.archive.org/web/20211028190915/https://masralarabia.net/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/1544337-%D8%A8%D9%84%D9%88%D9%85%D8%A8%D8%B1%D8%AC--%D9%87%D8%B2%D8%A7%D8%A6%D9%85-%D8%AD%D9%81%D8%AA%D8%B1-%D8%B3%D8%B1-%D9%82%D8%A8%D9%88%D9%84%D9%87-%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A9-%D8%A5%D9%86%D9%87%D8%A7%D8%A1-%D8%A7%D9%84%D8%B5%D8%B1%D8%A7%D8%B9', 'http://web.archive.org/web/20220223034920/https://www.albayan.ae/one-world/arabs/2020-06-07-1.3877693', 'http://web.archive.org/web/20201215235704/https://cedarnews.net/latest-news/243742/', 'http://web.archive.org/web/20220502031126/https://fakty.ua/336166-dzho-bajden-vyrvalsya-vpered-v-prezidentskoj-gonke']
+cur_cls:  15312
+intruder: Джо Байден вырвался вперед в президентской гонке
+http://web.archive.org/web/20220502031126/https://fakty.ua/336166-dzho-bajden-vyrvalsya-vpered-v-prezidentskoj-gonke
+
+[1516470901, 1536089759, 1521071033, 1520521963, 1515062248, 1521238449, 1516429699, 1534632448, 1540592194, 1533951128, 1533243742, 1534595644, 1520258463, 1533457423, 1516356235, 1533838916, 1516385438, 1535437311, 1516363293, 1535166884, 1521166427, 1534753802, 1521047021, 1517932002, 1521235350, 1538610871, 1538135227, 1521395796, 1516385442, 1534186254, 1522632356, 1517232939, 1533903873, 1538088287, 1534723722, 1516340886, 1520281119, 1515811003, 1515758729, 1515758082, 1512241989, 1533479045, 1538097461, 1516438768, 1518028472, 1534723425, 1521634839, 1539146894, 1534318434, 1540449504]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200215154313/https://www.elfagr.com/3869195', 'http://web.archive.org/web/20200214220733/https://www.youm7.com/story/2020/2/13/%D9%85%D8%B7%D8%B1%D8%A8-%D8%B3%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%88-%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A5%D8%AE%D8%AA%D9%8A%D8%A7%D8%B1%D9%87-%D9%84%D9%84%D8%AD%D9%81%D9%84/4630666', 'http://web.archive.org/web/20200208151042/https://www.elfagr.com/3863175', 'http://web.archive.org/web/20200215141922/https://alwafd.news/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/2804245-KOOORA-GOAL-%E2%80%93-%D9%8A%D9%84%D8%A7-%D8%B4%D9%88%D9%88%D8%AA-%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D8%A9-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%8A-%D8%A8%D8%AB-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-zamalek-NOW-%D9%83%D9%88%D8%B1%D8%A9-%D9%84%D8%A7%D9%8A%D9%81-MATCH-%D8%B1%D8%A7%D8%A8%D8%B7-%D9%85%D8%A7%D8%AA%D8%B4-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83NOW', 'http://web.archive.org/web/20230704233601/https://www.n-tv.de/politik/Nato-stellt-sich-hinter-die-Tuerkei-article21609483.html', 'http://web.archive.org/web/20200214160126/https://www.elfagr.com/3868597', 'http://web.archive.org/web/20200210163638/https://www.elfagr.com/3864819', 'http://web.archive.org/web/20200210213331/https://www.youm7.com/story/2020/2/9/%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%8A-%D9%8A%D9%87%D8%AF%D8%B1-%D8%A7%D9%84%D9%81%D8%B1%D8%B5%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A-%D8%A7%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83/4624654', 'http://web.archive.org/web/20200210201044/https://www.almasryalyoum.com/news/details/1469838', 'http://web.archive.org/web/20200215185153/https://www.youm7.com/story/2020/2/14/%D8%A7%D9%84%D8%A3%D8%B4%D8%B9%D8%A9-%D8%AA%D8%AB%D8%A8%D8%AA-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D9%83%D8%A7%D8%AF%D9%88-%D8%A8%D8%B4%D8%AF-%D9%81%D9%89-%D8%A7%D9%84%D8%AE%D9%84%D9%81%D9%8A%D8%A9-%D9%88%D9%8A%D8%BA%D9%8A%D8%A8-10-%D8%A3%D9%8A%D8%A7%D9%85/4631224', 'http://web.archive.org/web/20230205033640/https://gizmodo.com/a-mysterious-virus-is-sickening-people-in-china-1840857359']
+cur_cls:  14299
+intruder: A Mysterious Virus Is Sickening People in China
+http://web.archive.org/web/20230205033640/https://gizmodo.com/a-mysterious-virus-is-sickening-people-in-china-1840857359
+
+[1597687329, 1597606544, 1597606985, 1597606551, 1597503984, 1597606575, 1597271643, 1597504282, 1597606672, 1597269659, 1597271249, 1597594488, 1597270326, 1597270866, 1597268104, 1597594406, 1597687429, 1597269154, 1597268516, 1597700743, 1597594624, 1597271996, 1597270506, 1597271586, 1597687330, 1597268569, 1597594116, 1597606580, 1597271304, 1597378075, 1597270845, 1597503948, 1597594567, 1597270364, 1597700212, 1597393340, 1597268548, 1597503884, 1597378354, 1597504163, 1597594551, 1597272040, 1597269178, 1597272128, 1597268126, 1597268145, 1597594149, 1597700677, 1597700771, 1597687356]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200109141239/https://www.aravot-en.am/2020/01/08/248109/']
+cur_cls:  13792
+intruder: It is possible for proxy wars to continue in Iraq and Syria and for tensions to rise in Lebanon: Suren Sargsyan
+http://web.archive.org/web/20200109141239/https://www.aravot-en.am/2020/01/08/248109/
+
+[1537212420, 1538545752, 1537333095, 1537065817, 1537064780, 1537063579, 1537063640, 1537063796, 1537211554, 1537065064, 1537063180, 1538194499, 1537065181, 1537066544, 1537063792, 1537063676, 1537066943, 1538195166, 1537064909, 1537090119, 1537065214, 1537065576, 1537063466, 1537211433, 1537063799, 1537063927, 1537066350, 1537332471, 1537066547, 1537063435, 1537333131, 1538192992, 1537212488, 1537332597, 1537065434, 1538546414, 1537063463, 1537063276, 1538346332, 1538546627, 1537066118, 1537063308, 1537063633, 1537182289, 1537064966, 1537063752, 1537065044, 1537064924, 1537063411, 1537065549]
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200811000658/https://vozlibre.com/nacional/consecuencias-la-cancelacion-del-mobile-world-congress-barcelona-27445/']
+cur_cls:  13537
+intruder: Qué consecuencias tiene la cancelación del Mobile World Congress de Barcelona
+http://web.archive.org/web/20200811000658/https://vozlibre.com/nacional/consecuencias-la-cancelacion-del-mobile-world-congress-barcelona-27445/
+
+[1490735310, 1489517900, 1492406792, 1487194515, 1492556640, 1490785495, 1492765915, 1489288129, 1485493567, 1492272499, 1488433276, 1486446285, 1490237163, 1491954685, 1490748361, 1491187824, 1492841316, 1492199742, 1490155923, 1490908282, 1492388712, 1494412162, 1492017510, 1491098773, 1492073655, 1491379360, 1490184093, 1491958654, 1490834860, 1492098972, 1486566220, 1492722683, 1493213822, 1490754917, 1492828834, 1495798630, 1489532924, 1537785269, 1489972667, 1487135336, 1490199257, 1492660827, 1491034661, 1491134233, 1487629850, 1492325658, 1492409348, 1491090741, 1491141817, 1492750615]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200407232433/https://elintransigente.com/mundo/2020/01/09/el-divorcio-entre-reino-unido-y-la-union-europea-a-un-paso-de-su-historico-aprobacion/', 'http://web.archive.org/web/20200111202503/https://www.oann.com/time-too-short-for-full-new-eu-britain-partnership-deal-by-end-2020-eu/', 'http://web.archive.org/web/20200305131432/https://news.rthk.hk/rthk/en/component/k2/1502279-20200111.htm', 'http://web.archive.org/web/20200218050551/https://www.brusselstimes.com/all-news/eu-affairs/87446/nigel-farage-wants-to-organise-a-big-party-to-celebrate-brexit/', 'http://web.archive.org/web/20200113141205/https://www.derstandard.at/story/2000113200102/china-bekraeftigt-machtanspruch-nach-wahlsiegvon-taiwans-praesidentin?ref=rss', 'http://web.archive.org/web/20200108141210/https://www.scotsman.com/news/opinion/columnists/labour-cannot-simply-ignore-electoral-reality-leader-comment-1-5071586', 'http://web.archive.org/web/20200104165002/https://www.laprovence.com/actu/en-direct/5829490/brexit-rencontre-von-der-leyen-johnson-mercredi-prochain-a-londres.html', 'http://web.archive.org/web/20200104215331/https://www.srf.ch/news/international/wahlen-in-taiwan-heute-hongkong-morgen-taiwan', 'http://web.archive.org/web/20200112152109/https://www.lne.es/internacional/2020/01/11/taiwan-otorga-victoria-elecciones-tsai/2582761.html?utm_medium=rss', 'http://web.archive.org/web/20220426095231/https://www.newsclick.in/brexit-bill-UK-divorce-EU-clears-commons-vote', 'http://web.archive.org/web/20200108035103/https://www.standard.co.uk/news/world/qasem-soleimani-funeral-us-israel-daughter-a4327046.html']
+cur_cls:  15080
+intruder: Qasem Soleimani funeral: Iranian general&apos;s daughter promises &apos;dark day&apos; for US and Israel after father killed in American airstrike
+http://web.archive.org/web/20200108035103/https://www.standard.co.uk/news/world/qasem-soleimani-funeral-us-israel-daughter-a4327046.html
+
+[1490873601, 1489504569, 1489332215, 1489866224, 1491133650, 1489845021, 1489242636, 1489198065, 1489439098, 1489193357, 1489495993, 1489486737, 1489209732, 1489189898, 1490431311, 1489488033, 1489226776, 1489714011, 1490745403, 1490506437, 1492153577, 1489243711, 1489387462, 1492503080, 1492093985, 1492330839, 1491292693, 1490862514, 1491753186, 1517541202, 1489251477, 1492087826, 1489267351, 1489302863, 1489427502, 1490767675, 1489748720, 1492041440, 1490163433, 1536902174, 1489350812, 1492047490, 1489647523, 1490767830, 1489306869, 1490987757, 1489988443, 1491820358, 1489223189, 1492316763]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220127173910/https://www.lapampadiaxdia.com.ar/2020/01/internacionales-grave-accidente-aereo.html', 'http://web.archive.org/web/20200922073231/https://www.newindianexpress.com/world/2020/jan/08/crashed-boeing-was-checked-two-days-ago-ukrainian-airline-2086777.html', 'http://web.archive.org/web/20230324034413/https://www.nst.com.my/world/world/2020/01/554609/ukraine-confirms-all-killed-board-plane-crashed-iran', 'http://web.archive.org/web/20220705120207/https://www.theroot.com/it-s-starting-to-look-a-lot-like-iran-shot-down-that-uk-1840905106', 'http://web.archive.org/web/20200109145910/https://www.unn.com.ua/ru/news/1845406-zmi-iran-ne-peredast-ssha-chorni-skrinki-z-ukrayinskogo-litaka', 'http://web.archive.org/web/20230423145419/https://www.businessinsider.com/ukraine-iran-plane-crash-black-box-boeing-2020-1', 'http://web.archive.org/web/20200110134014/https://www.noticiasdel6.com/las-teorias-que-analiza-ucrania-sobre-la-caida-del-avion-en-iran/', 'http://web.archive.org/web/20210817130453/https://tolonews.com/world/ukrainian-boeing-737-crashes-iran-170-killed-iran-state-tv', 'http://web.archive.org/web/20210804225233/https://www.wtvr.com/2020/01/11/iran-ukrainian-jetliner', 'http://web.archive.org/web/20230311230703/http://english.almanar.com.lb/912331', 'http://web.archive.org/web/20200219175324/https://www.eremnews.com/news/arab-world/2175161']
+cur_cls:  15849
+intruder: تقرير: مواجهة روسيا وتركيا في سوريا تهدد بحدوث أسوأ كارثة إنسانية منذ بدء الصراع
+http://web.archive.org/web/20200219175324/https://www.eremnews.com/news/arab-world/2175161
+
+[1516849085, 1516947483, 1516663913, 1515038911, 1517085929, 1516629749, 1516513339, 1517062048, 1516454220, 1516669985, 1516688983, 1516026999, 1516470484, 1519689153, 1575003173, 1516700977, 1516732006, 1516721351, 1516698271, 1514131935, 1516721241, 1516950565, 1516516051, 1516567815, 1517239797, 1516643205, 1516515294, 1516609103, 1514707792, 1516534272, 1516460336, 1517263997, 1516568467, 1516904649, 1516570589, 1515951509, 1516158194, 1516645897, 1516850063, 1516684353, 1516536833, 1517246983, 1516586267, 1516661032, 1513342943, 1516567562, 1516569540, 1517259291, 1516521493, 1516585251]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200211200743/https://en.prothomalo.com/entertainment/news/209220/Oscar-night-begins-with-1917-battling-Parasite?feed_tracker=yes', 'http://web.archive.org/web/20211014132955/https://www.premiumtimesng.com/entertainment/nollywood/376563-oscars-2020-south-korean-movie-makes-history-by-winning-best-picture.html', 'http://web.archive.org/web/20230207012738/https://noizz.pl/film/zwyciezcy-oscarow-2020/be23q1x', 'http://web.archive.org/web/20200211180530/https://www.cope.es/actualidad/cultura/noticias/ganadores-los-oscar-2020-20200210_616161', 'http://web.archive.org/web/20221130175257/https://liderweb.mx/multiples-latinos-se-miden-esta-noche-en-los-oscar/', 'http://web.archive.org/web/20200208203813/https://www.larazon.es/cultura/20200207/wkedjbwtqbfnrd3x6nrbhg3fn4.html', 'http://web.archive.org/web/20200809004253/https://www.elobservador.com.uy/nota/a-dos-horas-de-la-ceremonia-los-oscar-se-aprontan-entre-favoritos-y-posibles-sorpresas-202029203044', 'http://web.archive.org/web/20200211170002/https://www.tucumanalas7.com.ar/entretenimientos/2020/2/10/parasite-hizo-historia-en-los-oscars-se-llevo-el-premio-mejor-pelicula-190312.html', 'http://web.archive.org/web/20200920214611/https://www.latribuna.hn/2020/02/09/glamour-y-talento-en-la-gala-de-los-premiso-oscar-en-su-92-edicion/', 'http://web.archive.org/web/20200210183319/https://libero.pe/ocio/series-cine/1537472-oscar-2020-lista-ganadores-resultados-24-categorias-mejor-pelicula-parasitos-1917-joaquin-phoenix-tnt-vivo-cine-online', 'http://web.archive.org/web/20200628171910/https://www.latestnigeriannews.com/news/8490156/nigeria-records-245-new-cases-of-covid19-highest-singleday-increase.html']
+cur_cls:  10986
+intruder: Nigeria Records 245 New Cases Of COVID-19, Highest Single-Day Increase
+http://web.archive.org/web/20200628171910/https://www.latestnigeriannews.com/news/8490156/nigeria-records-245-new-cases-of-covid19-highest-singleday-increase.html
+
+[1512510211, 1512135801, 1574994299, 1512108321, 1512108057, 1512075696, 1512070409, 1512570937, 1512073121, 1515047553, 1512070281, 1512156000, 1574638156, 1512067032, 1574561460, 1512073566, 1512074828, 1512158388, 1514197591, 1512095668, 1512075451, 1512121645, 1512094585, 1512105892, 1512072067, 1512094774, 1512076340, 1512073739, 1512075703, 1512072803, 1512370330, 1512040785, 1512336900, 1512134496, 1512313966, 1512074571, 1512076049, 1512069391, 1512072905, 1512073124, 1512071285, 1512075609, 1512074999, 1512070449, 1512146480, 1512072022, 1512189987, 1512002419, 1539794733, 1512094467]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200203160526/https://www.usnews.com/news/top-news/articles/2020-02-02/kansas-city-beats-san-francisco-to-win-super-bowl', 'http://web.archive.org/web/20200203133611/https://bleacherreport.com/articles/2874411-nick-bosa-pissed-after-49ers-blow-10-point-lead-to-chiefs-in-super-bowl-54', 'http://web.archive.org/web/20200204130006/https://www.elgrafico.mx/deportes/patrick-mahomes-celebra-el-campeonato-de-los-chiefs-en-disney', 'http://web.archive.org/web/20200203150428/https://www.informador.mx/deportes/Los-Chiefs-se-llevan-el-Super-Bowl-LIV-20200202-0086.html', 'http://web.archive.org/web/20220511005610/https://www.elmundo.es/deportes/2020/02/03/5e379c6b21efa0f6698b4576.html', 'http://web.archive.org/web/20200424124206/https://www.cjonline.com/news/20200202/late-rally-lifts-chiefs-to-super-bowl-win-over-49ers?rssfeed=true', 'http://web.archive.org/web/20200207133524/http://huastecahoy.com.mx/2020/02/06/celebra-chiefs-conquista-del-vince-lombardi/', 'http://web.archive.org/web/20200203121855/https://www.volksblatt.li/nachrichten/International/Sport/sda/1881657/kansas-city-gewinnt-nach-50-jahren-wieder-die-super-bowl', 'http://web.archive.org/web/20200204150647/http://wreg.com/2020/02/02/chiefs-take-down-49ers-in-super-bowl-liv-mahomes-named-mvp/', 'http://web.archive.org/web/20210731100336/https://www.voanews.com/arts-culture/mahomes-leads-chiefs-rally-past-49ers-super-bowl-31-20', 'http://web.archive.org/web/20200429201537/http://www.eltreboldigital.com.ar/2020/04/22/coronavirus-un-caso-en-la-provincia-y-el-departamento-san-martin-resiste/']
+cur_cls:  19948
+intruder: CORONAVIRUS -Un caso en la provincia y el Departamento San Martín resiste
+http://web.archive.org/web/20200429201537/http://www.eltreboldigital.com.ar/2020/04/22/coronavirus-un-caso-en-la-provincia-y-el-departamento-san-martin-resiste/
+
+[1598182772, 1598998876, 1598394563, 1596039330, 1596506252, 1597167284, 1600882222, 1597702545, 1594191763, 1596432104, 1599411981, 1602723570, 1599394563, 1595680047, 1598269949, 1593380942, 1599362099, 1597357287, 1598294385, 1592575238, 1595654579, 1598311212, 1602169208, 1598489021, 1598812019, 1599656474, 1594048051, 1592373082, 1599584787, 1598304017, 1601840915, 1597668409, 1598693194, 1592053460, 1604343826, 1599543474, 1596447290, 1601890969, 1603307912, 1598363335, 1595634836, 1600901537, 1597267105, 1601305669, 1592380873, 1598626738, 1604358282, 1598692752, 1598379841, 1598286259]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20200530165532/https://www.canarias7.es/nacional/el-pnv-votara-si-y-garantiza-que-sanchez-prorrogue-la-alarma-XK9158541', 'http://web.archive.org/web/20200513083350/https://www.laopiniondezamora.es/nacional/2020/05/06/arrimadas-descarta-apoyar-presupuestos-gobierno/1242259.html?utm_source=rss', 'http://web.archive.org/web/20200601051808/https://www.latribunadecuenca.es/noticia/Z2239510F-9F82-D174-F0FCCB13B3C43A7F/202005/Cs-dice-que-su-si-no-es-un-cheque-en-blanco-para-el-Gobierno', 'http://web.archive.org/web/20230627052413/https://www.elconfidencial.com/espana/2020-05-04/casadp-mano-primer-gran-castigo-sanchez-prorroga_2577535/', 'http://web.archive.org/web/20200518035632/https://www.europapress.es/nacional/noticia-gobierno-dice-sanchez-ya-cumple-parlamento-compareciendo-cada-15-dias-prorrogar-alarma-20200407155125.html', 'http://web.archive.org/web/20200527064828/http://www.elexpresso.com/167_ultima-hora/6757868_casado-sanchez-esta-cada-vez-mas-solo-y-el-pp-no-sera-su-tabla-de-salvacion.html', 'http://web.archive.org/web/20200601121640/https://www.diariopalentino.es/noticia/ze9eed08a-b98b-11ae-be2dd61e001b48c7/202005/el-pp-dice-que-ahora-le-toca-a-sanchez-aceptar-sus-propuestas', 'http://web.archive.org/web/20201028000221/http://www.elpais.cr/2020/05/06/434729/', 'http://web.archive.org/web/20210615104310/https://www.huffingtonpost.es/entry/dudas-desescalada_es_5ea9a499c5b6106b8ed0d9c8', 'http://web.archive.org/web/20200520045206/https://www.cope.es/actualidad/espana/noticias/erc-avisa-sanchez-que-sin-dialogo-hay-legislatura-afea-pacto-con-basta-20200506_707985', 'http://web.archive.org/web/20230402013848/https://truthout.org/articles/bernie-sanders-drops-out-of-the-2020-presidential-race/']
+cur_cls:  19185
+intruder: Bernie Sanders Drops Out of the 2020 Presidential Race
+http://web.archive.org/web/20230402013848/https://truthout.org/articles/bernie-sanders-drops-out-of-the-2020-presidential-race/
+
+[1502092443, 1501761560, 1501894296, 1502226982, 1504787087, 1501946241, 1501761079, 1502905354, 1501843939, 1501850146, 1501878458, 1501757950, 1503182101, 1501788114, 1509352426, 1503281044, 1502188515, 1503108519, 1502265743, 1504006143, 1502315791, 1560802569, 1502524957, 1501368006, 1503170553, 1501747261, 1502576907, 1501799111, 1501621117, 1501737202, 1501791379, 1501846111, 1503192036, 1517472875, 1504714231, 1501803651, 1501823502, 1502365020, 1502188723, 1502202506, 1501845568, 1501952566, 1517609176, 1502839005, 1502265159, 1503260950, 1501765874, 1501869095, 1502844027, 1501848537]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20221129145602/https://lanoticia.hn/asi-hackearon-el-movil-de-jeff-bezos-el-hombre-mas-rico-del-mundo-tecnologia/', 'http://web.archive.org/web/20200329203427/https://www.informador.mx/economia/Piden-investigar-si-heredero-saudi-espio-a-presidente-de-Amazon-20200122-0075.html', 'http://web.archive.org/web/20230626173631/https://www.gazeta.ru/tech/2020/01/22/12921950/saudi_attack.shtml', 'http://web.archive.org/web/20220815184617/https://www.sueddeutsche.de/politik/saudi-arabien-hacking-whatsapp-1.4768653', 'http://web.archive.org/web/20210706040635/https://nypost.com/2020/01/24/un-says-officials-barred-from-using-whatsapp-over-security-concerns/', 'http://web.archive.org/web/20230118135615/https://www.latimes.com/business/story/2020-01-21/bezos-saudi-prince-hack', 'http://web.archive.org/web/20201126064935/https://nation.com.pk/23-Jan-2020/jeff-bezos-hack-saudi-arabia-calls-claim-absurd', 'http://web.archive.org/web/20230130191109/https://cincodias.elpais.com/cincodias/2020/01/22/companias/1579681742_686495.html', 'http://web.archive.org/web/20200123132824/https://www.levif.be/actualite/international/le-telephone-du-patron-d-amazon-pirate-par-le-prince-heritier-saoudien/article-normal-1242645.html', 'http://web.archive.org/web/20200519182855/https://cpj.org/2020/01/saudi-crown-princes-alleged-hacking-of-bezos-raise.php', 'http://web.archive.org/web/20201205045913/http://diariotextual.com/inicio/index.php/2020/06/22/la-oms-advirtio-coronavirus-se-esta-acelerando/']
+cur_cls:  15862
+intruder: La OMS advirtió que el coronavirus se está «acelerando»
+http://web.archive.org/web/20201205045913/http://diariotextual.com/inicio/index.php/2020/06/22/la-oms-advirtio-coronavirus-se-esta-acelerando/
+
+[1506086006, 1623758829, 1506178095, 1622719358, 1569412225, 1569431123, 1506047443, 1510959719, 1620600569, 1569343591, 1509306940, 1505936365, 1509002047, 1621659362, 1505574166, 1508058813, 1623834865, 1506124861, 1569342511, 1569430532, 1508441238, 1511043887, 1622453107, 1502701989, 1569496324, 1622743117, 1505962684, 1517399009, 1506261791, 1511019899, 1622438542, 1506041473, 1569359819, 1569343493, 1569480292, 1569430626, 1569343100, 1510979632, 1508560566, 1508489718, 1506653719, 1623032016, 1509315493, 1509274363, 1569343812, 1622484616, 1509120698, 1507582634, 1510471460, 1506026582]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20201216054738/https://who13.com/news/president-trump-threatens-to-deploy-military-to-end-protests-in-us-cities/', 'http://web.archive.org/web/20210227004511/https://canoe.com/news/world/if-i-listened-to-him-we-would-be-in-world-war-six-trump-blasts-bolton-as-impeachment-trial-enters-new-phase', 'http://web.archive.org/web/20221128061755/https://www.washingtonpost.com/politics/2020/01/27/trumps-legal-team-outlined-its-case-one-day-later-john-bolton-appears-have-kneecapped-it/', 'http://web.archive.org/web/20221206023108/https://www.huffpost.com/entry/mitt-romney-hashtag-jimmy-kimmel_n_5e3181a3c5b6e8375f65fc91', 'http://web.archive.org/web/20210304132618/https://www.spiegel.de/politik/ausland/amerikas-wut-trumps-versagen-a-cde8ce86-474b-45c3-b1b2-332f6c5348f2', 'http://web.archive.org/web/20221026015249/https://www.bild.de/politik/ausland/politik-ausland/nach-floyd-tod-friedliche-proteste-und-erneut-randale-in-us-staedten-71025636.bild.html', 'http://web.archive.org/web/20230609215053/https://www.theblaze.com/news/mcconnell-says-gop-doesnt-have-votes-to-stop-witnesses', 'http://web.archive.org/web/20200124133352/https://ktla.com/2020/01/23/democrats-face-risks-limits-in-president-trumps-impeachment-trial/', 'http://web.archive.org/web/20210117101533/https://sputniknews.com/us/202002011078196189-us-senate-moves-final-trump-impeachment-vote-to-next-week/', 'http://web.archive.org/web/20210927142618/https://www.foxnews.com/media/mike-huckabee-john-bolton-ny-times-book-leak', 'http://web.archive.org/web/20221205220650/https://www.pbs.org/newshour/politics/senate-rejects-calling-witnesses-in-trump-impeachment-trial']
+cur_cls:  21241
+intruder: Mayors urge PM to publish regional coronavirus transmission rates	
+http://web.archive.org/web/20221011003742/https://www.manchestereveningnews.co.uk/news/greater-manchester-news/mayors-urge-prime-minister-publish-18240494
+
+[1544019740, 1549182788, 1549502855, 1549452409, 1544395000, 1548266901, 1547947536, 1550114246, 1545107721, 1547407635, 1552853416, 1548133810, 1552727175, 1550916350, 1553770714, 1542314436, 1547930604, 1547378653, 1550704395, 1547480756, 1546862159, 1550357596, 1546307004, 1554408298, 1545993007, 1550357257, 1549012856, 1550024088, 1545588787, 1551058582, 1546652772, 1547249109, 1551263014, 1549463019, 1548265988, 1549461557, 1552931285, 1547762062, 1551912301, 1543888619, 1546027470, 1553153022, 1547432209, 1548710957, 1552724436, 1549484600, 1545574793, 1544888011, 1546423949, 1547755069]
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+art sample
+intruder
+cur_url_list:  ['http://web.archive.org/web/20220112041953/https://time.kz/articles/zloba/2020/03/10/bolet-tak-po-raspisaniyu', 'http://web.archive.org/web/20200316125226/https://www.aksutvhaber.net/turkiye/cumhurbaskanligi-ndan-4-onemli-koronavirus-karari-h41762.html', 'http://web.archive.org/web/20200311142011/http://www.infochacoonline.com.ar/salud-actualizo-la-informacion-sobre-coronavirus-y-dengue-en-chaco/', 'http://web.archive.org/web/20230323174138/https://www.lepoint.fr/politique/emmanuel-berretta/coronavirus-136-equipes-europeennes-travaillent-sur-un-vaccin-14-03-2020-2367157_1897.php', 'http://web.archive.org/web/20200315135951/https://www.boerse-online.de/nachrichten/aktien/virus-tuerkei-stoppt-einreise-aus-neun-laendern-auch-aus-deutschland-1028996185', 'http://web.archive.org/web/20200320143526/https://bnr.bg/en/post/101243184/turkey-imposes-entry-ban-to-some-foreign-nationals-over-covid-19-pandemic', 'http://web.archive.org/web/20200309152351/https://www.diario26.com/280385--coronavirus-avance-y-preocupacion-mas-de-109-mil-infectados-en-96-paises-hubo-3-800-muertos', 'http://web.archive.org/web/20200314175936/https://www.ntv.com.tr/turkiye/son-dakika-haberi-fahrettin-koca-toplam-corona-virus-vaka-sayisi-5e-yukseldi,nBue1ynsnE6Pevvany1l-Q', 'http://web.archive.org/web/20211113140323/https://www.haberturk.com/son-dakika-haberi-3-bakan-dan-koronavirus-aciklamasi-2613361', 'http://web.archive.org/web/20220426201904/https://rg.ru/2020/03/12/v-latvii-vveden-rezhim-chrezvychajnoj-situacii-iz-za-koronavirusa.html', 'http://web.archive.org/web/20200529070909/http://closeup.mx/internacional/la-oms-advirtio-que-el-coronavirus-podria-quedarse-para-siempre/']
+cur_cls:  14588
+intruder: La OMS advirtió que el coronavirus podría quedarse para siempre
+http://web.archive.org/web/20200529070909/http://closeup.mx/internacional/la-oms-advirtio-que-el-coronavirus-podria-quedarse-para-siempre/
+

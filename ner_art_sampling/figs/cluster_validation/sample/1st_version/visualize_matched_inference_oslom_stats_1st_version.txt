@@ -1,0 +1,226 @@
+
+countries with highest cluster-based similarity:
+Gabon: 1.0
+Togo: 0.9172809890377578
+Burundi: 0.7861744585658615
+Niger: 0.7861744585658615
+Lesotho: 0.7861744585658615
+Burkina Faso: 0.7518429671132734
+Gambia: 0.7518429671132734
+Comoros: 0.7252133935032318
+Virgin Islands, U.S.: 0.7034554476036192
+Sudan: 0.6939032863899703
+
+countries with lowest cluster-based similarity:
+United States: 0.09661181630486981
+United Kingdom: 0.11950863648508692
+Canada: 0.12226829336322242
+Switzerland: 0.1296238492822338
+Mexico: 0.13833805709486424
+France: 0.1447250869148513
+Dominican Republic: 0.15062573106135602
+Russia: 0.1562491092607512
+Philippines: 0.1638010273330418
+Belgium: 0.16494140440058724
+
+country pairs with highest cluster-based similarity:
+country1: Belgium country2: France    similarity: 0.651139709477512
+country1: Canada country2: United States    similarity: 0.6508678263383922
+country1: Switzerland country2: Germany    similarity: 0.6486361735361024
+country1: Iraq country2: Yemen    similarity: 0.6436129670877855
+country1: Canada country2: United Kingdom    similarity: 0.6208795599187835
+country1: Jordan country2: Yemen    similarity: 0.6179965071572179
+country1: Dominican Republic country2: Mexico    similarity: 0.6126640691638217
+country1: United Kingdom country2: United States    similarity: 0.6045174339367098
+country1: Switzerland country2: France    similarity: 0.5999948802932007
+country1: Mexico country2: Venezuela    similarity: 0.5978874257896961
+
+country pairs with lowest cluster-based similarity:
+country1: United Arab Emirates country2: Lesotho    similarity: 0.1674453888423022
+country1: Lebanon country2: Lesotho    similarity: 0.1674453888423022
+country1: Luxembourg country2: Sudan    similarity: 0.1674453888423022
+country1: Germany country2: Lesotho    similarity: 0.1674453888423022
+country1: France country2: Lesotho    similarity: 0.1674453888423022
+country1: Nigeria country2: Sudan    similarity: 0.1674453888423022
+country1: Central African Republic country2: San Marino    similarity: 0.1674453888423022
+country1: Central African Republic country2: Guyana    similarity: 0.1674453888423022
+country1: Central African Republic country2: Sudan    similarity: 0.1674453888423022
+country1: Central African Republic country2: Lesotho    similarity: 0.1674453888423022
+
+2023-08-17 13:44:59.368993 Reading data from indexes/en-wiki-temp-v4.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2000000 lines 2500000 lines 3000000 lines 3500000 lines 4000000 lines 4500000 lines 5000000 lines 5500000 lines 6000000 lines 6500000 lines 7000000 lines 7500000 lines 8000000 lines 8500000 lines 9000000 lines 9500000 lines 10000000 lines 10500000 lines 11000000 lines 11500000 lines 12000000 lines 12500000 lines 13000000 lines 13500000 lines 14000000 lines 14500000 lines 15000000 lines 15500000 lines 2023-08-17 13:46:50.303106 Loaded 15958700 news from indexes/en-wiki-temp-v4.index
+2023-08-17 13:46:53.318753 Reading data from indexes/de-wiki-temp-v4.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2000000 lines 2023-08-17 13:47:07.824254 Loaded 2342735 news from indexes/de-wiki-temp-v4.index
+2023-08-17 13:47:10.852097 Reading data from indexes/es-wiki-temp-v4.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2000000 lines 2500000 lines 3000000 lines 3500000 lines 4000000 lines 4500000 lines 5000000 lines 5500000 lines 6000000 lines 2023-08-17 13:47:54.634445 Loaded 6249859 news from indexes/es-wiki-temp-v4.index
+2023-08-17 13:47:57.659948 Reading data from indexes/pl-wiki-temp-v4.index
+Loaded... 2023-08-17 13:47:58.082156 Loaded 404413 news from indexes/pl-wiki-temp-v4.index
+2023-08-17 13:48:01.105029 Reading data from indexes/zh-wiki-temp-v4.index
+Loaded... 2023-08-17 13:48:01.376843 Loaded 235914 news from indexes/zh-wiki-temp-v4.index
+2023-08-17 13:48:04.400359 Reading data from indexes/fr-wiki-temp-v4.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2023-08-17 13:48:15.207530 Loaded 1618555 news from indexes/fr-wiki-temp-v4.index
+2023-08-17 13:48:18.230686 Reading data from indexes/ar-wiki-temp-v4.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2000000 lines 2023-08-17 13:48:33.854367 Loaded 2248441 news from indexes/ar-wiki-temp-v4.index
+2023-08-17 13:48:36.880939 Reading data from indexes/tr-wiki-temp-v4.index
+Loaded... 500000 lines 2023-08-17 13:48:40.858673 Loaded 967267 news from indexes/tr-wiki-temp-v4.index
+2023-08-17 13:48:43.892145 Reading data from indexes/it-wiki-temp-v4.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2023-08-17 13:48:54.924783 Loaded 1860756 news from indexes/it-wiki-temp-v4.index
+2023-08-17 13:48:57.949161 Reading data from indexes/ru-wiki-temp-v4.index
+Loaded... 500000 lines 1000000 lines 1500000 lines 2023-08-17 13:49:08.958480 Loaded 1931972 news from indexes/ru-wiki-temp-v4.index
+oslom modularity is  0.14078797125604894
+oslom partition_density is  3.231008365012698
+within_cluster 2
+between_cluster 4
+within_cluster 2
+between_cluster 1
+within_cluster 10
+between_cluster 1
+within_cluster 17
+between_cluster 10
+cur_cls:  17924
+intruder: https://lta.reuters.com/articulo/eeuu-china-irak-idLTAKBN1Z50ZX-OUSLT
+
+cur_cls:  16645
+intruder: https://bdnews24.com/world/2020/01/27/chinese-premier-visits-virus-epicentre-as-death-toll-hits-80
+
+cur_cls:  17930
+intruder: https://www.latestnigeriannews.com/news/8386866/coronavirus-helen-mirren-posts-nomakeup-morning-selfie-raises-n174m-for-icu.html
+
+cur_cls:  21262
+intruder: https://www.oltnertagblatt.ch/ausland/neue-fluechtlingstragoedie-in-syrien-hunderttausende-sind-auf-der-flucht-136393278
+
+cur_cls:  10001
+intruder: https://www.ntv.com.tr/galeri/dunya/abdde-olu-sayisi-67-bini-gecticorona-viruste-son-durum,koZu8v9rfE6FH76c_aL7ug
+
+cur_cls:  21267
+intruder: https://www.youm7.com/story/2020/3/7/درجات-الحرارة-المتوقعة-اليوم-السبت-7-3-2020-بمحافظات-مصر/4660055
+
+cur_cls:  10007
+intruder: https://www.washingtontimes.com/news/2020/jan/10/pattons-23-points-carries-sacramento-st-past-n-ari/?utm_source=RSS_Feed&utm_medium=RSS
+
+cur_cls:  15134
+intruder: https://caracol.com.co/radio/2020/06/01/internacional/1591019607_387456.html#?ref=rss&format=simple&link=link
+
+cur_cls:  9251
+intruder: https://www.kcci.com/article/first-case-of-wuhan-coronavirus-confirmed-in-boston-man-massachusetts-health-officials-say/30738028
+
+cur_cls:  15408
+intruder: https://www.ktsa.com/ap-votecast-biden-edges-out-sanders-on-electability/
+
+cur_cls:  13619
+intruder: http://feeds.breakingnews.ie/~r/bntopstories/~3/TupTf9EZJNU/sanders-adjusts-campaign-after-bidens-strong-super-tuesday-performance-985896.html
+
+cur_cls:  15421
+intruder: https://www.washingtontimes.com/news/2020/jan/11/ervin-scores-27-elon-defeats-unc-wilmington-80-63/?utm_source=RSS_Feed&utm_medium=RSS
+
+cur_cls:  20809
+intruder: https://www.latestnigeriannews.com/news/8129335/naicom-set-to-commence-compulsory-insurance-enforcement.html
+
+cur_cls:  5195
+intruder: https://www.newschief.com/ZZ/news/20200128/trump-peace-plan-delights-israelis-enrages-palestinians?rssfeed=true
+
+cur_cls:  20300
+intruder: https://muscatinejournal.com/news/world/turkish-soldier-killed-in-northwest-syria-artillery-strike/article_cb69d2e7-a445-5648-913e-4b2f6d302d48.html
+
+cur_cls:  21071
+intruder: http://www.australiannews.net/news/263682560/nadal-spain-to-meet-djokovic-serbia-in-atp-cup-final
+
+cur_cls:  21346
+intruder: https://www.breitbart.com/politics/2020/02/06/final-iowa-result-sanders-wins-in-votes-buttigieg-edge-in-delegates/
+
+cur_cls:  17252
+intruder: https://www.ilrestodelcarlino.it/cronaca/coronavirus-emilia-romagna-6-marzo-1.5058506
+
+cur_cls:  10085
+intruder: https://www.blackpoolgazette.co.uk/read-this/george-floyds-death-has-been-ruled-homicide-asphyxia-heres-what-means-2872077
+
+cur_cls:  21350
+intruder: https://www.latestnigeriannews.com/news/8489891/colorado-man-who-discussed-attending-coronavirus-protest-at-state-capital-charge.html
+
+cur_cls:  21095
+intruder: https://eldiadigital.es/art/324339/pronunciado-descenso-de-las-poblaciones-de-aguilucho-cenizo-y-aguilucho
+
+cur_cls:  9831
+intruder: https://www.youm7.com/story/2020/2/21/كاميرا-سوبر-كورة-أبو-جبل-يكشف-الفرق-بين-السوبر-الأفريقى/4640413
+
+cur_cls:  21097
+intruder: http://www.kazakhstannews.net/news/264165940/syria-idlib-remains-explosive-after-deadly-attack-on-turkish-troops
+
+cur_cls:  7789
+intruder: https://www.dailymail.co.uk/news/article-7897973/Lev-Parnas-says-Donald-Trump-yelled-fire-ambassador-Ukraine.html?ns_mchannel=rss&ns_campaign=1490&ito=1490
+
+cur_cls:  13937
+intruder: https://ariesonline.com.ar/contenido/34661/la-cancilleria-argentina-repudio-los-incidentes-en-venezuela
+
+cur_cls:  14977
+intruder: https://www.elsoldesanluis.com.mx/mundo/ultimas-noticias-iran-nunca-gano-una-guerra-trump-tras-ataque-de-eu-en-irak-qasem-soleimani-iran-4653482.html
+
+cur_cls:  13958
+intruder: https://www.sacbee.com/news/nation-world/article240609526.html#storylink=rss
+
+cur_cls:  14217
+intruder: http://adengd.net/news/460009/
+
+cur_cls:  17034
+intruder: https://www.latestnigeriannews.com/news/8377155/at-what-point-does-home-training-become-child-abuse-watch-simi-friends-on-stoopi.html
+
+cur_cls:  14475
+intruder: http://www.correodelorinoco.gob.ve/clinton-prioridad-eeuu-el-mundo-es-retirar-a-trump/
+
+cur_cls:  14477
+intruder: https://www.washingtontimes.com/news/2020/jan/10/pattons-23-points-carries-sacramento-st-past-n-ari/?utm_source=RSS_Feed&utm_medium=RSS
+
+cur_cls:  13977
+intruder: https://www.canarias7.es/sociedad/lo-mas-importante-es-lo-que-esta-por-venir-XB9074264
+
+cur_cls:  20636
+intruder: https://www.eltribuno.com/salta/nota/2020-4-1-19-33-0-alerta-por-lluvias-y-tormentas-fuertes-para-el-centro-y-este-de-salta
+
+cur_cls:  19878
+intruder: https://www.ideal.es/internacional/eeuu/trump-afirma-puede-interferir-justicia-20200214203431-ntrc.html
+
+cur_cls:  14504
+intruder: http://rssfeeds.delawareonline.com/~/619415836/0/wilmington-news~Bernie-Sanders-Joe-Biden-headed-to-Michigan-for-campaign-rallies-before-Tuesday-primary/
+
+cur_cls:  21161
+intruder: http://derbund.ch/wirtschaft/unternehmen-und-konjunktur/Generalversammlung-findet-statt-Roche-raet-aber-von-Teilnahme-ab/story/18610484
+
+cur_cls:  12728
+intruder: https://www.latestnigeriannews.com/news/8603234/dont-sack-workers-amid-covid19-pandemic-ascab-warns-nigerian-government-states-l.html
+
+cur_cls:  21439
+intruder: https://www.latestnigeriannews.com/news/8109295/ars-11-shu-arsenal-held-by-late-sheffield-utd-equaliser.html
+
+cur_cls:  14034
+intruder: https://www.news4jax.com/news/national/2020/01/03/president-trump-says-us-not-looking-to-start-war-with-iran/
+
+cur_cls:  21204
+intruder: https://www.latestnigeriannews.com/news/8379091/gender-divide-peru-panama-limit-men-and-women-to-alternate-days-out-to-stall-vir.html
+
+cur_cls:  17113
+intruder: https://www.latestnigeriannews.com/news/8486063/2020-utme-jamb-returns-n7bn-to-fg.html
+
+cur_cls:  14299
+intruder: https://www.cope.es/actualidad/espana/noticias/arrimadas-indistinguible-sanchez-que-dice-torra-sobre-cataluna-20200104_586253
+
+cur_cls:  14311
+intruder: https://www.thecentersquare.com/colorado/poll-shows-colorado-voters-favor-sanders-in-democratic-primary/article_e39eb118-5987-11ea-bea0-735f6207e541.html
+
+cur_cls:  14056
+intruder: https://www.cjonline.com/ZZ/news/20200219/latest-bloomberg-team-quick-to-respond-online-to-debate?rssfeed=true
+
+cur_cls:  10986
+intruder: http://feedproxy.google.com/~r/army-times/flashpoints/~3/x0NugeygbjQ/
+
+cur_cls:  17132
+intruder: https://www.aa.com.tr/tr/guncel/esed-rejimi-anlasmalara-ragmen-idlibin-yariya-yakinini-ele-gecirdi/1730379
+
+cur_cls:  21236
+intruder: https://patriotpost.us/articles/68846-trump-wins-dems-sc-debate-2020-02-26
+
+cur_cls:  15862
+intruder: https://www.bna.bh/news?cms=q8FmFJgiscL2fwIzON1%2bDkbK1aad94lURRzQgNbHGpw%3d
+
+cur_cls:  21241
+intruder: https://www.leavenworthtimes.com/ZZ/news/20200126/china-extends-lunar-new-year-holiday-as-new-virus-toll-rises?rssfeed=true
+

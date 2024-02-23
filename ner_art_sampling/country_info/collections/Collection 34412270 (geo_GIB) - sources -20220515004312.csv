@@ -1,0 +1,12 @@
+media_id,url,name,pub_country,pub_state,language,about_country,media_type,public_notes,editor_notes,stories_per_day,first_story
+"88251","http://www.chronicle.gi/#spider","chronicle.gi","GIB","","en","Gibraltar","print_native","","","0.0","2017-01-09"
+"300285","http://www.gbc.gi/","GBC - GBC News, GBC TV, Radio Gibraltar - Gibraltar Broadcasting Corporation","GIB","","en","none","video_broadcast","","","0.0","2016-10-10"
+"300291","http://www.gibnews.net/","Gibraltar News Online","GIB","","en","Gibraltar","digital_native","","","0.0","2016-08-15"
+"300317","http://www.insightgibraltar.com/","Insight Gibraltar - Welcome to the new Insight Gibraltar Magazine online!","GIB","","en","Gibraltar","print_native","","","0.11","2016-04-11"
+"300559","http://www.thegibraltarmagazine.com/","The Gibraltar Magazine","GIB","","en","none","print_native","","","0.0","2016-10-10"
+"300631","http://www.yourgibraltartv.com/","Welcome to Your Gibraltar TV (YGTV)","GIB","","en","Gibraltar","digital_native","","","0.42","2019-06-10"
+"540979","http://gibraltarolivepress.com/","gibraltarolivepress.com","GIB","","en","none","print_native","","","1.49","2019-02-25"
+"623550","http://www.gibraltarfinance.com/","Gibraltar International","GIB","","en","Gibraltar","print_native","","","0.13","2017-10-16"
+"651099","http://www.panorama.gi/","Panorama - Gibraltar","GIB","","en","Gibraltar","print_native","","","0.36","2017-12-04"
+"656027","http://www.thenewpeople.net/","New People - Gibraltar","GIB","","en","","print_native","","","0.0","2018-04-23"
+"656028","http://www.vox.gi/","Vox - Gibraltar","GIB","","en","Gibraltar","print_native","","","0.19","2017-12-04"

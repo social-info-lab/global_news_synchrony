@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="9961fda2aecc4fe6a60388e5c6b9b27f" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_9961fda2aecc4fe6a60388e5c6b9b27f = echarts.init(
+            document.getElementById('9961fda2aecc4fe6a60388e5c6b9b27f'), 'white', {renderer: 'canvas'});
+        var option_9961fda2aecc4fe6a60388e5c6b9b27f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Australia",
+                    "value": [
+                        133.775,
+                        -25.274,
+                        128326
+                    ]
+                },
+                {
+                    "name": "Brazil",
+                    "value": [
+                        -51.925,
+                        -14.235,
+                        44037
+                    ]
+                },
+                {
+                    "name": "South Africa",
+                    "value": [
+                        22.937,
+                        -30.559,
+                        7649
+                    ]
+                },
+                {
+                    "name": "India",
+                    "value": [
+                        78.962,
+                        20.593,
+                        3562
+                    ]
+                },
+                {
+                    "name": "Peru",
+                    "value": [
+                        -75.015,
+                        -9.189,
+                        2779
+                    ]
+                },
+                {
+                    "name": "Iran",
+                    "value": [
+                        53.688,
+                        32.427,
+                        2698
+                    ]
+                },
+                {
+                    "name": "Ukrainie",
+                    "value": [
+                        31.165,
+                        48.379,
+                        2040
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "value": [
+                        -106.346,
+                        56.13,
+                        1792
+                    ]
+                },
+                {
+                    "name": "Mongolia",
+                    "value": [
+                        103.847,
+                        46.862,
+                        1514
+                    ]
+                },
+                {
+                    "name": "Russia",
+                    "value": [
+                        37.618,
+                        55.751,
+                        1069
+                    ]
+                },
+                {
+                    "name": "Mauritania",
+                    "value": [
+                        21.008,
+                        -10.941,
+                        1374
+                    ]
+                },
+                {
+                    "name": "Kazakhsan",
+                    "value": [
+                        66.924,
+                        48.019,
+                        701
+                    ]
+                },
+                {
+                    "name": "UAE",
+                    "value": [
+                        53.848,
+                        23.424,
+                        490
+                    ]
+                },
+                {
+                    "name": "Malaysia",
+                    "value": [
+                        101.976,
+                        4.21,
+                        554
+                    ]
+                },
+                {
+                    "name": "New Zealand",
+                    "value": [
+                        174.886,
+                        -40.9,
+                        422
+                    ]
+                },
+                {
+                    "name": "Indonesia",
+                    "value": [
+                        113.921,
+                        -0.789,
+                        148
+                    ]
+                },
+                {
+                    "name": "Sweden",
+                    "value": [
+                        18.643,
+                        60.128,
+                        113
+                    ]
+                },
+                {
+                    "name": "Mexico",
+                    "value": [
+                        -102.553,
+                        23.634,
+                        121
+                    ]
+                },
+                {
+                    "name": "Sierra Leone",
+                    "value": [
+                        -11.779,
+                        8.461,
+                        109
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "flow chart",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "yellow",
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Australia->China",
+                    "coords": [
+                        [
+                            133.775,
+                            -25.274
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Brazil->China",
+                    "coords": [
+                        [
+                            -51.925,
+                            -14.235
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "South Africa->China",
+                    "coords": [
+                        [
+                            22.937,
+                            -30.559
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "India->China",
+                    "coords": [
+                        [
+                            78.962,
+                            20.593
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Peru->China",
+                    "coords": [
+                        [
+                            -75.015,
+                            -9.189
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Iran->China",
+                    "coords": [
+                        [
+                            53.688,
+                            32.427
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ukraine->China",
+                    "coords": [
+                        [
+                            31.165,
+                            48.379
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Canada->China",
+                    "coords": [
+                        [
+                            -106.346,
+                            56.13
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Mongolia->China",
+                    "coords": [
+                        [
+                            103.847,
+                            46.862
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Russia->China",
+                    "coords": [
+                        [
+                            37.618,
+                            55.751
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Mauritania->China",
+                    "coords": [
+                        [
+                            21.008,
+                            -10.941
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Kazakhstan->China",
+                    "coords": [
+                        [
+                            66.924,
+                            48.019
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "UAE->China",
+                    "coords": [
+                        [
+                            53.848,
+                            23.424
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Malaysia->China",
+                    "coords": [
+                        [
+                            101.976,
+                            4.21
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "New Zealand->China",
+                    "coords": [
+                        [
+                            174.886,
+                            -40.9
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Indonesia->China",
+                    "coords": [
+                        [
+                            113.921,
+                            -0.789
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Sweden->China",
+                    "coords": [
+                        [
+                            18.643,
+                            60.128
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Mexico->China",
+                    "coords": [
+                        [
+                            -102.553,
+                            23.634
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                },
+                {
+                    "name": "Sierra Leone->China",
+                    "coords": [
+                        [
+                            -11.779,
+                            8.461
+                        ],
+                        [
+                            104.195,
+                            35.675
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "flow chart"
+            ],
+            "selected": {
+                "": true,
+                "flow chart": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "mygeo",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 130000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_9961fda2aecc4fe6a60388e5c6b9b27f.setOption(option_9961fda2aecc4fe6a60388e5c6b9b27f);
+    </script>
+</body>
+</html>

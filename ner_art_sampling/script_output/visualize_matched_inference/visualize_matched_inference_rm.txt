@@ -1,0 +1,639 @@
+
+countries with highest cluster-based similarity:
+Gabon: 1.0
+Togo: 0.9172809890377578
+Burundi: 0.7861744585658615
+Niger: 0.7861744585658615
+Lesotho: 0.7861744585658615
+Burkina Faso: 0.7518429671132734
+Gambia: 0.7518429671132734
+Comoros: 0.7252133935032318
+Virgin Islands, U.S.: 0.7034554476036192
+Sudan: 0.6939032863899703
+
+countries with lowest cluster-based similarity:
+United States: 0.09661181630486981
+United Kingdom: 0.11950863648508692
+Canada: 0.12226829336322242
+Switzerland: 0.1296238492822338
+Mexico: 0.13833805709486424
+France: 0.1447250869148513
+Dominican Republic: 0.15062573106135602
+Russia: 0.1562491092607512
+Philippines: 0.1638010273330418
+Belgium: 0.16494140440058724
+
+country pairs with highest cluster-based similarity:
+country1: Belgium country2: France    similarity: 0.651139709477512
+country1: Canada country2: United States    similarity: 0.6508678263383922
+country1: Switzerland country2: Germany    similarity: 0.6486361735361024
+country1: Iraq country2: Yemen    similarity: 0.6436129670877855
+country1: Canada country2: United Kingdom    similarity: 0.6208795599187835
+country1: Jordan country2: Yemen    similarity: 0.6179965071572179
+country1: Dominican Republic country2: Mexico    similarity: 0.6126640691638217
+country1: United Kingdom country2: United States    similarity: 0.6045174339367098
+country1: Switzerland country2: France    similarity: 0.5999948802932007
+country1: Mexico country2: Venezuela    similarity: 0.5978874257896961
+
+country pairs with lowest cluster-based similarity:
+country1: United Arab Emirates country2: Lesotho    similarity: 0.1674453888423022
+country1: Lebanon country2: Lesotho    similarity: 0.1674453888423022
+country1: Luxembourg country2: Sudan    similarity: 0.1674453888423022
+country1: Germany country2: Lesotho    similarity: 0.1674453888423022
+country1: France country2: Lesotho    similarity: 0.1674453888423022
+country1: Nigeria country2: Sudan    similarity: 0.1674453888423022
+country1: Central African Republic country2: San Marino    similarity: 0.1674453888423022
+country1: Central African Republic country2: Guyana    similarity: 0.1674453888423022
+country1: Central African Republic country2: Sudan    similarity: 0.1674453888423022
+country1: Central African Republic country2: Lesotho    similarity: 0.1674453888423022
+
+0.9999999999998906
+0.999999999999909
+0.9999999999999286
+0.9999999999999588
+0.9999999999998975
+0.9999999999999217
+0.9999999999999694
+0.9999999999999002
+0.9999999999999831
+0.9999999999998851
+0.9999999999998577
+0.9999999999999127
+0.9999999999999363
+0.999999999999916
+0.9999999999999705
+0.999999999999957
+0.9999999999998878
+0.9999999999999605
+0.9999999999999232
+0.9999999999999643
+0.999999999999898
+0.9999999999999329
+0.9999999999999583
+0.999999999999957
+0.9999999999999835
+0.9999999999999161
+0.9999999999999409
+0.9999999999999626
+0.9999999999999825
+0.9999999999999836
+0.9999999999999816
+0.9999999999999789
+0.999999999999978
+0.999999999999999
+1.0000000000000053
+0.9999999999999734
+0.9999999999999485
+0.9999999999999898
+1.0
+0.9999999999999766
+0.9999999999999796
+0.9999999999998996
+1.0
+0.9999999999999786
+0.9999999999999922
+0.9999999999999993
+0.9999999999999968
+0.9999999999999449
+0.999999999999998
+0.9999999999999593
+0.9999999999999744
+0.9999999999999266
+0.9999999999999263
+0.9999999999999937
+0.9999999999999847
+0.9999999999999939
+0.9999999999999848
+0.9999999999999769
+0.999999999999993
+0.9999999999999637
+0.9999999999999997
+0.999999999999937
+0.999999999999965
+0.9999999999999735
+0.9999999999999727
+0.9999999999999871
+1.0000000000000067
+0.9999999999999866
+0.9999999999999072
+0.9999999999999912
+0.9999999999999915
+0.9999999999999893
+0.9999999999999957
+0.9999999999999983
+0.9999999999999618
+0.9999999999999987
+0.9999999999999966
+0.999999999999995
+0.9999999999999913
+1.0000000000000007
+0.9999999999999902
+0.9999999999999932
+0.9999999999999906
+0.9999999999999999
+0.9999999999999988
+0.9999999999999979
+0.9999999999999993
+1.0000000000000004
+0.9999999999999996
+0.9999999999999944
+0.999999999999998
+0.9999999999999973
+0.9999999999999974
+0.9999999999999892
+0.9999999999999963
+0.9999999999999986
+0.9999999999999976
+0.9999999999999956
+0.999999999999998
+0.9999999999999986
+1.0000000000000002
+0.9999999999999999
+0.9999999999999932
+0.9999999999999944
+0.9999999999999977
+0.9999999999999989
+1.0000000000000018
+1.0000000000000004
+0.9999999999999993
+0.9999999999999987
+0.9999999999999994
+0.9999999999999997
+1.0
+0.9999999999999994
+0.9999999999999997
+0.9999999999999996
+0.9999999999999997
+1.0
+1.0
+***********************
+***********************
+cur bin is  1
+***********************
+***********************
+fitlered_country_pair_num:  0
+country pairs total number: 1319
+-----------------------------
+-----------------------------
+simple model
+-----------------------------
+-----------------------------
+1319
+1319
+simple model -- parameter with intercept: [ 0.72616943  0.02829325 -0.06663013 -0.04881795]
+simple model -- the index of top 10 param (abs): [0, 2, 3, 1]
+simple model -- the weight of top 10 param: [0.7261694275768649, -0.06663012986134081, -0.04881794628913726, 0.028293248659818353]
+simple model -- model summary is
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.191
+Model:                            OLS   Adj. R-squared:                  0.189
+Method:                 Least Squares   F-statistic:                     103.3
+Date:                Thu, 14 Dec 2023   Prob (F-statistic):           4.76e-60
+Time:                        19:21:56   Log-Likelihood:                 1393.1
+No. Observations:                1319   AIC:                            -2778.
+Df Residuals:                    1315   BIC:                            -2757.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.7262      0.006    123.729      0.000       0.715       0.738
+x1             0.0283      0.011      2.587      0.010       0.007       0.050
+x2            -0.0666      0.006    -11.797      0.000      -0.078      -0.056
+x3            -0.0488      0.005    -10.353      0.000      -0.058      -0.040
+==============================================================================
+Omnibus:                       49.220   Durbin-Watson:                   1.612
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               53.816
+Skew:                          -0.483   Prob(JB):                     2.06e-12
+Kurtosis:                       3.216   Cond. No.                         6.59
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+-----------------------------
+-----------------------------
+complex model
+-----------------------------
+-----------------------------
+complex model -- parameter with intercept: [ 7.45494690e-01 -1.81404142e-02 -1.82057372e-02 -2.17414004e-02
+ -1.80090637e-01 -1.10993517e-01  5.30761194e-16 -6.20008379e-02
+ -2.37839850e-16 -1.06162357e-01  0.00000000e+00 -8.78984173e-02
+ -4.53088803e-02 -4.50014053e-02]
+complex model -- the index of top 10 param (abs): [0, 4, 5, 9, 11, 7, 12, 13, 3, 2]
+complex model -- the weight of top 10 param: [0.7454946897643121, -0.18009063736097525, -0.11099351708338868, -0.10616235701609393, -0.0878984173179286, -0.06200083785283531, -0.04530888028313674, -0.04500140531614374, -0.021741400406864075, -0.018205737194526037]
+complex model -- AIC: -2862.3914220869765
+complex model -- model summary is
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.249
+Model:                            OLS   Adj. R-squared:                  0.243
+Method:                 Least Squares   F-statistic:                     43.32
+Date:                Thu, 14 Dec 2023   Prob (F-statistic):           1.68e-74
+Time:                        19:21:56   Log-Likelihood:                 1442.2
+No. Observations:                1319   AIC:                            -2862.
+Df Residuals:                    1308   BIC:                            -2805.
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.7455      0.007    110.670      0.000       0.732       0.759
+x1            -0.0181      0.013     -1.408      0.159      -0.043       0.007
+x2            -0.0182      0.007     -2.432      0.015      -0.033      -0.004
+x3            -0.0217      0.008     -2.840      0.005      -0.037      -0.007
+x4            -0.1801      0.027     -6.730      0.000      -0.233      -0.128
+x5            -0.1110      0.009    -12.305      0.000      -0.129      -0.093
+x6          5.308e-16   5.33e-16      0.995      0.320   -5.16e-16    1.58e-15
+x7            -0.0620      0.012     -5.052      0.000      -0.086      -0.038
+x8         -2.378e-16   2.13e-16     -1.117      0.264   -6.55e-16     1.8e-16
+x9            -0.1062      0.015     -6.979      0.000      -0.136      -0.076
+x10                 0          0        nan        nan           0           0
+x11           -0.0879      0.082     -1.076      0.282      -0.248       0.072
+x12           -0.0453      0.058     -0.784      0.433      -0.159       0.068
+x13           -0.0450      0.005     -9.742      0.000      -0.054      -0.036
+==============================================================================
+Omnibus:                      113.811   Durbin-Watson:                   1.555
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              146.309
+Skew:                          -0.734   Prob(JB):                     1.70e-32
+Kurtosis:                       3.711   Cond. No.                     3.64e+19
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.58e-36. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+fitlered_country_pair_num:  0
+fitlered_sampling_pair_num:  0
+country pairs total number: 1317
+GDP(high-high)  Same language  Democracy index(high-high)  Speaking English  Both federalism  Speaking French  Gini Index(high-high)     Trade  Across NATO-BRICS groups  Gini Index(low-high)  Both in BRICS  Both in NATO  Same GDP category  Democracy index(low-high)  Continent sim Speaking Italian  Both in EU  Speaking Arabic  Federalism and other  Same political system type  Neighbor  Across EU-BRICS groups  Speaking Russian  Speaking German  Diplomatic Relation
+Example 0 x                  1.000000       1.000000                    1.000000          1.000000         1.000000         1.000000               1.000000  1.000000                  1.000000              1.000000       1.000000           1.0           1.000000                   1.000000       1.000000          1.000000    1.000000         1.000000              1.000000                    1.000000  1.000000                1.000000               1.0         1.000000             1.000000
+          shap_values        0.053367       0.034297                    0.012977         -0.012269         0.046408         0.009176              -0.039341  0.119235                  0.044030             -0.007732       0.032125           0.0          -0.003101                  -0.003388       0.006184         -0.084789   -0.017081         0.001838              0.005174                    0.009823 -0.001452                0.006507               0.0         0.013444             0.000587
+Example 1 x                  0.000000       0.000000                    0.000000          0.000000         0.000000         0.000000               0.000000  0.000000                  0.000000              0.000000       0.000000           0.0           0.000000                   0.000000       0.000000          0.000000    0.000000         0.000000              0.000000                    0.000000  0.000000                0.000000               0.0         0.000000             0.000000
+          shap_values       -0.003315      -0.017869                   -0.022130          0.004399        -0.003048         0.001095               0.002504 -0.008905                 -0.000906              0.000697      -0.000287           0.0           0.001279                  -0.005294      -0.000675          0.000087    0.000585        -0.000356             -0.002516                   -0.000249  0.000021                0.000065               0.0        -0.000058            -0.003497
+fitlered_country_pair_num:  0
+fitlered_sampling_pair_num:  0
+country pairs total number: 1317
+                       GDP(high-high)  Same language  Democracy index(high-high)  Speaking English  Both federalism  Speaking French  Gini Index(high-high)     Trade  Across NATO-BRICS groups  Same Gini Index category  Both in BRICS  Both in NATO  Same GDP category  Same Democracy index category  Continent sim  Geography distance  Speaking Italian
+Example 0 x                  1.000000       1.000000                    1.000000          1.000000         1.000000         1.000000               1.000000  1.000000                  1.000000                  1.000000       1.000000      1.000000           1.000000                       1.000000       1.000000            1.000000          1.000000
+          shap_values        0.043212       0.033180                    0.011553         -0.023005         0.048766        -0.027399              -0.044298  0.122532                  0.033616                 -0.005960       0.040125     -0.000168          -0.001520                       0.003367       0.003656           -0.008932         -0.037847
+Example 1 x                  0.000000       0.000000                    0.000000          0.000000         0.000000         0.000000               0.000000  0.000000                  0.000000                  0.000000       0.000000      0.000000           0.000000                       0.000000       0.000000            0.000000          0.000000
+          shap_values       -0.003774      -0.020834                   -0.023522          0.003235        -0.004022         0.000304               0.003149 -0.014178                 -0.002074                 -0.026776      -0.000154      0.000024           0.001315                      -0.001085      -0.000838           -0.035581          0.000045
+fitlered_country_pair_num:  0
+fitlered_sampling_pair_num:  0
+country pairs total number: 1317
+                       GDP(high-high)  Same language  Democracy index(high-high)  Speaking English  Both federalism  Speaking French  Gini Index(high-high)     Trade  Across NATO-BRICS groups  Same Gini Index category  Both in BRICS  Both in NATO  Same GDP category  Democracy index(low-high)  Continent sim  Speaking Italian  Both in EU  Speaking Arabic  Federalism and other  Same political system type  Neighbor  Across EU-BRICS groups  Speaking Russian  Speaking German  Diplomatic Relation
+Example 0 x                  1.000000       1.000000                    1.000000          1.000000         1.000000         1.000000               1.000000  1.000000                  1.000000                  1.000000       1.000000           1.0           1.000000                   1.000000       1.000000          1.000000    1.000000         1.000000              1.000000                    1.000000  1.000000                1.000000               1.0         1.000000             1.000000
+          shap_values        0.017943       0.010937                    0.003551         -0.004090         0.018393         0.002195              -0.013340  0.040446                  0.010658                 -0.001398       0.010684           0.0          -0.001034                  -0.004340       0.002066         -0.028263   -0.001658         0.000613              0.000673                    0.003274 -0.000484                0.002800               0.0         0.004481             0.000196
+Example 1 x                  0.000000       0.000000                    0.000000          0.000000         0.000000         0.000000               0.000000  0.000000                  0.000000                  0.000000       0.000000           0.0           0.000000                   0.000000       0.000000          0.000000    0.000000         0.000000              0.000000                    0.000000  0.000000                0.000000               0.0         0.000000             0.000000
+          shap_values       -0.001102      -0.005980                   -0.007186          0.001466        -0.001006         0.000259               0.000823 -0.003266                 -0.000473                 -0.000424      -0.000096           0.0           0.000426                  -0.001662      -0.000228          0.000029    0.000306        -0.000119             -0.000853                   -0.000083  0.000007                0.000023               0.0        -0.000019            -0.001166
+fitlered_country_pair_num:  0
+fitlered_sampling_pair_num:  0
+country pairs total number: 1317
+                       GDP(high-high)  Same language  Democracy index(high-high)  Speaking English  Both federalism  Speaking French  Gini Index(high-high)     Trade  Across NATO-BRICS groups  Same Gini Index category  Both in BRICS  Both in NATO  Same GDP category  Same Democracy index category  Continent sim  Geography distance  Speaking Italian  Both in BRICS
+Example 0 x                  1.000000       1.000000                    1.000000          1.000000         1.000000         1.000000               1.000000  1.000000                  1.000000                  1.000000       1.000000      1.000000           1.000000                       1.000000       1.000000            1.000000          1.000000       1.000000
+          shap_values        0.015343       0.010580                    0.004543         -0.007612         0.016489        -0.009812              -0.014908  0.040592                  0.011509                 -0.001846       0.006992     -0.000056          -0.000777                       0.000439       0.001219           -0.003866         -0.012616       0.006867
+Example 1 x                  0.000000       0.000000                    0.000000          0.000000         0.000000         0.000000               0.000000  0.000000                  0.000000                  0.000000       0.000000      0.000000           0.000000                       0.000000       0.000000            0.000000          0.000000       0.000000
+          shap_values       -0.001260      -0.006944                   -0.007868          0.001063        -0.001321         0.000101               0.001057 -0.004726                 -0.000691                 -0.008931      -0.000018      0.000008           0.000440                      -0.000340      -0.000279           -0.011863          0.000015      -0.000033
+
+=========================================================================
+                                 y I        y II      y III      y IIII  
+-------------------------------------------------------------------------
+Across EU-BRICS groups        0.0147                0.0049               
+                              (0.0154)              (0.0051)             
+Across NATO-BRICS groups      0.0460**   0.0603***  0.0153**   0.0201*** 
+                              (0.0180)   (0.0136)   (0.0060)   (0.0045)  
+Both federalism               0.0586***  0.0574***  0.0195***  0.0191*** 
+                              (0.0097)   (0.0087)   (0.0032)   (0.0029)  
+Both in BRICS                 0.0746**   0.0855***  0.0249**   0.0142*** 
+                              0.0746**   0.0855***  0.0249**   0.0142*** 
+Both in BRICS                 (0.0296)   (0.0293)   (0.0099)   (0.0049)  
+                              (0.0296)   (0.0293)   (0.0099)   (0.0049)  
+Both in EU                    -0.0205               -0.0068              
+                              (0.0142)              (0.0047)             
+Both in NATO                  0.0301**   0.0353**   0.0100**   0.0118**  
+                              (0.0150)   (0.0148)   (0.0050)   (0.0049)  
+Continent sim                 0.0123*    0.0224***  0.0041*    0.0075*** 
+                              (0.0063)   (0.0065)   (0.0021)   (0.0022)  
+Democracy index(high-high)    0.0758***  0.0681***  0.0253***  0.0227*** 
+                              (0.0084)   (0.0078)   (0.0028)   (0.0026)  
+Democracy index(low-high)     0.0234***             0.0078***            
+                              (0.0082)              (0.0027)             
+Diplomatic Relation           -0.0006               -0.0002              
+                              (0.0055)              (0.0018)             
+Federalism and other          0.0104**              0.0035**             
+                              (0.0053)              (0.0018)             
+GDP(high-high)                0.0736***  0.0725***  0.0245***  0.0242*** 
+                              (0.0115)   (0.0111)   (0.0038)   (0.0037)  
+Geography distance                       0.0367***             0.0122*** 
+                                         (0.0117)              (0.0039)  
+Gini Index(high-high)         -0.0375*** -0.0422*** -0.0125*** -0.0141***
+                              (0.0071)   (0.0067)   (0.0024)   (0.0022)  
+Gini Index(low-high)          -0.0176***                                 
+                              (0.0065)                                   
+Neighbor                      0.0160                0.0053               
+                              (0.0129)              (0.0043)             
+R-squared                     0.4563     0.4553     0.4563     0.4553    
+R-squared Adj.                0.4458     0.4482     0.4458     0.4482    
+Same Democracy index category            -0.0183**             -0.0061** 
+                                         (0.0078)              (0.0026)  
+Same GDP category             -0.0115**  -0.0103**  -0.0038**  -0.0034** 
+                              (0.0050)   (0.0043)   (0.0017)   (0.0014)  
+Same Gini Index category                 0.0196***  0.0059***  0.0065*** 
+                                         (0.0063)   (0.0022)   (0.0021)  
+Same language                 0.1257***  0.1389***  0.0419***  0.0463*** 
+                              (0.0085)   (0.0072)   (0.0028)   (0.0024)  
+Same political system type    0.0103*               0.0034*              
+                              (0.0059)              (0.0020)             
+Speaking Arabic               0.0258*               0.0086*              
+                              (0.0156)              (0.0052)             
+Speaking English              -0.1176*** -0.1300*** -0.0392*** -0.0433***
+                              (0.0102)   (0.0092)   (0.0034)   (0.0031)  
+Speaking French               -0.0795*** -0.0843*** -0.0265*** -0.0281***
+                              (0.0133)   (0.0124)   (0.0044)   (0.0041)  
+Speaking German               0.0135                0.0045               
+                              (0.0247)              (0.0082)             
+Speaking Italian              -0.1355*   -0.1245*   -0.0452*   -0.0415*  
+                              (0.0718)   (0.0708)   (0.0239)   (0.0236)  
+Speaking Russian              -0.0357               -0.0119              
+                              (0.0521)              (0.0174)             
+Trade                         0.1315**   0.1547***  0.0438**   0.0516*** 
+                              (0.0528)   (0.0510)   (0.0176)   (0.0170)  
+const                         0.2496***  0.2474***  -0.2560*** -0.2509***
+                              (0.0116)   (0.0066)   (0.0035)   (0.0022)  
+=========================================================================
+Standard errors in parentheses.
+* p<.1, ** p<.05, ***p<.01
+\begin{table}
+\caption{}
+\label{}
+\begin{center}
+\begin{tabular}{lllll}
+\hline
+                              & y I        & y II       & y III      & y IIII      \\
+\hline
+Across EU-BRICS groups        & 0.0147     &            & 0.0049     &             \\
+                              & (0.0154)   &            & (0.0051)   &             \\
+Across NATO-BRICS groups      & 0.0460**   & 0.0603***  & 0.0153**   & 0.0201***   \\
+                              & (0.0180)   & (0.0136)   & (0.0060)   & (0.0045)    \\
+Both federalism               & 0.0586***  & 0.0574***  & 0.0195***  & 0.0191***   \\
+                              & (0.0097)   & (0.0087)   & (0.0032)   & (0.0029)    \\
+Both in BRICS                 & 0.0746**   & 0.0855***  & 0.0249**   & 0.0142***   \\
+                              & 0.0746**   & 0.0855***  & 0.0249**   & 0.0142***   \\
+Both in BRICS                 & (0.0296)   & (0.0293)   & (0.0099)   & (0.0049)    \\
+                              & (0.0296)   & (0.0293)   & (0.0099)   & (0.0049)    \\
+Both in EU                    & -0.0205    &            & -0.0068    &             \\
+                              & (0.0142)   &            & (0.0047)   &             \\
+Both in NATO                  & 0.0301**   & 0.0353**   & 0.0100**   & 0.0118**    \\
+                              & (0.0150)   & (0.0148)   & (0.0050)   & (0.0049)    \\
+Continent sim                 & 0.0123*    & 0.0224***  & 0.0041*    & 0.0075***   \\
+                              & (0.0063)   & (0.0065)   & (0.0021)   & (0.0022)    \\
+Democracy index(high-high)    & 0.0758***  & 0.0681***  & 0.0253***  & 0.0227***   \\
+                              & (0.0084)   & (0.0078)   & (0.0028)   & (0.0026)    \\
+Democracy index(low-high)     & 0.0234***  &            & 0.0078***  &             \\
+                              & (0.0082)   &            & (0.0027)   &             \\
+Diplomatic Relation           & -0.0006    &            & -0.0002    &             \\
+                              & (0.0055)   &            & (0.0018)   &             \\
+Federalism and other          & 0.0104**   &            & 0.0035**   &             \\
+                              & (0.0053)   &            & (0.0018)   &             \\
+GDP(high-high)                & 0.0736***  & 0.0725***  & 0.0245***  & 0.0242***   \\
+                              & (0.0115)   & (0.0111)   & (0.0038)   & (0.0037)    \\
+Geography distance            &            & 0.0367***  &            & 0.0122***   \\
+                              &            & (0.0117)   &            & (0.0039)    \\
+Gini Index(high-high)         & -0.0375*** & -0.0422*** & -0.0125*** & -0.0141***  \\
+                              & (0.0071)   & (0.0067)   & (0.0024)   & (0.0022)    \\
+Gini Index(low-high)          & -0.0176*** &            &            &             \\
+                              & (0.0065)   &            &            &             \\
+Neighbor                      & 0.0160     &            & 0.0053     &             \\
+                              & (0.0129)   &            & (0.0043)   &             \\
+R-squared                     & 0.4563     & 0.4553     & 0.4563     & 0.4553      \\
+R-squared Adj.                & 0.4458     & 0.4482     & 0.4458     & 0.4482      \\
+Same Democracy index category &            & -0.0183**  &            & -0.0061**   \\
+                              &            & (0.0078)   &            & (0.0026)    \\
+Same GDP category             & -0.0115**  & -0.0103**  & -0.0038**  & -0.0034**   \\
+                              & (0.0050)   & (0.0043)   & (0.0017)   & (0.0014)    \\
+Same Gini Index category      &            & 0.0196***  & 0.0059***  & 0.0065***   \\
+                              &            & (0.0063)   & (0.0022)   & (0.0021)    \\
+Same language                 & 0.1257***  & 0.1389***  & 0.0419***  & 0.0463***   \\
+                              & (0.0085)   & (0.0072)   & (0.0028)   & (0.0024)    \\
+Same political system type    & 0.0103*    &            & 0.0034*    &             \\
+                              & (0.0059)   &            & (0.0020)   &             \\
+Speaking Arabic               & 0.0258*    &            & 0.0086*    &             \\
+                              & (0.0156)   &            & (0.0052)   &             \\
+Speaking English              & -0.1176*** & -0.1300*** & -0.0392*** & -0.0433***  \\
+                              & (0.0102)   & (0.0092)   & (0.0034)   & (0.0031)    \\
+Speaking French               & -0.0795*** & -0.0843*** & -0.0265*** & -0.0281***  \\
+                              & (0.0133)   & (0.0124)   & (0.0044)   & (0.0041)    \\
+Speaking German               & 0.0135     &            & 0.0045     &             \\
+                              & (0.0247)   &            & (0.0082)   &             \\
+Speaking Italian              & -0.1355*   & -0.1245*   & -0.0452*   & -0.0415*    \\
+                              & (0.0718)   & (0.0708)   & (0.0239)   & (0.0236)    \\
+Speaking Russian              & -0.0357    &            & -0.0119    &             \\
+                              & (0.0521)   &            & (0.0174)   &             \\
+Trade                         & 0.1315**   & 0.1547***  & 0.0438**   & 0.0516***   \\
+                              & (0.0528)   & (0.0510)   & (0.0176)   & (0.0170)    \\
+const                         & 0.2496***  & 0.2474***  & -0.2560*** & -0.2509***  \\
+                              & (0.0116)   & (0.0066)   & (0.0035)   & (0.0022)    \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+LR split R^2
+
+LR split R^2:   0.39893795241185215
+
+LR split R^2:   0.41287853803247343
+
+LR split R^2:   0.39893795241185215
+
+LR split R^2:   0.41287853803247354
+
+
+tree method result
+
+R^2:   0.5902637415409953
+
+R^2:   0.6525592861765863
+
+R^2:   0.5902637415409951
+
+R^2:   0.6525592861765862
+
+Same language :   0.16528590241638938
+Democracy index(high-high) :   0.10117804833894398
+Speaking English :   0.10025951240224437
+Both federalism :   0.03923697315120877
+Speaking French :   0.0029716018048756092
+Gini Index(high-high) :   0.04850259518437753
+Trade :   0.2886701553278779
+Across NATO-BRICS groups :   0.009476958618226701
+Gini Index(low-high) :   0.013002841036349551
+Both in BRICS :   0.005804890298280425
+Both in NATO :   0.0009670323054388083
+Same GDP category :   0.015378996933902296
+Democracy index(low-high) :   0.021036418370048656
+Continent sim :   0.012418747716238044
+Speaking Italian :   0.001480418999355768
+Both in EU :   0.0031970360278886652
+Speaking Arabic :   0.026105999291378277
+Federalism and other :   0.011980247903284016
+Same political system type :   0.0022907612700878615
+Neighbor :   0.00541916964664381
+Across EU-BRICS groups :   0.0045642392035486635
+Speaking Russian :   0.0
+Speaking German :   0.0005674452723518291
+Diplomatic Relation :   0.02973064971929844
+Same language :   0.16745273772205266
+Democracy index(high-high) :   0.07528167221363029
+Speaking English :   0.08025590200590797
+Both federalism :   0.031559646202288745
+Speaking French :   0.005070310715969017
+Gini Index(high-high) :   0.026330544924385545
+Trade :   0.2740649488090785
+Across NATO-BRICS groups :   0.008801823753227486
+Same Gini Index category :   0.01625857820427467
+Both in BRICS :   0.003327518472522263
+Both in NATO :   1.125276236581467e-06
+Same GDP category :   0.006847683044361364
+Same Democracy index category :   0.02560047947484237
+Continent sim :   0.003742908554269444
+Geography distance :   0.1904230905509294
+Speaking Italian :   0.0010930523484192986
+Same language :   0.16528590241639052
+Democracy index(high-high) :   0.09956052836483016
+Speaking English :   0.10025951240224479
+Both federalism :   0.03923697315120737
+Speaking French :   0.0029716018048755503
+Gini Index(high-high) :   0.047279345983583326
+Trade :   0.28867015532787677
+Across NATO-BRICS groups :   0.009476958618226759
+Same Gini Index category :   0.014226090237142263
+Both in BRICS :   0.005804890298280455
+Both in NATO :   0.000967032305438196
+Same GDP category :   0.015378996933902253
+Democracy index(low-high) :   0.022653938344163883
+Continent sim :   0.012418747716237162
+Speaking Italian :   0.0014804189993558796
+Both in EU :   0.0031970360278885863
+Speaking Arabic :   0.026105999291378593
+Federalism and other :   0.011980247903284665
+Same political system type :   0.0022907612700875206
+Neighbor :   0.005419169646644365
+Across EU-BRICS groups :   0.004564239203548669
+Speaking Russian :   0.0
+Speaking German :   0.0005674452723518906
+Diplomatic Relation :   0.029730649719298424
+Same language :   0.1674527377220521
+Democracy index(high-high) :   0.07809332256157128
+Speaking English :   0.07937369693320756
+Both federalism :   0.032364101153330944
+Speaking French :   0.004742377706881044
+Gini Index(high-high) :   0.02605015353227953
+Trade :   0.27420925615593744
+Across NATO-BRICS groups :   0.008801823753228034
+Same Gini Index category :   0.016538613785157714
+Both in BRICS :   0.002728096975029044
+Both in NATO :   1.1252762365814636e-06
+Same GDP category :   0.005657290814755601
+Same Democracy index category :   0.023042921023318758
+Continent sim :   0.00386163620076619
+Geography distance :   0.1903055353531778
+Speaking Italian :   0.0010930523484190405
+Both in BRICS :   0.000599421497493208
+split R^2:   0.5039236826011191
+
+split R^2:   0.5275981832266352
+
+split R^2:   0.5038009609207297
+
+split R^2:   0.5300459644138573
+
+Same language :   0.16844534968747987
+Democracy index(high-high) :   0.13099772659352854
+Speaking English :   0.08645651676299419
+Both federalism :   0.04787395955970321
+Speaking French :   0.007910379818941096
+Gini Index(high-high) :   0.05273327324486172
+Trade :   0.2899974756609875
+Across NATO-BRICS groups :   0.015310330254147735
+Gini Index(low-high) :   0.012972790416838924
+Both in BRICS :   0.006345048471476685
+Both in NATO :   0.0
+Same GDP category :   0.015787431166836112
+Democracy index(low-high) :   0.00537444320326211
+Continent sim :   0.015165601801934452
+Speaking Italian :   0.002560577974143256
+Both in EU :   0.0025986141889987303
+Speaking Arabic :   0.003226074359314336
+Federalism and other :   0.011915455240292673
+Same political system type :   0.003445978800654195
+Neighbor :   0.0029757787270387887
+Across EU-BRICS groups :   0.0013800185877250724
+Speaking Russian :   0.0
+Speaking German :   0.001974978115537908
+Diplomatic Relation :   0.029218269841870755
+Same language :   0.16798694130487868
+Democracy index(high-high) :   0.09129066744784614
+Speaking English :   0.07035274472892392
+Both federalism :   0.04293128544607748
+Speaking French :   0.0083050879678313
+Gini Index(high-high) :   0.043483759315041184
+Trade :   0.25440373379802417
+Across NATO-BRICS groups :   0.013565670284247322
+Same Gini Index category :   0.020538042295235204
+Both in BRICS :   0.004161828628248417
+Both in NATO :   0.00014859164225919537
+Same GDP category :   0.0028066353476803264
+Same Democracy index category :   0.027811754309735325
+Continent sim :   0.00861140330735786
+Geography distance :   0.16646306168259178
+Speaking Italian :   0.0012878741547580482
+Same language :   0.16844534968747987
+Democracy index(high-high) :   0.1121891091393891
+Speaking English :   0.08645651676299476
+Both federalism :   0.047873959559703
+Speaking French :   0.007910379818941469
+Gini Index(high-high) :   0.05234994833980318
+Trade :   0.2899837218404251
+Across NATO-BRICS groups :   0.015310330254147754
+Same Gini Index category :   0.013356115321897117
+Both in BRICS :   0.006345048471476399
+Both in NATO :   0.0
+Same GDP category :   0.015787431166835772
+Democracy index(low-high) :   0.0241830606574024
+Continent sim :   0.015179355622495092
+Speaking Italian :   0.0025605779741433585
+Both in EU :   0.002598614188998739
+Speaking Arabic :   0.003226074359314346
+Federalism and other :   0.011915455240293027
+Same political system type :   0.0034459788006544344
+Neighbor :   0.00297577872703871
+Across EU-BRICS groups :   0.0013800185877250839
+Speaking Russian :   0.0
+Speaking German :   0.0019749781155385844
+Diplomatic Relation :   0.029218269841870426
+Same language :   0.16800978821808354
+Democracy index(high-high) :   0.09752249178089045
+Speaking English :   0.07086048562031404
+Both federalism :   0.04214120701138037
+Speaking French :   0.008305087967830983
+Gini Index(high-high) :   0.04517351867861493
+Trade :   0.2538319298203521
+Across NATO-BRICS groups :   0.013565670284247372
+Same Gini Index category :   0.018933980296789922
+Both in BRICS :   0.0015215381283431439
+Both in NATO :   0.0001485916422590282
+Same GDP category :   0.00293341123503769
+Same Democracy index category :   0.02195568389273286
+Continent sim :   0.008611403307357697
+Geography distance :   0.16684567153636473
+Speaking Italian :   0.0012878741547580341
+Both in BRICS :   0.0026402904999052617
+
+
+[]
+
+finish at  2023-12-14 19:23:18.804214
