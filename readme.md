@@ -11,5 +11,5 @@ This is for our webconf research paper "Global News Synchrony and Diversity Duri
 4. Regression Analysis: ner_art_sampling/visualize_matched_inference.py.
 
 The overall processing pipeline is:
-![Image text](https://github.com/social-info-lab/global_news_synchrony/tree/main/img/data_collection_pipeline.png)
+![image](https://github.com/social-info-lab/global_news_synchrony/tree/main/img/data_collection_pipeline.png)
 The data collection pipeline for multilingual news article similarity is:
