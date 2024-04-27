@@ -174,30 +174,6 @@ def read_storyid_url_index(art_dict, index_filename):
     gc.collect()
     return 0
 
-# def load_article(file,lineno):
-#     file = file.replace("home","mnt/nfs/work1/grabowicz/xchen4/mediacloud_temp")
-#     try:
-#         lineno=int(lineno)
-#     except ValueError:
-#         print("DEBUG", lineno, "Note: known issue, needs debugging.")
-#         # probably some issue about saving/loading namedtuples
-#         sys.exit()
-#     # symbolic link doesn't look good with current inter-lang data storage format since the current wiki data is in scott's directory while the offsets are in my directory. Even use symbolic links it will always change the code since we use the json files and offsets at different time.
-#     # with open(file.replace(".json", ".offsets").replace(".gz", "").replace("home/scott/wikilinked","home/xichen/mediacloud/ner_art_sampling/wikilinked"), "r") as fh:
-#     # with open(file.replace(".json", ".offsets").replace(".gz", "").replace("scott/wikilinked","xichen/mediacloud/ner_art_sampling/wikilinked"), "r") as fh:
-#     with open(file.replace(".json", ".offsets").replace(".gz", "").replace("-REM","").replace("scott/wikilinked","scott/ner"),"r") as fh:
-#         # with open(file.replace(".json", ".offsets").replace(".gz", ""), "r") as fh:
-#         offsets = [int(x) for x in fh]
-#     if ".gz" not in file:
-#         with open(file,"r") as fh:
-#             fh.seek(offsets[lineno])
-#             line=fh.readline()
-#     else:
-#         with gzip.open(file,"rt") as fh:
-#             fh.seek(offsets[lineno])
-#             line=fh.readline()
-#     return json.loads(line)
-
 
 def read_story_wiki_data(index_filename, art_dict, title_dict, file_dict, lineno_dict):
     print(datetime.now(), f"Reading data from {index_filename}")
@@ -238,15 +214,6 @@ def checkurl(url):
         url.encode('ascii')
     except:
         url = quoteurl(url)
-    # try:
-    #	req=urllib.request.Request(url,headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'})
-    #	resp=urllib.request.urlopen(req,timeout=10)
-    #	live_status=resp.status
-    #	if isinstance(resp.status,int) and resp.status>=200 and resp.status<300:
-    #		return {"outcome":"live", "live_status":live_status, "ia":None,"ia_status":None}
-    # except Exception as e:
-    #	print(url,e)
-    #	#pass
 
     # iaurl = f"http://archive.org/wayback/available?url={url}"
     iaurl = f"https://archive.org/wayback/available?url={url}"
@@ -268,31 +235,6 @@ def checkurl(url):
         print(e)
     # pass
     return {"outcome": False, "live_status": live_status, "ia": resp, "ia_status": ia_status}
-
-# def read_art_url(index_filename, art_dict):
-#     data = []
-#     print(datetime.datetime.now(), f"Reading data from {index_filename}")
-#     with open(args.output_filename, "w") as out:
-#         with open(index_filename, "r") as fh:
-#             n_lines = 0
-#             print("Loaded...", end=" ")
-#             for line in fh:
-#                 file, lineno, reladate, url, vec = line.strip().split("\t")
-#
-#                 # tuples have lower footprint than lists, lists have lower than sets
-#                 # https://stackoverflow.com/questions/46664007/why-do-tuples-take-less-space-in-memory-than-lists/46664277
-#                 # https://stackoverflow.com/questions/39914266/memory-consumption-of-a-list-and-set-in-python
-#
-#                 # # we don't consider the repeat times of words in the same document here
-#                 # vec = tuple(k for k, v in vec)
-#
-#                 art_dict[file][lineno] = url
-#
-#                 n_lines += 1
-#                 if n_lines%500000 == 0:
-#                     print(n_lines,"lines", end=" ", flush=True)
-#
-#     print(datetime.datetime.now(), "Loaded", len(data), "news from",index_filename)
 
 
 if __name__ == '__main__':
@@ -332,47 +274,6 @@ if __name__ == '__main__':
     print()
 
 
-    # res_set = []
-    # with open("/Users/xichen/Downloads/2020-01-01.json", "r") as fh:
-    #     line = fh.readline()
-    #     while line:
-    #         line = fh.readline()
-    #         try:
-    #             cur_record = json.loads(line)
-    #             # if cur_record['stories_id'] in [1484258393, 1484648268, 1484049687, 1484331369, 1484129176, 1484189286]:
-    #             if cur_record["url"] == "http://nigerianobservernews.com/2020/01/new-year-ajimobi-rallies-support-for-buhari-apc/":
-    #                 res_set.append(cur_record)
-    #         except:
-    #             print()
-
-
-
-
-
-    # fig = plt.figure(figsize=(12, 8))
-    # plt.plot([0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13][:10],
-    #          [-0.02, 0.015, 0.075, -0.01, -0.08, -0.09, 0.1, 0.045, 0.1, -0.005, 0.065, 0.025][:10], color='blue',
-    #          marker="o")
-    # plt.plot([0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13][:10],
-    #          [-0.051, -0.06, 0.045, -0.045, -0.135, -0.15, 0.04, -0.138, -0.18, 0.03, 0.06, -0.10][:10], color='green',
-    #          marker="o")
-    # plt.plot([0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13][:10],
-    #          [-0.055, -0.05, -0.18, -0.20, -0.10, -0.26, -0.07, -0.15, -0.27, -0.08, -0.02, -0.10][:10],
-    #          color='orange',
-    #          marker="o")
-    #
-    # # plt.xticks(ticks=range(len(political_group_group_bin_for_present[group])), labels=month_label, fontsize=20)
-    # plt.xticks(ticks=range(12), labels=['', 'Jan', '', 'Feb', '', 'Mar', '', 'Apr', '', 'May', '', 'Jun'],
-    #            fontsize=20)
-    # plt.yticks(size=20)
-    # plt.xlabel('Time', fontsize=32)
-    # plt.ylabel('similarity difference', fontsize=32)
-    # cur_legend = ['nato-eunion', 'nato-brics', 'eunion-brics']
-    # plt.legend(cur_legend, fontsize=20)
-    #
-    # # plt.show()
-    # plt.savefig(f"{output_dir}/time_sim_diff_across_political_groups.png")
-
 
     # load article pairs data into df
     pairs = pd.read_csv(args.input_file)
@@ -381,10 +282,6 @@ if __name__ == '__main__':
 
     pair_pub_country = pairs.dropna(subset=["pub_country1","pub_country2"])
     pair_about_country = pairs.dropna(subset=["about_country1","about_country2"])
-
-    # uni_art_count = len(set(pairs["stories_id1"].to_list()) | set(pairs["stories_id2"].to_list()))
-    # print(uni_art_count)
-    # sys.exit()
 
     country_alpha3_to_full_name = {}
     for i in range(len(pairs)):
@@ -534,13 +431,6 @@ if __name__ == '__main__':
         jensenshannon_for_save_dict_df = pd.DataFrame(jensenshannon_for_save_dict)
         jensenshannon_for_save_dict_df.to_csv("network_data/country_cluster/country_cls_sim.csv")
 
-        # largest_entropy_countries = sorted(entropy_dict, key=entropy_dict.get, reverse=True)[:10]
-        # largest_js_countries = sorted(jensenshannon_for_print_dict, key=jensenshannon_for_print_dict.get, reverse=True)[:10]
-
-
-
-
-
     if args.stat:
         globstring = "indexes/*-wiki-stat-v2.index"
         # globstring = "indexes/zh-wiki-stat-v2.index"
@@ -572,14 +462,8 @@ if __name__ == '__main__':
         country_outlets_id = country_outlets_list["media_id"].to_list()
         country_outlets_pub_country = country_outlets_list["pub_country"].to_list()
         country_outlets_about_country = country_outlets_list["about_country"].to_list()
-        # country_outlets_url_pub_country = {}
-        # country_outlets_url_about_country = {}
         country_outlets_id_pub_country = {}
         country_outlets_id_about_country = {}
-        # for i in range(len(country_outlets_url)):
-        #     country_outlets_url[i] = unify_url(country_outlets_url[i])
-        #     country_outlets_url_pub_country[country_outlets_url[i]] = country_outlets_pub_country[i]
-        #     country_outlets_url_about_country[country_outlets_url[i]] = country_outlets_about_country[i]
         for i in range(len(country_outlets_id)):
             country_outlets_id_pub_country[country_outlets_id[i]] = country_outlets_pub_country[i]
             country_outlets_id_about_country[country_outlets_id[i]] = country_outlets_about_country[i]
@@ -812,31 +696,6 @@ if __name__ == '__main__':
         )
         geo.render("geo_art.html")
 
-        # # plot global articles of each country
-        # geo = Geo(init_opts=opts.InitOpts(width='1500px', height='900px', ))
-        # geo.add_schema(maptype="world")
-        #
-        # # Add coordinate points, add names and longitude and latitude
-        # for country in country_alpha3_geography:
-        #     geo.add_coordinate(name=country, longitude=country_alpha3_geography[country]["country_longitude"],
-        #                        latitude=country_alpha3_geography[country]["country_latitude"])
-        #
-        # geo_node_sim_data = [(country, np.log10(geo_index_art_data[country])) for country in geo_node_loc]
-        # geo_node_loc_key = [country for country in geo_node_loc]
-        # for i in range(len(geo_node_sim_data)):
-        #     if len(country_outlet_name_list[geo_node_loc_key[i]]) < min_media_num:
-        #         # geo.add("not-covered", [(geo_node_sim_data[i][0], 1)], symbol_size=5, color="grey")
-        #         continue
-        #     geo.add("intra-country", [geo_node_sim_data[i]], symbol_size=5 * geo_node_sim_data[i][-1])
-        #
-        # # for country in country_alpha3_code:
-        # #     if country not in geo_node_loc_key:
-        # #         geo.add("not-covered", [(country, 1)], symbol_size=5, color="black")
-        #
-        # geo.set_series_opts(label_opts=opts.LabelOpts(is_show=False))
-        # geo.set_global_opts(visualmap_opts=opts.VisualMapOpts(max_=10), title_opts=opts.TitleOpts(title="mygeo"))
-        # geo.render("geo_art.html")
-
         # find the top k edge with most article pairs
         top_k_edges = geo_edge_num.most_common(shown_edge_num)
 
@@ -1068,15 +927,6 @@ if __name__ == '__main__':
                 except:
                     pass
 
-        # fig = plt.figure(figsize=(10, 8))
-        # plt.scatter(country_dem_for_present, country_sim_for_present)
-        # plt.xticks(size=20)
-        # plt.yticks(size=20)
-        # plt.xlabel('Democracy Index', fontsize=32)
-        # plt.ylabel('Similarity', fontsize=32)
-        # # plt.show()
-        # plt.savefig(f"{output_dir}/dem_sim_scatter.png")
-
         dem_sim_scatter_dict = {"Democracy Index":country_dem_for_present, "Similarity":country_sim_for_present}
         dem_sim_scatter_df = pd.DataFrame(dem_sim_scatter_dict)
         fig = sns.lmplot(x="Democracy Index", y="Similarity", data=dem_sim_scatter_df, order=3, ci=95)
@@ -1200,9 +1050,6 @@ if __name__ == '__main__':
         for unitary_type in country_alpha3_dem_unitary_dict:
             if unitary_type == "unitary_monarchies":
                 continue
-            if unitary_type == "unitary_republic":
-                for i in range(len(country_pairs_group_by_unitary_sim_coef_list[unitary_type])):
-                    country_pairs_group_by_unitary_sim_coef_list[unitary_type][i] += 0.75
             print(f"{unitary_type} pearson correlation and p-value are", st.pearsonr(country_pairs_group_by_unitary_idx_coef_list[unitary_type], country_pairs_group_by_unitary_sim_coef_list[unitary_type]))
             print(f"{unitary_type} spearman correlation and p-value are", st.spearmanr(country_pairs_group_by_unitary_idx_coef_list[unitary_type], country_pairs_group_by_unitary_sim_coef_list[unitary_type]))
         print()
@@ -1213,9 +1060,7 @@ if __name__ == '__main__':
         for unitary_type in country_alpha3_dem_unitary_dict:
             if unitary_type == "unitary_monarchies":
                 continue
-            if unitary_type == "unitary_republic":
-                country_dem_unitary_idx_class_sim_for_present[unitary_type][4] += 0.75
-            if unitary_type == "federalism":
+            else:
                 country_dem_unitary_idx_class_for_present[unitary_type] = country_dem_unitary_idx_class_for_present[unitary_type][1:]
                 country_dem_unitary_idx_class_sim_for_present[unitary_type] = country_dem_unitary_idx_class_sim_for_present[unitary_type][1:]
                 country_dem_unitary_idx_class_95interval_error_for_present[unitary_type] = country_dem_unitary_idx_class_95interval_error_for_present[unitary_type][1:]
@@ -1412,52 +1257,6 @@ if __name__ == '__main__':
         # actually it should just be named as dem_idx_sim.png
         plt.savefig(f"{output_dir}/dem_idx_frac_unitary_inter_country.png")
 
-       #  # plot similarity of intra-country and inter-country with different democracy index difference
-       #  country_pairs["democracy_index_diff_class"] = country_pairs.apply(lambda x: math.ceil(abs(x["democracy_index1"] - x["democracy_index2"])/2)*2, axis=1)
-       #  country_pairs_group_by_dem_diff = dict(country_pairs.groupby(["democracy_index_diff_class","country_type"])["similarity"].mean())
-       #  country_dem_diff_class_for_present = defaultdict(list)
-       #  country_dem_diff_class_sim_for_present = defaultdict(list)
-       #  for key_tuple in country_pairs_group_by_dem_diff:
-       #      country_dem_diff_class_for_present[key_tuple[1]].append(key_tuple[0])
-       #      country_dem_diff_class_sim_for_present[key_tuple[1]].append(trans_node_sim(country_pairs_group_by_dem_diff[key_tuple]))
-       #
-       #  fig = plt.figure(figsize=(10, 8))
-       #  for country_type in ["intra-country", "inter-country"]:
-       #      plt.plot(country_dem_diff_class_for_present[country_type], country_dem_diff_class_sim_for_present[country_type])
-       #  plt.xticks(size=20)
-       #  plt.yticks(size=20)
-       #  plt.xlabel('Democracy Index Difference', fontsize=32)
-       #  plt.ylabel('Similarity', fontsize=32)
-       #  plt.legend(["intra-country", "inter-country"],fontsize= 32)
-       #  # plt.show()
-       #  plt.savefig(f"{output_dir}/dem_diff_sim_country_type.png")
-       #
-       #
-       #  lang_pairs = pairs.dropna(subset=["language1", "a2_language", "democracy_index1", "democracy_index2"])
-       #  lang_pairs['lang_type'] = lang_pairs.apply(lambda x: "intra-lang" if x["language1"] == x["a2_language"] else "inter-lang", axis=1)
-       #  # remove intra-lang pairs for better comparison if needed
-       #  # lang_pairs = lang_pairs.loc[~(lang_pairs['main_country1'] == lang_pairs["main_country2"])]
-       #
-       # # plot similarity of intra-country and inter-country with different democracy index difference
-       #  lang_pairs["democracy_index_diff_class"] = lang_pairs.apply(lambda x: math.ceil(abs(x["democracy_index1"] - x["democracy_index2"])/2)*2, axis=1)
-       #  lang_pairs_group_by_dict = dict(lang_pairs.groupby(["democracy_index_diff_class","lang_type"])["similarity"].mean())
-       #  lang_dem_diff_class_for_present = defaultdict(list)
-       #  lang_dem_diff_class_sim_for_present = defaultdict(list)
-       #  for key_tuple in lang_pairs_group_by_dict:
-       #      lang_dem_diff_class_for_present[key_tuple[1]].append(key_tuple[0])
-       #      lang_dem_diff_class_sim_for_present[key_tuple[1]].append(trans_node_sim(lang_pairs_group_by_dict[key_tuple]))
-       #
-       #  fig = plt.figure(figsize=(10, 8))
-       #  for lang_type in ["intra-lang", "inter-lang"]:
-       #      plt.plot(lang_dem_diff_class_for_present[lang_type], lang_dem_diff_class_sim_for_present[lang_type])
-       #  plt.xticks(size=20)
-       #  plt.yticks(size=20)
-       #  plt.xlabel('Democracy Index Difference', fontsize=32)
-       #  plt.ylabel('Similarity', fontsize=32)
-       #  plt.legend(["intra-lang", "inter-lang"],fontsize= 32)
-       #  # plt.show()
-       #  plt.savefig(f"{output_dir}/dem_diff_sim_lang_type.png")
-
 
     # press freedom analysis
     if args.option == "pfa":
@@ -1559,15 +1358,6 @@ if __name__ == '__main__':
                             country_sim_unitary_for_present[unitary_type].append(np.mean(country_sim_dict[country]))
                 except:
                     pass
-
-        # fig = plt.figure(figsize=(10, 8))
-        # plt.scatter(country_dem_for_present, country_sim_for_present)
-        # plt.xticks(size=20)
-        # plt.yticks(size=20)
-        # plt.xlabel('Press Freedom Index', fontsize=32)
-        # plt.ylabel('Similarity', fontsize=32)
-        # # plt.show()
-        # plt.savefig(f"{output_dir}/pf_sim_scatter.png")
 
         dem_sim_scatter_dict = {"Press Freedom Index":country_dem_for_present, "Similarity":country_sim_for_present}
         dem_sim_scatter_df = pd.DataFrame(dem_sim_scatter_dict)
@@ -1691,9 +1481,6 @@ if __name__ == '__main__':
         for unitary_type in country_alpha3_dem_unitary_dict:
             if unitary_type == "unitary_monarchies":
                 continue
-            if unitary_type == "unitary_republic":
-                for i in range(len(country_pairs_group_by_unitary_sim_coef_list[unitary_type])):
-                    country_pairs_group_by_unitary_sim_coef_list[unitary_type][i] += 0.75
             print(f"{unitary_type} pearson correlation and p-value are", st.pearsonr(country_pairs_group_by_unitary_idx_coef_list[unitary_type], country_pairs_group_by_unitary_sim_coef_list[unitary_type]))
             print(f"{unitary_type} spearman correlation and p-value are", st.spearmanr(country_pairs_group_by_unitary_idx_coef_list[unitary_type], country_pairs_group_by_unitary_sim_coef_list[unitary_type]))
         print()
@@ -1704,9 +1491,7 @@ if __name__ == '__main__':
         for unitary_type in country_alpha3_dem_unitary_dict:
             if unitary_type == "unitary_monarchies":
                 continue
-            if unitary_type == "unitary_republic":
-                country_dem_unitary_idx_class_sim_for_present[unitary_type][3] += 0.75
-            if unitary_type == "federalism":
+            else:
                 country_dem_unitary_idx_class_for_present[unitary_type] = country_dem_unitary_idx_class_for_present[unitary_type][1:]
                 country_dem_unitary_idx_class_sim_for_present[unitary_type] = country_dem_unitary_idx_class_sim_for_present[unitary_type][1:]
                 country_dem_unitary_idx_class_95interval_error_for_present[unitary_type] = country_dem_unitary_idx_class_95interval_error_for_present[unitary_type][1:]
@@ -1902,53 +1687,6 @@ if __name__ == '__main__':
         # plt.show()
         # actually it should just be named as dem_idx_sim.png
         plt.savefig(f"{output_dir}/pf_idx_frac_unitary_inter_country.png")
-
-       #  # plot similarity of intra-country and inter-country with different Press Freedom Index difference
-       #  country_pairs["press_freedom_diff_class"] = country_pairs.apply(lambda x: math.ceil(abs(x["press_freedom1"] - x["press_freedom2"])/2)*2, axis=1)
-       #  country_pairs_group_by_dem_diff = dict(country_pairs.groupby(["press_freedom_diff_class","country_type"])["similarity"].mean())
-       #  country_dem_diff_class_for_present = defaultdict(list)
-       #  country_dem_diff_class_sim_for_present = defaultdict(list)
-       #  for key_tuple in country_pairs_group_by_dem_diff:
-       #      country_dem_diff_class_for_present[key_tuple[1]].append(key_tuple[0])
-       #      country_dem_diff_class_sim_for_present[key_tuple[1]].append(trans_node_sim(country_pairs_group_by_dem_diff[key_tuple]))
-       #
-       #  fig = plt.figure(figsize=(10, 8))
-       #  for country_type in ["intra-country", "inter-country"]:
-       #      plt.plot(country_dem_diff_class_for_present[country_type], country_dem_diff_class_sim_for_present[country_type])
-       #  plt.xticks(size=20)
-       #  plt.yticks(size=20)
-       #  plt.xlabel('Press Freedom Index Difference', fontsize=32)
-       #  plt.ylabel('Similarity', fontsize=32)
-       #  plt.legend(["intra-country", "inter-country"],fontsize= 32)
-       #  # plt.show()
-       #  plt.savefig(f"{output_dir}/dem_diff_sim_country_type.png")
-       #
-       #
-       #  lang_pairs = pairs.dropna(subset=["language1", "a2_language", "press_freedom1", "press_freedom2"])
-       #  lang_pairs['lang_type'] = lang_pairs.apply(lambda x: "intra-lang" if x["language1"] == x["a2_language"] else "inter-lang", axis=1)
-       #  # remove intra-lang pairs for better comparison if needed
-       #  # lang_pairs = lang_pairs.loc[~(lang_pairs['main_country1'] == lang_pairs["main_country2"])]
-       #
-       # # plot similarity of intra-country and inter-country with different Press Freedom Index difference
-       #  lang_pairs["press_freedom_diff_class"] = lang_pairs.apply(lambda x: math.ceil(abs(x["press_freedom1"] - x["press_freedom2"])/2)*2, axis=1)
-       #  lang_pairs_group_by_dict = dict(lang_pairs.groupby(["press_freedom_diff_class","lang_type"])["similarity"].mean())
-       #  lang_dem_diff_class_for_present = defaultdict(list)
-       #  lang_dem_diff_class_sim_for_present = defaultdict(list)
-       #  for key_tuple in lang_pairs_group_by_dict:
-       #      lang_dem_diff_class_for_present[key_tuple[1]].append(key_tuple[0])
-       #      lang_dem_diff_class_sim_for_present[key_tuple[1]].append(trans_node_sim(lang_pairs_group_by_dict[key_tuple]))
-       #
-       #  fig = plt.figure(figsize=(10, 8))
-       #  for lang_type in ["intra-lang", "inter-lang"]:
-       #      plt.plot(lang_dem_diff_class_for_present[lang_type], lang_dem_diff_class_sim_for_present[lang_type])
-       #  plt.xticks(size=20)
-       #  plt.yticks(size=20)
-       #  plt.xlabel('Press Freedom Index Difference', fontsize=32)
-       #  plt.ylabel('Similarity', fontsize=32)
-       #  plt.legend(["intra-lang", "inter-lang"],fontsize= 32)
-       #  # plt.show()
-       #  plt.savefig(f"{output_dir}/dem_diff_sim_lang_type.png")
-
 
     # temporal analysis,
     # haven't apply fraction computation for cross-group analysis and per-country within gorup analysis since I haven't decided the final figure form of them.
@@ -2255,58 +1993,6 @@ if __name__ == '__main__':
         # the rough idea is: taking three articles in month m, two from political block X (x1 and x2) and one from Y (y),
         # compute the likelihood of sim(x1, y) > sim(x1, x2). if likelihood decreases over time, we can interpret this as X and Y coming apart
         # need to fix, we shouldn't compute the intra-country pairs
-
-        '''this plot takes time, can skip it as long as we finish polish it'''
-
-        # # save time for plotting, running require many hours
-        # fig = plt.figure(figsize=(10, 8))
-        # plt.plot([0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13][:10],
-        #          [0.50, 0.51, 0.515, 0.495, 0.52, 0.54, 0.546, 0.54, 0.6, 0.54, 0.49, 0.57][:10], color='blue',
-        #          marker="o")
-        # plt.plot([0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13][:10],
-        #          [0.48, 0.49, 0.44, 0.51, 0.485, 0.453, 0.525, 0.48, 0.505, 0.495, 0.413, 0.32][:10], color='green',
-        #          marker="o")
-        # plt.plot([0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13][:10],
-        #          [0.505, 0.495, 0.475, 0.524, 0.507, 0.44, 0.48, 0.45, 0.45, 0.455, 0.39, 0.32][:10],
-        #          color='orange',
-        #          marker="o")
-        #
-        # # plt.xticks(ticks=range(len(political_group_group_bin_for_present[group])), labels=month_label, fontsize=20)
-        # plt.xticks(ticks=range(12), labels=['', 'Jan', '', 'Feb', '', 'Mar', '', 'Apr', '', 'May', '', 'Jun'],
-        #            fontsize=20)
-        # plt.yticks(size=20)
-        # plt.xlabel('Time', fontsize=32)
-        # plt.ylabel('Likelyhood', fontsize=32)
-        # cur_legend = ['nato-eunion', 'nato-brics', 'eunion-brics']
-        # plt.legend(cur_legend, fontsize=20)
-        #
-        # # plt.show()
-        # plt.savefig(f"{output_dir}/time_likelyhood_across_political_groups.png")
-        #
-        # fig = plt.figure(figsize=(10, 8))
-        # plt.plot([0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13][:10],
-        #          [-0.02, 0.015, 0.075, -0.01, -0.08, -0.09, 0.1, 0.045, 0.1, -0.005, 0.065, 0.025][:10], color='blue',
-        #          marker="o")
-        # plt.plot([0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13][:10],
-        #          [-0.051, -0.05, 0.045, -0.045, -0.135, -0.15, 0.04, -0.138, -0.18, 0.03, 0.06, -0.10][:10], color='green',
-        #          marker="o")
-        # plt.plot([0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13][:10],
-        #          [-0.055, -0.06, -0.18, -0.20, -0.15, -0.26, -0.07, -0.15, -0.27, -0.08, -0.02, -0.10][:10],
-        #          color='orange',
-        #          marker="o")
-        #
-        # # plt.xticks(ticks=range(len(political_group_group_bin_for_present[group])), labels=month_label, fontsize=20)
-        # plt.xticks(ticks=range(12), labels=['', 'Jan', '', 'Feb', '', 'Mar', '', 'Apr', '', 'May', '', 'Jun'],
-        #            fontsize=20)
-        # plt.yticks(size=20)
-        # plt.xlabel('Time', fontsize=32)
-        # plt.ylabel('similarity difference', fontsize=32)
-        # cur_legend = ['nato-eunion', 'nato-brics', 'eunion-brics']
-        # plt.legend(cur_legend, fontsize=20)
-        #
-        # # plt.show()
-        # plt.savefig(f"{output_dir}/time_sim_diff_across_political_groups.png")
-
 
         print("before computing likelyhood: ", datetime.now())
 
@@ -3751,9 +3437,6 @@ if __name__ == '__main__':
             print()
             print(model.summary())
 
-            # print("model confidence interval is")
-            # print()
-            # print(model.conf_int(0.05))
 
             print("-----------------------------")
             print("-----------------------------")
@@ -3776,9 +3459,6 @@ if __name__ == '__main__':
             print()
             print(model.summary())
 
-            # print("model confidence interval is")
-            # print()
-            # print(model.conf_int(0.05))
 
             model_sets = []
             split_model_score_sets = []
@@ -3834,13 +3514,6 @@ if __name__ == '__main__':
                                 # if isinstance(attr, list) and len(attr) == 1:
                                 if isinstance(attr, list):
                                     country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2] += attr
-
-                            # feature_combo_list = []
-                            # for i in range(len(country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2])):
-                            #     temp_list = []
-                            #     for c in combinations(country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2],i):
-                            #         temp_list.append(c)
-                            #     feature_combo_list.extend(temp_list)
 
                             try:
                                 if subsampling:
@@ -4074,135 +3747,6 @@ if __name__ == '__main__':
                 for j in range(1, len(tree_split_model_importance_sets[i])):
                     print(selected_features_sets[i][j], ":  ", tree_split_model_importance_sets[i][j])
 
-
-
-                    # "disentangle language features by 2nd-order greedy select"
-                    # max_adj_r2 = 0
-                    # best_bin = 0
-                    # for cur_travesal_num in range(1024):
-                    #     if cur_travesal_num%20 == 0:
-                    #         print("cur_travesal_num:", cur_travesal_num)
-                    #
-                    #     cur_bin = [int(c) for c in '{0:010b}'.format(cur_travesal_num)]
-                    #
-                    #     inter_country_train_data = []
-                    #     inter_country_train_label = []
-                    #     fitlered_country_pair_num = 0
-                    #
-                    #     country_pair_syn_dict_dict_list = defaultdict(lambda: defaultdict(list))
-                    #     for cur_alpha3_1 in country_pair_syn_dict_dict_dict:
-                    #         for cur_alpha3_2 in country_pair_syn_dict_dict_dict[cur_alpha3_1]:
-                    #             cur_country_pair = copy.deepcopy(country_pair_syn_dict_dict_dict[cur_alpha3_1][cur_alpha3_2])
-                    #
-                    #
-                    #             if cur_country_pair['pair_count'] < min_pair_count:
-                    #                 continue
-                    #
-                    #             trans_lang_vec = []
-                    #             rest_lang_sign = 0
-                    #             for bit_loc in range(len(cur_bin)):
-                    #                 if cur_bin[bit_loc] == 1:
-                    #                     trans_lang_vec.append(cur_country_pair['lang_vec'][bit_loc])
-                    #                 else:
-                    #                     if cur_country_pair['lang_vec'][bit_loc] == 1:
-                    #                         rest_lang_sign = 1
-                    #             trans_lang_vec.append(rest_lang_sign)
-                    #             cur_country_pair['lang_vec'] = trans_lang_vec
-                    #
-                    #
-                    #
-                    #             for attr in cur_country_pair.values():
-                    #                 if isinstance(attr, int) or isinstance(attr, float):
-                    #                     country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2].append(attr)
-                    #                 # if isinstance(attr, list) and len(attr) == 1:
-                    #                 if isinstance(attr, list):
-                    #                     country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2] += attr
-                    #
-                    #             # feature_combo_list = []
-                    #             # for i in range(len(country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2])):
-                    #             #     temp_list = []
-                    #             #     for c in combinations(country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2],i):
-                    #             #         temp_list.append(c)
-                    #             #     feature_combo_list.extend(temp_list)
-                    #
-                    #             try:
-                    #                 if cluster_validation:
-                    #                     inter_country_train_label.append(jensenshannon_dict[cur_alpha3_1][cur_alpha3_2])
-                    #                 else:
-                    #                     # Similarity
-                    #                     inter_country_train_label.append(cur_country_pair['avg_sim'])
-                    #                     # # similarity
-                    #                     # inter_country_train_label.append(4 - cur_country_pair['avg_sim'])
-                    #                 inter_country_train_data.append(country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2])
-                    #             except:
-                    #                 fitlered_country_pair_num += 1
-                    #         print("fitlered_country_pair_num: ", fitlered_country_pair_num)
-                    #
-                    #     # normalization
-                    #     minmax = MinMaxScaler()
-                    #     inter_country_train_data = minmax.fit_transform(inter_country_train_data)
-                    #     print("country pairs total number:", len(inter_country_train_label))
-                    #
-                    #     inter_country_train_data_df = pd.DataFrame(inter_country_train_data)
-                    #
-                    #     # 0 is the pair number, 1 is the average similarity
-                    #     # y = inter_country_train_data_df[1]
-                    #     y = inter_country_train_label
-                    #     X = inter_country_train_data_df.drop([0,1], axis=1)
-                    #
-                    #     # Create an empty dictionary that will be used to store our results
-                    #     function_dict = {'predictor': [], 'r-squared': []}
-                    #     # Iterate through every column in X
-                    #     cols = list(X.columns)
-                    #     for col in cols:
-                    #         # Create a dataframe called selected_X with only the 1 column
-                    #         selected_X = X[[col]]
-                    #         # Fit a model for our target and our selected column
-                    #         model = sm.OLS(y, sm.add_constant(selected_X)).fit()
-                    #         # Predict what our target would be for our model
-                    #         y_preds = model.predict(sm.add_constant(selected_X))
-                    #         # Add the column name to our dictionary
-                    #         function_dict['predictor'].append(col)
-                    #         # Calculate the r-squared value between the target and predicted target
-                    #         r2 = np.corrcoef(y, y_preds)[0, 1] ** 2
-                    #         # Add the r-squared value to our dictionary
-                    #         function_dict['r-squared'].append(r2)
-                    #
-                    #     # Once it's iterated through every column, turn our dictionary into a DataFrame and sort it
-                    #     function_df = pd.DataFrame(function_dict).sort_values(by=['r-squared'], ascending=False)
-                    #     # Display only the top 5 predictors
-                    #
-                    #
-                    #     selected_features = [int(function_df['predictor'].iat[0])]
-                    #     features_to_ignore = []
-                    #
-                    #     # Since our function's ignore_features list is already empty, we don't need to
-                    #     # include our features_to_ignore list.
-                    #     while len(selected_features) + len(features_to_ignore) < len(cols):
-                    #         next_feature = int(next_possible_feature(X_npf=X, y_npf=y, current_features=selected_features, ignore_features=features_to_ignore)[0])
-                    #         # check vif score
-                    #         vif_factor = 5
-                    #         temp_selected_features = selected_features + [next_feature]
-                    #         temp_X = X[temp_selected_features]
-                    #         temp_vif = pd.DataFrame()
-                    #         temp_vif["features"] = temp_X.columns
-                    #         temp_vif["VIF"] = [variance_inflation_factor(temp_X.values, i) for i in range(len(temp_X.columns))]
-                    #         cur_vif = temp_vif["VIF"].iat[-1]
-                    #         if cur_vif <= vif_factor:
-                    #             selected_features = temp_selected_features
-                    #         else:
-                    #             features_to_ignore.append(next_feature)
-                    #
-                    #     model = sm.OLS(y, sm.add_constant(X[selected_features])).fit()
-                    #
-                    #     if model.rsquared_adj >= max_adj_r2:
-                    #         best_bin = cur_bin
-                    #
-                    #         max_adj_r2 = model.rsquared_adj
-                    #         best_model = model
-                    #
-                    # print("best bin is:", best_bin)
-                    # print(best_model.summary())
 
         print()
         print()
@@ -4462,10 +4006,6 @@ if __name__ == '__main__':
                     if i == j:
                         cur_idx1 = i
                         cur_idx2 = i
-
-                        # a = country_syn_dict["Alpha-3 code"]
-                        # b = a[0]
-                        # c = a[1]
 
                         cur_alpha3_1 = country_syn_dict["Alpha-3 code"][cur_idx1]
                         cur_alpha3_2 = country_syn_dict["Alpha-3 code"][cur_idx2]
@@ -4727,13 +4267,6 @@ if __name__ == '__main__':
                                 if isinstance(attr, list) and len(attr) > 0:
                                     country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2] += attr
 
-                            # feature_combo_list = []
-                            # for i in range(len(country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2])):
-                            #     temp_list = []
-                            #     for c in combinations(country_pair_syn_dict_dict_list[cur_alpha3_1][cur_alpha3_2],i):
-                            #         temp_list.append(c)
-                            #     feature_combo_list.extend(temp_list)
-
                             if subsampling:
                                 for samp in range(subsampling_num):
                                     try:
@@ -4938,32 +4471,6 @@ if __name__ == '__main__':
                 for j in range(1, len(tree_split_model_importance_sets[i])):
                     print(selected_features_sets[i][j], ":  ", tree_split_model_importance_sets[i][j])
 
-            # model_sets_res = summary_col(model_sets,stars=True)
-            # print(model_sets_res)
-            # print(model_sets_res.as_latex())
-
-                    # selected_features = [int(function_df['predictor'].iat[0])]
-                    # features_to_ignore = []
-                    #
-                    # # Since our function's ignore_features list is already empty, we don't need to
-                    # # include our features_to_ignore list.
-                    # while len(selected_features) + len(features_to_ignore) < len(cols):
-                    #     next_feature = int(next_possible_feature(X_npf=X, y_npf=y, current_features=selected_features, ignore_features=features_to_ignore)[0])
-                    #     # check vif score
-                    #     vif_factor = 5
-                    #     temp_selected_features = selected_features + [next_feature]
-                    #     temp_X = X[temp_selected_features]
-                    #     temp_vif = pd.DataFrame()
-                    #     temp_vif["features"] = temp_X.columns
-                    #     temp_vif["VIF"] = [variance_inflation_factor(temp_X.values, i) for i in range(len(temp_X.columns))]
-                    #     cur_vif = temp_vif["VIF"].iat[-1]
-                    #     if cur_vif <= vif_factor:
-                    #         selected_features = temp_selected_features
-                    #     else:
-                    #         features_to_ignore.append(next_feature)
-                    #
-                    # model = sm.OLS(y, sm.add_constant(X[selected_features])).fit()
-                    # print(model.summary())
         print()
         print("finish at ", datetime.now())
 
@@ -5175,41 +4682,6 @@ if __name__ == '__main__':
         print("art_url_dict: ", len(art_url_dict))
         print("art_title_dict: ", len(art_title_dict))
 
-        # files = list(glob.glob(url_data_path))
-        # n_processedpairs = 0
-        # for file in files:
-        #     with open(file, "r") as fh:
-        #         for line in fh:
-        #             n_processedpairs += 1
-        #             if n_processedpairs % 1000 == 0:
-        #                 print(f"Already processed {n_processedpairs} pairs...  ", datetime.now().strftime("%Y-%m-%d_%H-%M-%S"), flush=True)
-        #
-        #             '''for test'''
-        #             # if n_processedpairs > 10000:
-        #             #     break
-        #
-        #             try:
-        #                 pair = json.loads(line)
-        #                 a1_file = pair["article1"][0]
-        #                 a1_lineno = pair["article1"][1]
-        #                 a1_date = pair["article1"][2]
-        #                 a2_file = pair["article2"][0]
-        #                 a2_lineno = pair["article2"][1]
-        #                 a2_date = pair["article2"][2]
-        #
-        #                 art1 = load_article(a1_file, a1_lineno)
-        #                 art2 = load_article(a2_file, a2_lineno)
-        #
-        #                 art1_id = art1["stories_id"]
-        #                 art1_url = art1["url"]
-        #
-        #                 art2_id = art2["stories_id"]
-        #                 art2_url = art2["url"]
-        #
-        #                 art_url_dict[art1_id] = art1_url
-        #                 art_url_dict[art2_id] = art2_url
-        #             except:
-        #                 pass
 
         art_cls_dict = defaultdict(set)
         cls_art_dict = defaultdict(set)
@@ -5937,6 +5409,6 @@ if __name__ == '__main__':
         plt.savefig("figs/cluster_validation/cls_date_class.png")
 
     if args.option == "cls_eval":
-        cls_annotation = pd.read_csv("/Users/xichen/Documents/GitHub/mediacloud/ner_art_sampling/figs/cluster_validation/intruder_annotation.csv")
+        cls_annotation = pd.read_csv("figs/cluster_validation/intruder_annotation.csv")
         inter_annotator_aggrement = irrCAC.raw.CAC(cls_annotation)
         print(inter_annotator_aggrement.gwet())
