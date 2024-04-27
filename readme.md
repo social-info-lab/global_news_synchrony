@@ -13,3 +13,5 @@ This is for our webconf research paper "Global News Synchrony and Diversity Duri
 The overall processing pipeline is:
 ![image](https://github.com/social-info-lab/global_news_synchrony/blob/main/img/pipeline.png)
 The data collection pipeline for multilingual news article similarity is:
+![image](https://github.com/social-info-lab/global_news_synchrony/blob/main/img/data_collection_pipeline.png)
+
