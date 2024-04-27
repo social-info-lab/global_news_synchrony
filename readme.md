@@ -1,4 +1,6 @@
-This is for our webconf research paper **"Global News Synchrony and Diversity During the Start of the COVID-19 Pandemic"** and ICWSM dataset paper **"A Multilingual Similarity Dataset for News Article Frame"**. The code directory of the sections are: 
+This is for our webconf research paper **"Global News Synchrony and Diversity During the Start of the COVID-19 Pandemic"** and ICWSM dataset paper **"A Multilingual Similarity Dataset for News Article Frame"**. 
+
+The code directory of the sections are: 
 
 1. **Data collection**: ner_art_sampling;
 
