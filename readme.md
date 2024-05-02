@@ -1,4 +1,4 @@
-This is for our webconf research paper **"Global News Synchrony and Diversity During the Start of the COVID-19 Pandemic"**([https://duckduckgo.com](https://arxiv.org/abs/2405.00280)) and ICWSM dataset paper **"A Multilingual Similarity Dataset for News Article Frame"**. 
+This is for our webconf research paper ([Global News Synchrony and Diversity During the Start of the COVID-19 Pandemic](https://arxiv.org/abs/2405.00280)) and ICWSM dataset paper **"A Multilingual Similarity Dataset for News Article Frame"**. 
 
 The code directory of the sections are: 
 
