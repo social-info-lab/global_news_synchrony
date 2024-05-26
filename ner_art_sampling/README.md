@@ -1,3 +1,13 @@
+# Efficient pipeline for processing large-scale graph
+
+## ne_art_index.py
+This is to construct an index from each wikified named entity to the articles whose tf-idf score on this wikified named entity is among the top-k scores of all of each article's wikified named entities.
+
+
+
+
+--------------------------
+
 # Faster NER sampling for both within a single language and across a pair of languages
 
 ## Instructions
