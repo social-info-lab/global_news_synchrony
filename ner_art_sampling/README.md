@@ -1,7 +1,12 @@
 # Efficient pipeline for processing large-scale graph
 
 ## extract pairs from ne-art index with c++ code; the steps are: 
-(1) filtering index; (2) build ne-art index; (3) extract the pairs; (4) filter pairs；(5)embedding and similarity computation; (6) integrate duplicate pairs. 
+(1) filtering index; 
+(2) build ne-art index; 
+(3) extract the pairs; 
+(4) filter pairs；
+(5)embedding and similarity computation; 
+(6) integrate duplicate pairs. 
 
 **filter_index.py**(filter_index_script.sh)
 This is to filtered out from the index the articles that have few than k wikified named entities, making sure the articles used in ne_art_index.py have a tf-idf score list for at least k wikified named entities.
