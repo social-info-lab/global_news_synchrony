@@ -9,15 +9,19 @@
 (6) integrate duplicate pairs. 
 
 **filter_index.py**(filter_index_script.sh)
+
 This is to filtered out from the index the articles that have few than k wikified named entities, making sure the articles used in ne_art_index.py have a tf-idf score list for at least k wikified named entities.
 
 **ne_art_index.py**(ne_art_index_script.sh)
+
 This is to construct an index from each wikified named entity to the articles whose tf-idf score on this wikified named entity is among the top-k scores of all of each article's wikified named entities.
 
 **extract_pair.cpp and cython_jaccard_sim.pyx**(c_extract_pair_script.sh)
+
 This is to extract the pair from the ne_art_index. 
 
 **pair_candidate.py**(pair_candidate_script.sh)
+
 This is to filter the pairs that have low ne similarity or are duplicates from the extracted pairs.
 
 **/../network_inference**
@@ -25,6 +29,7 @@ This is to filter the pairs that have low ne similarity or are duplicates from t
 The "network_inference" folder includes the steps to embed news articles and compute their similarity.
 
 **integrate_matched_inference.py**(integrate_matched_inference_script.sh)
+
 This is to deduplicate the embedded pairs from the time spans that are overlapped for fitting the maximum memory of a running job when extracting the pairs.
 
 
