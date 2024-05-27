@@ -33,7 +33,7 @@ The "network_inference" folder includes the steps to embed news articles and com
 This is to deduplicate the embedded pairs from the time spans that are overlapped for fitting the maximum memory of a running job when extracting the pairs.
 
 
-An extracted pair example is: 
+**An extracted pair example:**
 7722 18933391893345
 
 The first 7 refers to the digit of the first article id;
