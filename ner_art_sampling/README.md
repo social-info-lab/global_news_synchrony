@@ -21,6 +21,7 @@ This is to extract the pair from the ne_art_index.
 This is to filter the pairs that have low ne similarity or are duplicates from the extracted pairs.
 
 **/../network_inference/**
+
 The "network_inference" folder includes the steps to embed news articles and compute their similarity.
 
 **integrate_matched_inference.py**(integrate_matched_inference_script.sh)
