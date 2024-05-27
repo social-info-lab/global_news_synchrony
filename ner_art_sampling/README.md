@@ -18,7 +18,7 @@ This is to construct an index from each wikified named entity to the articles wh
 This is to extract the pair from the ne_art_index. 
 
 **pair_candidate.py**(pair_candidate_script.sh)
-This is to filter the pairs that have low ne similarity or are duplicates from the extracted pairs
+This is to filter the pairs that have low ne similarity or are duplicates from the extracted pairs.
 
 **/../network_inference/**
 The "network_inference" folder includes the steps to embed news articles and compute their similarity.
