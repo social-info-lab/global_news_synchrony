@@ -5,11 +5,11 @@
 
 (2) filtering index; 
 
-(3) build ne-art index; 
+(3) building ne-art index; 
 
-(4) extract the pairs; 
+(4) extracting the pairs; 
 
-(5) filter pairs;
+(5) filtering pairs;
 
 (6)embedding and similarity computation; 
 
