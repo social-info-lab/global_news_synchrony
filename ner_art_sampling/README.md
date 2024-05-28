@@ -13,7 +13,7 @@
 
 (6)embedding and similarity computation; 
 
-(7) integrate duplicate pairs. 
+(7) integrating duplicate pairs. 
 
 --------------------------
 
