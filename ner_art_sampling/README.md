@@ -11,7 +11,7 @@
 
 (5) filtering pairs;
 
-(6)embedding and similarity computation; 
+(6) embedding and similarity computation; 
 
 (7) integrating duplicate pairs. 
 
