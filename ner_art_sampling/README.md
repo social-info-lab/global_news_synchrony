@@ -15,6 +15,8 @@
 
 (7) integrate duplicate pairs. 
 
+--------------------------
+
 **create_index.py**
 This is to create index from each unique article to its basic informations such as id, stored file, stored line in the file, (wikified) named entity list, time cursor compared to the beginning (01-01-2020). 
 
