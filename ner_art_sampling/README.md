@@ -1,12 +1,13 @@
 # Efficient pipeline for processing large-scale graph
 
 ## extract pairs from ne-art index with c++ code; the steps are: 
-(1) filtering index; 
-(2) build ne-art index; 
-(3) extract the pairs; 
-(4) filter pairs；
-(5)embedding and similarity computation; 
-(6) integrate duplicate pairs. 
+(1) creating index;
+(2) filtering index; 
+(3) build ne-art index; 
+(4) extract the pairs; 
+(5) filter pairs；
+(6)embedding and similarity computation; 
+(7) integrate duplicate pairs. 
 
 **filter_index.py**(filter_index_script.sh)
 
