@@ -2,11 +2,17 @@
 
 ## extract pairs from ne-art index with c++ code; the steps are: 
 (1) creating index;
+
 (2) filtering index; 
+
 (3) build ne-art index; 
+
 (4) extract the pairs; 
-(5) filter pairs；
+
+(5) filter pairs;
+
 (6)embedding and similarity computation; 
+
 (7) integrate duplicate pairs. 
 
 **create_index.py**
