@@ -1,3 +1,5 @@
+# Train transformer models for inferring article text embedding and computing pairwise similarity
+
 1. **truncate_text.py** is to truncate the news article to fit its input length into transformer models.
 
 2. **weight_link_inference.py** (weight_link_inference_script.sh) is to load pretrained models and fine-tune them on annotated data. 
