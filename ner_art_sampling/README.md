@@ -3,48 +3,46 @@
 ## extract pairs from ne-art index with c++ code; the steps are: 
 (1) creating index;
 
-(2) filtering index; 
-
-(3) building ne-art index; 
-
-(4) extracting the pairs; 
-
-(5) filtering pairs;
-
-(6) embedding and similarity computation; 
-
-(7) integrating duplicate pairs. 
-
---------------------------
-
 **create_index.py**
 This is to create index from each unique article to its basic informations such as id, stored file, stored line in the file, (wikified) named entity list, time cursor compared to the beginning (01-01-2020). 
+
+(2) filtering index; 
 
 **filter_index.py**(filter_index_script.sh)
 
 This is to filter out from the index the articles that have few than k wikified named entities, making sure the articles used in ne_art_index.py have a tf-idf score list for at least k wikified named entities.
 
+(3) building ne-art index; 
+
 **ne_art_index.py**(ne_art_index_script.sh)
 
 This is to construct an index from each wikified named entity to the articles whose tf-idf score on this wikified named entity is among the top-k scores of all of each article's wikified named entities.
+
+(4) extracting the pairs; 
 
 **extract_pair.cpp and cython_jaccard_sim.pyx**(c_extract_pair_script.sh)
 
 This is to extract the pair from the ne_art_index. 
 
+(5) filtering pairs;
+
 **pair_candidate.py**(pair_candidate_script.sh)
 
 This is to filter the pairs that have low ne similarity or are duplicates from the extracted pairs.
+
+(6) embedding and similarity computation; 
 
 **/../network_inference**
 
 The "network_inference" folder includes the steps to embed news articles and compute their similarity.
 
+(7) integrating duplicate pairs. 
+
 **integrate_matched_inference.py**(integrate_matched_inference_script.sh)
 
 This is to deduplicate the embedded pairs from the time spans that are overlapped for fitting the maximum memory of a running job when extracting the pairs.
 
-
+--------------------
 **An extracted pair example:**
 7722 18933391893345
 
