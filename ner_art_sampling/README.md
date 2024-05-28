@@ -9,9 +9,12 @@
 (6)embedding and similarity computation; 
 (7) integrate duplicate pairs. 
 
+**create_index.py**
+This is to create index from each unique article to its basic informations such as id, stored file, stored line in the file, (wikified) named entity list, time cursor compared to the beginning (01-01-2020). 
+
 **filter_index.py**(filter_index_script.sh)
 
-This is to filtered out from the index the articles that have few than k wikified named entities, making sure the articles used in ne_art_index.py have a tf-idf score list for at least k wikified named entities.
+This is to filter out from the index the articles that have few than k wikified named entities, making sure the articles used in ne_art_index.py have a tf-idf score list for at least k wikified named entities.
 
 **ne_art_index.py**(ne_art_index_script.sh)
 
