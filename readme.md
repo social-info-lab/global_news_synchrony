@@ -1,4 +1,4 @@
-This is for our **webconf'24 research paper** [Global News Synchrony and Diversity During the Start of the COVID-19 Pandemic](https://arxiv.org/abs/2405.00280) and **ICWSM'24 dataset paper** [A Multilingual Similarity Dataset for News Article Frame](https://arxiv.org/abs/2405.13272). 
+This is a code respository of our **WebConf'24 research paper** [Global News Synchrony and Diversity During the Start of the COVID-19 Pandemic](https://arxiv.org/abs/2405.00280) and **ICWSM'24 dataset paper** [A Multilingual Similarity Dataset for News Article Frame](https://arxiv.org/abs/2405.13272). 
 
 The code directory of the sections are: 
 
